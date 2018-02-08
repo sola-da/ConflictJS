@@ -1,0 +1,6 @@
+{
+  "name": "history",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/history/3.0.0-2/History.min.js"
+  ]
+}

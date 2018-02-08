@@ -1,0 +1,6 @@
+{
+  "name": "leaflet-realtime",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet-realtime/1.3.0/leaflet-realtime.min.js"
+  ]
+}

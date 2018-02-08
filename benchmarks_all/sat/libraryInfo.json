@@ -1,0 +1,6 @@
+{
+  "name": "sat",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/sat/0.5.0/SAT.min.js"
+  ]
+}

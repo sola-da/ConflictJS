@@ -1,0 +1,6 @@
+{
+  "name": "jasmine",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.4.1/jasmine.min.js"
+  ]
+}

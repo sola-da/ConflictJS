@@ -1,0 +1,6 @@
+{
+  "name": "requirejs-tpl",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/requirejs-tpl/0.0.2/tpl.min.js"
+  ]
+}

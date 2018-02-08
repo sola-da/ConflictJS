@@ -1,0 +1,6 @@
+{
+  "name": "offline-js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/offline-js/0.7.17/offline.min.js"
+  ]
+}

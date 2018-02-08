@@ -1,0 +1,6 @@
+{
+  "name": "kineticjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.min.js"
+  ]
+}

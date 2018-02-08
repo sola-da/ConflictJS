@@ -1,0 +1,6 @@
+{
+  "name": "signet",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/signet/0.4.8/signet.min.js"
+  ]
+}

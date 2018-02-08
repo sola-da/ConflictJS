@@ -1,0 +1,6 @@
+{
+  "name": "rxjs-dom",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/rxjs-dom/7.0.3/rx.dom.min.js"
+  ]
+}

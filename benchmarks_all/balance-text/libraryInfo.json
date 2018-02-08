@@ -1,0 +1,6 @@
+{
+  "name": "balance-text",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/balance-text/1.6.0/jquery.balancetext.min.js"
+  ]
+}

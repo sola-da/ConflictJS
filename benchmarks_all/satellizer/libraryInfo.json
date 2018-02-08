@@ -1,0 +1,6 @@
+{
+  "name": "satellizer",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/satellizer/0.14.1/satellizer.min.js"
+  ]
+}

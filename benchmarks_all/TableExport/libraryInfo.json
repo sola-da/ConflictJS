@@ -1,0 +1,6 @@
+{
+  "name": "TableExport",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/TableExport/3.2.5/js/tableexport.min.js"
+  ]
+}

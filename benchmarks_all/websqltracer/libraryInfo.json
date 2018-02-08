@@ -1,0 +1,6 @@
+{
+  "name": "websqltracer",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/websqltracer/1.0.3/webSqlTracer.min.js"
+  ]
+}

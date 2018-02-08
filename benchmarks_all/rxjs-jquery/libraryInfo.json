@@ -1,0 +1,6 @@
+{
+  "name": "rxjs-jquery",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/rxjs-jquery/1.1.6/rx.jquery.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "seedrandom",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.2/seedrandom.min.js"
+  ]
+}

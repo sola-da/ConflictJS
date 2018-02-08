@@ -1,0 +1,6 @@
+{
+  "name": "web-socket-js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/web-socket-js/1.0.0/web_socket.min.js"
+  ]
+}

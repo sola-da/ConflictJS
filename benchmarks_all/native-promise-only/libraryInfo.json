@@ -1,0 +1,6 @@
+{
+  "name": "native-promise-only",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/native-promise-only/0.8.1/npo.js"
+  ]
+}

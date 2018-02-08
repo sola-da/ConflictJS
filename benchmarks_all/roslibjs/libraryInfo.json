@@ -1,0 +1,6 @@
+{
+  "name": "roslibjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/roslibjs/0.18.0/roslib.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "checklist-model",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/checklist-model/0.9.0/checklist-model.min.js"
+  ]
+}

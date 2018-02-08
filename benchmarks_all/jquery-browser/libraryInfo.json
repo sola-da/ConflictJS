@@ -1,0 +1,6 @@
+{
+  "name": "jquery-browser",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-browser/0.1.0/jquery.browser.min.js"
+  ]
+}

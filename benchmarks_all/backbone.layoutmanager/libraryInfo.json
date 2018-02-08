@@ -1,0 +1,6 @@
+{
+  "name": "backbone.layoutmanager",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone.layoutmanager/1.0.0/backbone.layoutmanager.min.js"
+  ]
+}

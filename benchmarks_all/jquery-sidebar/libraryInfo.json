@@ -1,0 +1,6 @@
+{
+  "name": "jquery-sidebar",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-sidebar/3.3.2/jquery.sidebar.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "geojson2svg",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/geojson2svg/1.0.3/geojson2svg.min.js"
+  ]
+}

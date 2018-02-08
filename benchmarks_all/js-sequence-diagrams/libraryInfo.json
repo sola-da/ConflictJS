@@ -1,0 +1,6 @@
+{
+  "name": "js-sequence-diagrams",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"
+  ]
+}

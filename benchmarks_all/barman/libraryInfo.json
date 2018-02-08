@@ -1,0 +1,6 @@
+{
+  "name": "barman",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/barman/0.4.2/barman.min.js"
+  ]
+}

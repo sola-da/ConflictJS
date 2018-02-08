@@ -1,0 +1,6 @@
+{
+  "name": "qwest",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/qwest/4.4.4/qwest.min.js"
+  ]
+}

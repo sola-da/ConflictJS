@@ -1,0 +1,6 @@
+{
+  "name": "social-likes",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.15/social-likes.min.js"
+  ]
+}

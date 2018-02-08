@@ -1,0 +1,6 @@
+{
+  "name": "tether-tooltip",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/tether-tooltip/1.2.0/js/tooltip.min.js"
+  ]
+}

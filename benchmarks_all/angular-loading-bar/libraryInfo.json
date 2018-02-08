@@ -1,0 +1,6 @@
+{
+  "name": "angular-loading-bar",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.js"
+  ]
+}

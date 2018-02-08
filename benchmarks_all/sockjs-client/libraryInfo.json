@@ -1,0 +1,6 @@
+{
+  "name": "sockjs-client",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.1/sockjs.min.js"
+  ]
+}

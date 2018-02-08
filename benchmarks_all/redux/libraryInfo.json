@@ -1,0 +1,6 @@
+{
+  "name": "redux",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/redux/3.5.2/redux.min.js"
+  ]
+}

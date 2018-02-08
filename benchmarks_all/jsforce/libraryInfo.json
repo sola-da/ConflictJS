@@ -1,0 +1,6 @@
+{
+  "name": "jsforce",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jsforce/1.6.5/jsforce.min.js"
+  ]
+}

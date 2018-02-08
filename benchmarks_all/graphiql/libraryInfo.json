@@ -1,0 +1,6 @@
+{
+  "name": "graphiql",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/graphiql/0.7.2/graphiql.min.js"
+  ]
+}

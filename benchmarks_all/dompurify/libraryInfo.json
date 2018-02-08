@@ -1,0 +1,6 @@
+{
+  "name": "dompurify",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/dompurify/0.8.2/purify.min.js"
+  ]
+}

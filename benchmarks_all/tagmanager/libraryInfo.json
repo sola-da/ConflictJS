@@ -1,0 +1,6 @@
+{
+  "name": "tagmanager",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/tagmanager/3.0.2/tagmanager.min.js"
+  ]
+}

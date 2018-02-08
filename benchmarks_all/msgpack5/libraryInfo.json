@@ -1,0 +1,6 @@
+{
+  "name": "msgpack5",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/msgpack5/3.3.0/msgpack5.min.js"
+  ]
+}

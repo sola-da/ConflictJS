@@ -1,0 +1,6 @@
+{
+  "name": "stats.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js"
+  ]
+}

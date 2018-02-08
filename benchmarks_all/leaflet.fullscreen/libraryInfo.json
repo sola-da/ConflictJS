@@ -1,0 +1,6 @@
+{
+  "name": "leaflet.fullscreen",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"
+  ]
+}

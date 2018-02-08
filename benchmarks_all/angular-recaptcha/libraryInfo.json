@@ -1,0 +1,6 @@
+{
+  "name": "angular-recaptcha",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-recaptcha/3.0.3/angular-recaptcha.min.js"
+  ]
+}

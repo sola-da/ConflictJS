@@ -1,0 +1,6 @@
+{
+  "name": "fetch",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js"
+  ]
+}

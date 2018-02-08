@@ -1,0 +1,6 @@
+{
+  "name": "api-check",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/api-check/7.5.5/api-check.min.js"
+  ]
+}

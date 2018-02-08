@@ -1,0 +1,6 @@
+{
+  "name": "nes",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/nes/6.2.1/client.min.js"
+  ]
+}

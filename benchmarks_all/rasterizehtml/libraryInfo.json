@@ -1,0 +1,6 @@
+{
+  "name": "rasterizehtml",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/rasterizehtml/1.2.2/rasterizeHTML.min.js"
+  ]
+}

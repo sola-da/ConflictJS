@@ -1,0 +1,6 @@
+{
+  "name": "pouchdb",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/pouchdb/5.4.4/pouchdb.min.js"
+  ]
+}

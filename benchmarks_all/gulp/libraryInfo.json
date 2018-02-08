@@ -1,0 +1,6 @@
+{
+  "name": "gulp",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/gulp/3.8.5/gulp.min.js"
+  ]
+}

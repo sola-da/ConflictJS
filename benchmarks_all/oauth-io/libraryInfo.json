@@ -1,0 +1,6 @@
+{
+  "name": "oauth-io",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/oauth-io/0.5.2/oauth.min.js"
+  ]
+}

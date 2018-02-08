@@ -1,0 +1,6 @@
+{
+  "name": "deep-diff",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/deep-diff/0.3.3/deep-diff.min.js"
+  ]
+}

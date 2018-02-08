@@ -1,0 +1,6 @@
+{
+  "name": "js-nacl",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/js-nacl/1.2.0/nacl_factory.min.js"
+  ]
+}

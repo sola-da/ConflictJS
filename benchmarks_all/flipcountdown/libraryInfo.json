@@ -1,0 +1,6 @@
+{
+  "name": "flipcountdown",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/flipcountdown/3.0.5/jquery.flipcountdown.min.js"
+  ]
+}

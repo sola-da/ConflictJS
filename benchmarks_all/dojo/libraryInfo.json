@@ -1,0 +1,6 @@
+{
+  "name": "dojo",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/dojo/1.10.4/dojo.js"
+  ]
+}

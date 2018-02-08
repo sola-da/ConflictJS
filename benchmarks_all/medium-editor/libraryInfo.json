@@ -1,0 +1,6 @@
+{
+  "name": "medium-editor",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/medium-editor/5.20.2//js/medium-editor.min.js"
+  ]
+}

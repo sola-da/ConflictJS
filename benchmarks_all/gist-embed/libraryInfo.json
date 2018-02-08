@@ -1,0 +1,6 @@
+{
+  "name": "gist-embed",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"
+  ]
+}

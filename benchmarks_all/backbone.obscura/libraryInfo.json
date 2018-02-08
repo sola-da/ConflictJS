@@ -1,0 +1,6 @@
+{
+  "name": "backbone.obscura",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone.obscura/0.1.6/backbone.obscura.min.js"
+  ]
+}

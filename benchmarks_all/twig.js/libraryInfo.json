@@ -1,0 +1,6 @@
+{
+  "name": "twig.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/twig.js/0.8.9/twig.min.js"
+  ]
+}

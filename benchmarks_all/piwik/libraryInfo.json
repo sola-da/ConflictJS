@@ -1,0 +1,6 @@
+{
+  "name": "piwik",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/piwik/2.16.1/piwik.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "lscache",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/lscache/1.0.6/lscache.min.js"
+  ]
+}

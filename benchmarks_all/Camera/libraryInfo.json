@@ -1,0 +1,6 @@
+{
+  "name": "Camera",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/Camera/1.3.4/scripts/camera.min.js"
+  ]
+}

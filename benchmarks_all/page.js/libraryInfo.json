@@ -1,0 +1,6 @@
+{
+  "name": "page.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/page.js/1.7.1/page.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "raven.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/raven.js/3.0.5/raven.min.js"
+  ]
+}

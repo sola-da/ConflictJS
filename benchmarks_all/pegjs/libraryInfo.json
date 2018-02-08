@@ -1,0 +1,6 @@
+{
+  "name": "pegjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/pegjs/0.9.0/peg.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "tether-select",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/tether-select/1.1.1/js/select.min.js"
+  ]
+}

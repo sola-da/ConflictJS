@@ -1,0 +1,6 @@
+{
+  "name": "ng-cordova",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/ng-cordova/0.1.26-alpha/ng-cordova.min.js"
+  ]
+}

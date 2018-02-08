@@ -1,0 +1,6 @@
+{
+  "name": "deck.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/deck.js/1.1.0/core/deck.core.min.js"
+  ]
+}

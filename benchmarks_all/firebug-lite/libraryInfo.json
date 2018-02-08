@@ -1,0 +1,6 @@
+{
+  "name": "firebug-lite",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/firebug-lite/1.4.0/firebug-lite.min.js"
+  ]
+}

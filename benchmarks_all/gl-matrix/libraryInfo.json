@@ -1,0 +1,6 @@
+{
+  "name": "gl-matrix",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.3.2/gl-matrix-min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "verify",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/verify/0.0.1/verify.min.js"
+  ]
+}

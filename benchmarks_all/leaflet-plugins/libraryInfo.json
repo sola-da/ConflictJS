@@ -1,0 +1,6 @@
+{
+  "name": "leaflet-plugins",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet-plugins/1.6.1/control/Distance.min.js"
+  ]
+}

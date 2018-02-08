@@ -1,0 +1,6 @@
+{
+  "name": "admin-lte",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.3.3/js/app.min.js"
+  ]
+}

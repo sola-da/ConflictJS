@@ -1,0 +1,6 @@
+{
+  "name": "deb.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/deb.js/0.0.2/deb.min.js"
+  ]
+}

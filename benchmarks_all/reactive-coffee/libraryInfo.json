@@ -1,0 +1,6 @@
+{
+  "name": "reactive-coffee",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/reactive-coffee/1.2.2/reactive-coffee.min.js"
+  ]
+}

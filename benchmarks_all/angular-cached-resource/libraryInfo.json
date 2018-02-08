@@ -1,0 +1,6 @@
+{
+  "name": "angular-cached-resource",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-cached-resource/1.4.2/angular-cached-resource.min.js"
+  ]
+}

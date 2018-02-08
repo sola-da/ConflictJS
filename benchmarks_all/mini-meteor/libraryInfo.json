@@ -1,0 +1,6 @@
+{
+  "name": "mini-meteor",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/mini-meteor/1.0.1/mini-meteor.min.js"
+  ]
+}

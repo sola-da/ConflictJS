@@ -1,0 +1,6 @@
+{
+  "name": "curl",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/curl/0.7.3/curl-for-jQuery/curl.min.js"
+  ]
+}

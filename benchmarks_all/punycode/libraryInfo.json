@@ -1,0 +1,6 @@
+{
+  "name": "punycode",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/punycode/2.0.0/punycode.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "pubsub-js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/pubsub-js/1.5.3/pubsub.min.js"
+  ]
+}

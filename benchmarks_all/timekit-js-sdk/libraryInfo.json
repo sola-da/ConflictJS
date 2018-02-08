@@ -1,0 +1,6 @@
+{
+  "name": "timekit-js-sdk",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/timekit-js-sdk/1.5.0/timekit-sdk.min.js"
+  ]
+}

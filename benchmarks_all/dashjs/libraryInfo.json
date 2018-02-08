@@ -1,0 +1,6 @@
+{
+  "name": "dashjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/dashjs/2.1.1/dash.all.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "template_js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/template_js/0.7.1/template.min.js"
+  ]
+}

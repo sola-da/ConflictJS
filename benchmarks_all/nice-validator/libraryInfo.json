@@ -1,0 +1,6 @@
+{
+  "name": "nice-validator",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/nice-validator/0.10.11/jquery.validator.min.js"
+  ]
+}

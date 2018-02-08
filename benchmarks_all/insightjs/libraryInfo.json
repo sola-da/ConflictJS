@@ -1,0 +1,6 @@
+{
+  "name": "insightjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/insightjs/1.4.0/insight.min.js"
+  ]
+}

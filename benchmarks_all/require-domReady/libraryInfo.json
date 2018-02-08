@@ -1,0 +1,6 @@
+{
+  "name": "require-domReady",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/require-domReady/2.0.1/domReady.min.js"
+  ]
+}

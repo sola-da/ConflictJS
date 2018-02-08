@@ -1,0 +1,6 @@
+{
+  "name": "object-fit",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/object-fit/0.4.3/polyfill.object-fit.min.js"
+  ]
+}

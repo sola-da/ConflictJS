@@ -1,0 +1,6 @@
+{
+  "name": "timezone-js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/timezone-js/0.4.13/date.min.js"
+  ]
+}

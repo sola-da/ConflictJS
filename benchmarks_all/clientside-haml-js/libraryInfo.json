@@ -1,0 +1,6 @@
+{
+  "name": "clientside-haml-js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/clientside-haml-js/5.4/haml.min.js"
+  ]
+}

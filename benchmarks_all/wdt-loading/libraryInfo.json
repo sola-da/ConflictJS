@@ -1,0 +1,6 @@
+{
+  "name": "wdt-loading",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/wdt-loading/0.1.0/wdtLoading.min.js"
+  ]
+}

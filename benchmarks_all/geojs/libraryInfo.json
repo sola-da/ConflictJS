@@ -1,0 +1,6 @@
+{
+  "name": "geojs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/geojs/0.9.1/geo.min.js"
+  ]
+}

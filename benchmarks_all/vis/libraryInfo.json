@@ -1,0 +1,6 @@
+{
+  "name": "vis",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.js"
+  ]
+}

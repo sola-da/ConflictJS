@@ -1,0 +1,6 @@
+{
+  "name": "videojs-vast-vpaid",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/videojs-vast-vpaid/2.0.1/videojs_5.vast.vpaid.min.js"
+  ]
+}

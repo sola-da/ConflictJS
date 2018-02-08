@@ -1,0 +1,6 @@
+{
+  "name": "json-editor",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/json-editor/0.7.25/jsoneditor.min.js"
+  ]
+}

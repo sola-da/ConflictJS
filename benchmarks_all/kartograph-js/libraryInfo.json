@@ -1,0 +1,6 @@
+{
+  "name": "kartograph-js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/kartograph-js/0.8.7/kartograph.min.js"
+  ]
+}

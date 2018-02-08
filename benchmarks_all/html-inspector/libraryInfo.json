@@ -1,0 +1,6 @@
+{
+  "name": "html-inspector",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.min.js"
+  ]
+}

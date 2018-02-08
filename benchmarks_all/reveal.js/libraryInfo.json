@@ -1,0 +1,6 @@
+{
+  "name": "reveal.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.min.js"
+  ]
+}

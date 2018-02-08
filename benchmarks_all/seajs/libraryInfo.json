@@ -1,0 +1,6 @@
+{
+  "name": "seajs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/seajs/3.0.2/sea.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "beeplay",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/beeplay/0.0.5/beeplay.min.js"
+  ]
+}

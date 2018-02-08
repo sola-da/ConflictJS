@@ -1,0 +1,6 @@
+{
+  "name": "flipCounter",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/flipCounter/1.2/jquery.flipCounter.pack.min.js"
+  ]
+}

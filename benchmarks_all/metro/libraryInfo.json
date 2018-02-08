@@ -1,0 +1,6 @@
+{
+  "name": "metro",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/metro/3.0.15/js/metro.min.js"
+  ]
+}

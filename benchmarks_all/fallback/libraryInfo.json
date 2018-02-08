@@ -1,0 +1,6 @@
+{
+  "name": "fallback",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/fallback/1.1.8/fallback.min.js"
+  ]
+}

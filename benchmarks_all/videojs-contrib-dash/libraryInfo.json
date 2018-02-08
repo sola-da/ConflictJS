@@ -1,0 +1,6 @@
+{
+  "name": "videojs-contrib-dash",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-dash/2.3.0/videojs-dash.min.js"
+  ]
+}

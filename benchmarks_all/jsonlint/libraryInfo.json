@@ -1,0 +1,6 @@
+{
+  "name": "jsonlint",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jsonlint/1.6.0/jsonlint.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "babelfish",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/babelfish/1.1.2/babelfish.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "vue-validator",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/vue-validator/2.1.3/vue-validator.min.js"
+  ]
+}

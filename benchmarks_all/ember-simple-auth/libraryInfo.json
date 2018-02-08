@@ -1,0 +1,6 @@
+{
+  "name": "ember-simple-auth",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/ember-simple-auth/0.8.0/simple-auth.min.js"
+  ]
+}

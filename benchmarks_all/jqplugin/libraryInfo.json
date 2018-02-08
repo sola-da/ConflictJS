@@ -1,0 +1,6 @@
+{
+  "name": "jqplugin",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jqplugin/1.0.2/jquery.jqplugin.min.js"
+  ]
+}

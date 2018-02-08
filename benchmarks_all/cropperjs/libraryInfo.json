@@ -1,0 +1,6 @@
+{
+  "name": "cropperjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/cropperjs/0.7.2/cropper.min.js"
+  ]
+}

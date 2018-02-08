@@ -1,0 +1,6 @@
+{
+  "name": "videojs-contrib-ads",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/3.3.7/videojs.ads.min.js"
+  ]
+}

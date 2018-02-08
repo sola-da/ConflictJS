@@ -1,0 +1,6 @@
+{
+  "name": "backbone.validation",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone.validation/0.11.5/backbone-validation-min.js"
+  ]
+}

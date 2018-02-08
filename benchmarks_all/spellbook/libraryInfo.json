@@ -1,0 +1,6 @@
+{
+  "name": "spellbook",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/spellbook/0.0.66/spellbook.min.js"
+  ]
+}

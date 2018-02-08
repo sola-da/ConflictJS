@@ -1,0 +1,6 @@
+{
+  "name": "webcomponentsjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.22/webcomponents.min.js"
+  ]
+}

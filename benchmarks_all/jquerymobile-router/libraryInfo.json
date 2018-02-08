@@ -1,0 +1,6 @@
+{
+  "name": "jquerymobile-router",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquerymobile-router/0.93/js/jquery.mobile.router.min.js"
+  ]
+}

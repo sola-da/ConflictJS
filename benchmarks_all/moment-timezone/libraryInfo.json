@@ -1,0 +1,6 @@
+{
+  "name": "moment-timezone",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.4/moment-timezone.min.js"
+  ]
+}

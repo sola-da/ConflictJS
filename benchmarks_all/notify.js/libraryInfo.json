@@ -1,0 +1,6 @@
+{
+  "name": "notify.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/notify.js/2.0.2/notify.min.js"
+  ]
+}

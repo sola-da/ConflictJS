@@ -1,0 +1,6 @@
+{
+  "name": "fuse.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/fuse.js/2.2.0/fuse.min.js"
+  ]
+}

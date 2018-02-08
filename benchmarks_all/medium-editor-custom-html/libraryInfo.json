@@ -1,0 +1,6 @@
+{
+  "name": "medium-editor-custom-html",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/medium-editor-custom-html/1.1.0/custom-html.min.js"
+  ]
+}

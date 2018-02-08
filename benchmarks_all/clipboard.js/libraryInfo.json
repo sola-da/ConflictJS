@@ -1,0 +1,6 @@
+{
+  "name": "clipboard.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"
+  ]
+}

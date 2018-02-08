@@ -1,0 +1,6 @@
+{
+  "name": "oj.GitHubButton",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/oj.GitHubButton/0.0.2/oj.GitHubButton.min.js"
+  ]
+}

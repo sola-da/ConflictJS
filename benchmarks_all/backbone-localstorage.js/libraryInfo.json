@@ -1,0 +1,6 @@
+{
+  "name": "backbone-localstorage.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.16/backbone.localStorage-min.js"
+  ]
+}

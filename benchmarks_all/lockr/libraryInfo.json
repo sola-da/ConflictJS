@@ -1,0 +1,6 @@
+{
+  "name": "lockr",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/lockr/0.8.4/lockr.min.js"
+  ]
+}

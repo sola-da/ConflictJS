@@ -1,0 +1,6 @@
+{
+  "name": "vega",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/vega/2.5.2/vega.min.js"
+  ]
+}

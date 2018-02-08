@@ -1,0 +1,6 @@
+{
+  "name": "wysihtml5",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/wysihtml5/0.3.0/wysihtml5.min.js"
+  ]
+}

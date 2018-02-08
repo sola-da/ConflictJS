@@ -1,0 +1,6 @@
+{
+  "name": "minimap",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/minimap/1.0.0/minimap.min.js"
+  ]
+}

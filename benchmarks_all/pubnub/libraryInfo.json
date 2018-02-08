@@ -1,0 +1,6 @@
+{
+  "name": "pubnub",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/pubnub/3.7.7/pubnub.min.js"
+  ]
+}

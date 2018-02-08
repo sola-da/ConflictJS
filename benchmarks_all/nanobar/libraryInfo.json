@@ -1,0 +1,6 @@
+{
+  "name": "nanobar",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/nanobar/0.4.2/nanobar.min.js"
+  ]
+}

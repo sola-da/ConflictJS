@@ -1,0 +1,6 @@
+{
+  "name": "cloudinary-core",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.0.8/cloudinary-core.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "vault.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.13/vault.min.js"
+  ]
+}

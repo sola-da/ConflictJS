@@ -1,0 +1,6 @@
+{
+  "name": "jsencrypt",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/2.3.0/jsencrypt.min.js"
+  ]
+}

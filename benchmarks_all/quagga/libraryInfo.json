@@ -1,0 +1,6 @@
+{
+  "name": "quagga",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/quagga/0.11.2/quagga.min.js"
+  ]
+}

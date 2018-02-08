@@ -1,0 +1,6 @@
+{
+  "name": "leaflet-gpx",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.0.0/gpx.min.js"
+  ]
+}

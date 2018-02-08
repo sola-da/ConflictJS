@@ -1,0 +1,6 @@
+{
+  "name": "openlocationcode",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/openlocationcode/1.0.0/openlocationcode.min.js"
+  ]
+}

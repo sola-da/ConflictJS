@@ -1,0 +1,6 @@
+{
+  "name": "backbone-tastypie",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone-tastypie/0.2/backbone-tastypie.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "eventmaster",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/eventmaster/2.0.0/eventmaster.min.js"
+  ]
+}

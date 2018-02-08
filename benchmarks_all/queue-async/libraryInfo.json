@@ -1,0 +1,6 @@
+{
+  "name": "queue-async",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "iframe-resizer",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.5/iframeResizer.min.js"
+  ]
+}

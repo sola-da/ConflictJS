@@ -1,0 +1,6 @@
+{
+  "name": "mermaid",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/mermaid/6.0.0/mermaid.min.js"
+  ]
+}

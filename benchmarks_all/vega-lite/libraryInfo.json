@@ -1,0 +1,6 @@
+{
+  "name": "vega-lite",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/vega-lite/1.0.12/vega-lite.min.js"
+  ]
+}

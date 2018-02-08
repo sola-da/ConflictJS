@@ -1,0 +1,6 @@
+{
+  "name": "backbone-pageable",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone-pageable/1.4.8/backbone-pageable.min.js"
+  ]
+}

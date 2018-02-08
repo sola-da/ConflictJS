@@ -1,0 +1,6 @@
+{
+  "name": "ag-grid",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/ag-grid/4.2.7/ag-grid.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "github-org-members.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/github-org-members.js/1.2.3/github-org-members.min.js"
+  ]
+}

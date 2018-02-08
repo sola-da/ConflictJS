@@ -1,0 +1,6 @@
+{
+  "name": "phaser",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/phaser/2.5.0/phaser.min.js"
+  ]
+}

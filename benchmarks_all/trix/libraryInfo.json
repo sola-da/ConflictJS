@@ -1,0 +1,6 @@
+{
+  "name": "trix",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/trix/0.9.7/trix.js"
+  ]
+}

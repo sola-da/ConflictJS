@@ -1,0 +1,6 @@
+{
+  "name": "bootstrap3-wysiwyg",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-wysiwyg/0.3.3/bootstrap3-wysihtml5.all.min.js"
+  ]
+}

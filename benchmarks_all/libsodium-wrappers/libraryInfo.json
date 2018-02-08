@@ -1,0 +1,6 @@
+{
+  "name": "libsodium-wrappers",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/libsodium-wrappers/0.3.0/sodium.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "jquery.pjax",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.9.6/jquery.pjax.min.js"
+  ]
+}

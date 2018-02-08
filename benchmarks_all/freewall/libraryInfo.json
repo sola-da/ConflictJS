@@ -1,0 +1,6 @@
+{
+  "name": "freewall",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/freewall/1.0.5/freewall.min.js"
+  ]
+}

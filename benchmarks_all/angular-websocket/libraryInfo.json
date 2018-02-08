@@ -1,0 +1,6 @@
+{
+  "name": "angular-websocket",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-websocket/2.0.0/angular-websocket.min.js"
+  ]
+}

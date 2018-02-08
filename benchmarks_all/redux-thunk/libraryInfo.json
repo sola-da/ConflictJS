@@ -1,0 +1,6 @@
+{
+  "name": "redux-thunk",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/redux-thunk/2.1.0/redux-thunk.min.js"
+  ]
+}

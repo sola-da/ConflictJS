@@ -1,0 +1,6 @@
+{
+  "name": "jshint",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jshint/2.9.2/jshint.min.js"
+  ]
+}

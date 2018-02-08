@@ -1,0 +1,6 @@
+{
+  "name": "react-redux",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/react-redux/4.4.5/react-redux.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "app-loading",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/app-loading/0.0.51/app-loading.min.js"
+  ]
+}

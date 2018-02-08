@@ -1,0 +1,6 @@
+{
+  "name": "image-picker",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/image-picker/0.2.4/image-picker.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "http-client",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/http-client/4.1.0/http-client.min.js"
+  ]
+}

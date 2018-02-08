@@ -1,0 +1,6 @@
+{
+  "name": "turbolinks",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/turbolinks/1.3.0/turbolinks.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "json-schema-faker",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/json-schema-faker/0.3.3/json-schema-faker.min.js"
+  ]
+}

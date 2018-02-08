@@ -1,0 +1,6 @@
+{
+  "name": "setImmediate",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/setImmediate/1.0.4/setImmediate.min.js"
+  ]
+}

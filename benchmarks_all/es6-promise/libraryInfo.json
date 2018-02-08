@@ -1,0 +1,6 @@
+{
+  "name": "es6-promise",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.2.2/es6-promise.min.js"
+  ]
+}

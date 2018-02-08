@@ -1,0 +1,6 @@
+{
+  "name": "socketcluster-client",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/socketcluster-client/4.3.18/socketcluster.min.js"
+  ]
+}

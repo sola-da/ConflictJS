@@ -1,0 +1,6 @@
+{
+  "name": "backbone.paginator",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone.paginator/0.8/backbone.paginator.min.js"
+  ]
+}

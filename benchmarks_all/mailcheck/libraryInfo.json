@@ -1,0 +1,6 @@
+{
+  "name": "mailcheck",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/mailcheck/1.1.1/mailcheck.min.js"
+  ]
+}

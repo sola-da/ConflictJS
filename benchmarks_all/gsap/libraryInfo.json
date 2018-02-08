@@ -1,0 +1,6 @@
+{
+  "name": "gsap",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"
+  ]
+}

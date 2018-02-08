@@ -1,0 +1,6 @@
+{
+  "name": "datamaps",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.5.5/datamaps.all.min.js"
+  ]
+}

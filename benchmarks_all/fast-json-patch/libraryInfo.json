@@ -1,0 +1,6 @@
+{
+  "name": "fast-json-patch",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/fast-json-patch/0.5.7/json-patch-duplex.min.js"
+  ]
+}

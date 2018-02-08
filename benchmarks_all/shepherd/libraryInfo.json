@@ -1,0 +1,6 @@
+{
+  "name": "shepherd",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/shepherd/1.7.1/js/shepherd.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "require.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js"
+  ]
+}

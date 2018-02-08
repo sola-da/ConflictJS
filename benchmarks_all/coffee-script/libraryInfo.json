@@ -1,0 +1,6 @@
+{
+  "name": "coffee-script",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/coffee-script/1.10.0/coffee-script.min.js"
+  ]
+}

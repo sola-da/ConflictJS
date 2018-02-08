@@ -1,0 +1,6 @@
+{
+  "name": "jquery.payment",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.4.2/jquery.payment.min.js"
+  ]
+}

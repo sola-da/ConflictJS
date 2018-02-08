@@ -1,0 +1,6 @@
+{
+  "name": "tweetnacl",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/tweetnacl/0.14.3/nacl-fast.min.js"
+  ]
+}

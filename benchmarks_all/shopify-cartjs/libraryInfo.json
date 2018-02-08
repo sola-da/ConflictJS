@@ -1,0 +1,6 @@
+{
+  "name": "shopify-cartjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/shopify-cartjs/0.4.0/cart.min.js"
+  ]
+}

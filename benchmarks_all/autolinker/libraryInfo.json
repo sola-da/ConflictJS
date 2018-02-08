@@ -1,0 +1,6 @@
+{
+  "name": "autolinker",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/autolinker/0.26.0/Autolinker.min.js"
+  ]
+}

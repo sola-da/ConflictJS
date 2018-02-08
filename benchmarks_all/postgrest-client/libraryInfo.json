@@ -1,0 +1,6 @@
+{
+  "name": "postgrest-client",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/postgrest-client/1.1.2/postgrest-client.min.js"
+  ]
+}

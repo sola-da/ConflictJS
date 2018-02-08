@@ -1,0 +1,6 @@
+{
+  "name": "angular-resource",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.5.7/angular-resource.min.js"
+  ]
+}

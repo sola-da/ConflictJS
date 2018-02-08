@@ -1,0 +1,6 @@
+{
+  "name": "push.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/push.js/0.0.9/push.min.js"
+  ]
+}

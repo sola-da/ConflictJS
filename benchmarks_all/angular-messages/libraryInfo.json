@@ -1,0 +1,6 @@
+{
+  "name": "angular-messages",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-messages/1.5.7/angular-messages.min.js"
+  ]
+}

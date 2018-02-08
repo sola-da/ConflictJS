@@ -1,0 +1,6 @@
+{
+  "name": "video.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/video.js/5.10.5/video.min.js"
+  ]
+}

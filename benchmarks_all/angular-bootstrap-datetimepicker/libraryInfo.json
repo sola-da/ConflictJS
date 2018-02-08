@@ -1,0 +1,6 @@
+{
+  "name": "angular-bootstrap-datetimepicker",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-bootstrap-datetimepicker/1.0.1/js/datetimepicker.min.js"
+  ]
+}

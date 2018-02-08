@@ -1,0 +1,6 @@
+{
+  "name": "store.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/store.js/1.3.20/store.min.js"
+  ]
+}

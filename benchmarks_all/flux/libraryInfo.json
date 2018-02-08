@@ -1,0 +1,6 @@
+{
+  "name": "flux",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/flux/2.1.1/Flux.min.js"
+  ]
+}

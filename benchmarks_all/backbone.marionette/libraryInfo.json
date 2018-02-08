@@ -1,0 +1,6 @@
+{
+  "name": "backbone.marionette",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.5.6/backbone.marionette.min.js"
+  ]
+}

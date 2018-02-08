@@ -1,0 +1,6 @@
+{
+  "name": "jquery-ujs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-ujs/1.2.1/rails.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "tinymce",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.3.13/tinymce.min.js"
+  ]
+}

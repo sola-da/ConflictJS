@@ -1,0 +1,6 @@
+{
+  "name": "device.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/device.js/0.2.7/device.min.js"
+  ]
+}

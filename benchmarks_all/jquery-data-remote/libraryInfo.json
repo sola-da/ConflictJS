@@ -1,0 +1,6 @@
+{
+  "name": "jquery-data-remote",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-data-remote/0.8.3/jquery.data-remote.min.js"
+  ]
+}

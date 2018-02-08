@@ -1,0 +1,6 @@
+{
+  "name": "bluebird",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.4.1/bluebird.min.js"
+  ]
+}

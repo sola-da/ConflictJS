@@ -1,0 +1,6 @@
+{
+  "name": "instantsearch.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/1.6.0/instantsearch.min.js"
+  ]
+}

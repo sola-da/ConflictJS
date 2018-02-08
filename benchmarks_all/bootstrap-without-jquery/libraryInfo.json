@@ -1,0 +1,6 @@
+{
+  "name": "bootstrap-without-jquery",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-without-jquery/0.6.1/bootstrap3/bootstrap-without-jquery.min.js"
+  ]
+}

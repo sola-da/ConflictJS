@@ -1,0 +1,6 @@
+{
+  "name": "dat-gui",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5.1/dat.gui.min.js"
+  ]
+}

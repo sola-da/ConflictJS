@@ -1,0 +1,6 @@
+{
+  "name": "mediaelement",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.21.1/mediaelement.min.js"
+  ]
+}

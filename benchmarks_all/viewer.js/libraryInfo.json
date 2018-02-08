@@ -1,0 +1,6 @@
+{
+  "name": "viewer.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/viewer.js/0.11.0/crocodoc.viewer.min.js"
+  ]
+}

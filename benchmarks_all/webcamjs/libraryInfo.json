@@ -1,0 +1,6 @@
+{
+  "name": "webcamjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.9/webcam.min.js"
+  ]
+}

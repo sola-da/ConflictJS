@@ -1,0 +1,6 @@
+{
+  "name": "sbt",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/sbt/1.1.11.20151208-1200/sbt-core-dojo-amd.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "django.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/django.js/0.8.1/django.min.js"
+  ]
+}

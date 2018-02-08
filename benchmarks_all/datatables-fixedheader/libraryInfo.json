@@ -1,0 +1,6 @@
+{
+  "name": "datatables-fixedheader",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/datatables-fixedheader/2.1.1/dataTables.fixedHeader.min.js"
+  ]
+}

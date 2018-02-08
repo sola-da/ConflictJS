@@ -1,0 +1,6 @@
+{
+  "name": "nanogallery",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.10.2/jquery.nanogallery.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "midi.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/midi.js/0.3.0/midi.min.js"
+  ]
+}

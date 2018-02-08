@@ -1,0 +1,6 @@
+{
+  "name": "buckets",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/buckets/1.90.0/buckets.min.js"
+  ]
+}

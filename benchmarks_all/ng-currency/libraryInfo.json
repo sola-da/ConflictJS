@@ -1,0 +1,6 @@
+{
+  "name": "ng-currency",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/ng-currency/0.10.1/ng-currency.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "localStorage",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.1/localStorage.min.js"
+  ]
+}

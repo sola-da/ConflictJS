@@ -1,0 +1,6 @@
+{
+  "name": "corejs-typeahead",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/0.11.1//bloodhound.min.js"
+  ]
+}

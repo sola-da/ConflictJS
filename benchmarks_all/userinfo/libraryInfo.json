@@ -1,0 +1,6 @@
+{
+  "name": "userinfo",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/userinfo/1.1.1/userinfo.min.js"
+  ]
+}

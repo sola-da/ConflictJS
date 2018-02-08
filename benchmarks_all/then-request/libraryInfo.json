@@ -1,0 +1,6 @@
+{
+  "name": "then-request",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/then-request/2.2.0/request.min.js"
+  ]
+}

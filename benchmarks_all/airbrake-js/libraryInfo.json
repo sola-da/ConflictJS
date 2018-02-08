@@ -1,0 +1,6 @@
+{
+  "name": "airbrake-js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/airbrake-js/0.5.9/client.min.js"
+  ]
+}

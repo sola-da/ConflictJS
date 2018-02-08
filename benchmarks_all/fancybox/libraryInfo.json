@@ -1,0 +1,6 @@
+{
+  "name": "fancybox",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"
+  ]
+}

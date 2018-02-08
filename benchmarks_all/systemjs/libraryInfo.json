@@ -1,0 +1,6 @@
+{
+  "name": "systemjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.31/system.js"
+  ]
+}

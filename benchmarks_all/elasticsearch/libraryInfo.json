@@ -1,0 +1,6 @@
+{
+  "name": "elasticsearch",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/elasticsearch/11.0.1/elasticsearch.min.js"
+  ]
+}

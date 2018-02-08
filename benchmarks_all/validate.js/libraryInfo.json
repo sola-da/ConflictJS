@@ -1,0 +1,6 @@
+{
+  "name": "validate.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.10.0/validate.min.js"
+  ]
+}

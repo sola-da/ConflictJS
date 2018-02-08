@@ -1,0 +1,6 @@
+{
+  "name": "mobile-detect",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.2/mobile-detect.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "z-schema",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/z-schema/3.17.0/ZSchema-browser-min.js"
+  ]
+}

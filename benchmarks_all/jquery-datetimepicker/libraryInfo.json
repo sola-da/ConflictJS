@@ -1,0 +1,6 @@
+{
+  "name": "jquery-datetimepicker",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/jquery.datetimepicker.min.js"
+  ]
+}

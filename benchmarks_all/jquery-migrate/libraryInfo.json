@@ -1,0 +1,6 @@
+{
+  "name": "jquery-migrate",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.0/jquery-migrate.min.js"
+  ]
+}

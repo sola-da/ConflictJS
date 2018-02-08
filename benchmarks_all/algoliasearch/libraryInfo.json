@@ -1,0 +1,6 @@
+{
+  "name": "algoliasearch",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/algoliasearch/3.15.1/algoliasearch.min.js"
+  ]
+}

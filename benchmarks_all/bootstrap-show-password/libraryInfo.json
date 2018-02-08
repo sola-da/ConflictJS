@@ -1,0 +1,6 @@
+{
+  "name": "bootstrap-show-password",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-show-password/1.0.3/bootstrap-show-password.min.js"
+  ]
+}

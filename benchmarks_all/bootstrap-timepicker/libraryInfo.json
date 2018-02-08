@@ -1,0 +1,6 @@
+{
+  "name": "bootstrap-timepicker",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/js/bootstrap-timepicker.min.js"
+  ]
+}

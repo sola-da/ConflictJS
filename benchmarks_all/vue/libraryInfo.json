@@ -1,0 +1,6 @@
+{
+  "name": "vue",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.25/vue.min.js"
+  ]
+}

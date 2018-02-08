@@ -1,0 +1,6 @@
+{
+  "name": "angular-chart.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-chart.js/0.10.2/angular-chart.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "require-jquery",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/require-jquery/0.25.0/require-jquery.min.js"
+  ]
+}

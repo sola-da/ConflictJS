@@ -1,0 +1,6 @@
+{
+  "name": "flipclock",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "reqwest",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/reqwest/2.0.5/reqwest.min.js"
+  ]
+}

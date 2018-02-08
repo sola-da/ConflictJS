@@ -1,0 +1,6 @@
+{
+  "name": "loglevel",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/loglevel/1.4.1/loglevel.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "cookiejar",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/cookiejar/0.5.1/cookiejar.min.js"
+  ]
+}

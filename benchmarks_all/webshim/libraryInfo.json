@@ -1,0 +1,6 @@
+{
+  "name": "webshim",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/webshim/1.15.10/minified/polyfiller.js"
+  ]
+}

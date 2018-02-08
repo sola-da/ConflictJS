@@ -1,0 +1,6 @@
+{
+  "name": "github-api",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/github-api/2.3.0/GitHub.min.js"
+  ]
+}

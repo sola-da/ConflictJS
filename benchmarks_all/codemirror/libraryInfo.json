@@ -1,0 +1,6 @@
+{
+  "name": "codemirror",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.15.2/codemirror.min.js"
+  ]
+}

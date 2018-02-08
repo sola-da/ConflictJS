@@ -1,0 +1,6 @@
+{
+  "name": "bootcards",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/bootcards/1.1.2/js/bootcards.min.js"
+  ]
+}

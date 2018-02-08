@@ -1,0 +1,6 @@
+{
+  "name": "history.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/history.js/1.8/native.history.min.js"
+  ]
+}

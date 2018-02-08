@@ -1,0 +1,6 @@
+{
+  "name": "leaflet.draw",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.js"
+  ]
+}

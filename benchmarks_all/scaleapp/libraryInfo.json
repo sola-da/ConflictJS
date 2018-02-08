@@ -1,0 +1,6 @@
+{
+  "name": "scaleapp",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/scaleapp/0.4.3/scaleapp.min.js"
+  ]
+}

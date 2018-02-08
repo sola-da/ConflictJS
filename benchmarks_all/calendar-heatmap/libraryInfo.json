@@ -1,0 +1,6 @@
+{
+  "name": "calendar-heatmap",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/calendar-heatmap/0.4.0/calendar-heatmap.min.js"
+  ]
+}

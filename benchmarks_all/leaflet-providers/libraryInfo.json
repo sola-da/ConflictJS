@@ -1,0 +1,6 @@
+{
+  "name": "leaflet-providers",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.1.11/leaflet-providers.min.js"
+  ]
+}

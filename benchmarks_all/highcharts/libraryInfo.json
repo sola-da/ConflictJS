@@ -1,0 +1,6 @@
+{
+  "name": "highcharts",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/highcharts/4.2.5/highcharts.js"
+  ]
+}

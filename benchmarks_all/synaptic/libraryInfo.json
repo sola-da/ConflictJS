@@ -1,0 +1,6 @@
+{
+  "name": "synaptic",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/synaptic/1.0.4/synaptic.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "chainloading",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/chainloading/1.1.1/chainloading.min.js"
+  ]
+}

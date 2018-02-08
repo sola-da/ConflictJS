@@ -1,0 +1,6 @@
+{
+  "name": "ajv",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/ajv/4.1.3/ajv.min.js"
+  ]
+}

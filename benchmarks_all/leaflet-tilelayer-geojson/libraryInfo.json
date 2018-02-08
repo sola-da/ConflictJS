@@ -1,0 +1,6 @@
+{
+  "name": "leaflet-tilelayer-geojson",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet-tilelayer-geojson/1.0.4/TileLayer.GeoJSON.min.js"
+  ]
+}

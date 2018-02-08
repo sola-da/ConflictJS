@@ -1,0 +1,6 @@
+{
+  "name": "bootstrap-material-design",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.1/bootstrap-material-design.umd.min.js"
+  ]
+}

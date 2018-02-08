@@ -1,0 +1,6 @@
+{
+  "name": "watch",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/watch/2.0.4/watch.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "gas",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/gas/1.11.0/gas.min.js"
+  ]
+}

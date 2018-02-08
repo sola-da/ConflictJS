@@ -1,0 +1,6 @@
+{
+  "name": "restangular",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/restangular/1.5.2/restangular.min.js"
+  ]
+}

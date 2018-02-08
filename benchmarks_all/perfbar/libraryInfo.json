@@ -1,0 +1,6 @@
+{
+  "name": "perfbar",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/perfbar/0.2.1/perfbar.min.js"
+  ]
+}

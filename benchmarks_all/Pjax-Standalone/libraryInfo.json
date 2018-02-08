@@ -1,0 +1,6 @@
+{
+  "name": "Pjax-Standalone",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/Pjax-Standalone/0.6.0/pjax-standalone.min.js"
+  ]
+}

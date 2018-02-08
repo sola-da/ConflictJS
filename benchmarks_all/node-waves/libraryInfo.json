@@ -1,0 +1,6 @@
+{
+  "name": "node-waves",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/node-waves/0.7.5/waves.min.js"
+  ]
+}

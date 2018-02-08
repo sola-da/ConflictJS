@@ -1,0 +1,6 @@
+{
+  "name": "neo-async",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/neo-async/1.8.2/async.min.js"
+  ]
+}

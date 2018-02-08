@@ -1,0 +1,6 @@
+{
+  "name": "lazyad-loader",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/lazyad-loader/1.1.10/lazyad-loader.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "highstock",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/highstock/4.2.5/highstock.js"
+  ]
+}

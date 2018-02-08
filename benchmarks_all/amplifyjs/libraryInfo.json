@@ -1,0 +1,6 @@
+{
+  "name": "amplifyjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js"
+  ]
+}

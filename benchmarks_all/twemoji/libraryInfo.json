@@ -1,0 +1,6 @@
+{
+  "name": "twemoji",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/twemoji/2.0.5/twemoji.min.js"
+  ]
+}

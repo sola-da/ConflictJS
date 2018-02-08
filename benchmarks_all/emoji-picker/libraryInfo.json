@@ -1,0 +1,6 @@
+{
+  "name": "emoji-picker",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/emoji-picker/1.0/js/emoji-picker.min.js"
+  ]
+}

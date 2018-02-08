@@ -1,0 +1,6 @@
+{
+  "name": "lightgallery",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.19/js/lightgallery.min.js"
+  ]
+}

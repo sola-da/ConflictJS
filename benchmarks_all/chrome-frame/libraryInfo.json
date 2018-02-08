@@ -1,0 +1,6 @@
+{
+  "name": "chrome-frame",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "messageformat",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/messageformat/0.3.1/messageformat.min.js"
+  ]
+}

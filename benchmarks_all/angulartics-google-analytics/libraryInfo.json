@@ -1,0 +1,6 @@
+{
+  "name": "angulartics-google-analytics",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angulartics-google-analytics/0.2.0/angulartics-ga.min.js"
+  ]
+}

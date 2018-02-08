@@ -1,0 +1,6 @@
+{
+  "name": "gmaps4rails",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/gmaps4rails/2.1.2/gmaps4rails.min.js"
+  ]
+}

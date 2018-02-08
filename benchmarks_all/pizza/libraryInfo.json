@@ -1,0 +1,6 @@
+{
+  "name": "pizza",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/pizza/0.2.1/js/pizza.min.js"
+  ]
+}

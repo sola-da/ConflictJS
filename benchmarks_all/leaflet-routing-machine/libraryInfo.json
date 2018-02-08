@@ -1,0 +1,6 @@
+{
+  "name": "leaflet-routing-machine",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet-routing-machine/3.0.3/leaflet-routing-machine.min.js"
+  ]
+}

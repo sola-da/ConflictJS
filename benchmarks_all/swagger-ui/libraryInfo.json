@@ -1,0 +1,6 @@
+{
+  "name": "swagger-ui",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.8-M1/swagger-ui.min.js"
+  ]
+}

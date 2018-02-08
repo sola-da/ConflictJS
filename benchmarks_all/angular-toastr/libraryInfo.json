@@ -1,0 +1,6 @@
+{
+  "name": "angular-toastr",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-toastr/1.7.0/angular-toastr.min.js"
+  ]
+}

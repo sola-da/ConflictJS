@@ -1,0 +1,6 @@
+{
+  "name": "jquery-validation-unobtrusive",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"
+  ]
+}

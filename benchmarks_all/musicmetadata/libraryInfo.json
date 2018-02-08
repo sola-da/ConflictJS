@@ -1,0 +1,6 @@
+{
+  "name": "musicmetadata",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/musicmetadata/2.0.2/musicmetadata.min.js"
+  ]
+}

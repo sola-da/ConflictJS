@@ -1,0 +1,6 @@
+{
+  "name": "PreloadJS",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/PreloadJS/0.6.0/preloadjs.min.js"
+  ]
+}

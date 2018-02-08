@@ -1,0 +1,6 @@
+{
+  "name": "egjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/egjs/1.2.0/eg.min.js"
+  ]
+}

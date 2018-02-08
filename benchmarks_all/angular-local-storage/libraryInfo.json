@@ -1,0 +1,6 @@
+{
+  "name": "angular-local-storage",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.2.7/angular-local-storage.min.js"
+  ]
+}

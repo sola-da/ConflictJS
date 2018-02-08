@@ -1,0 +1,6 @@
+{
+  "name": "protovis",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/protovis/3.3.1/protovis.min.js"
+  ]
+}

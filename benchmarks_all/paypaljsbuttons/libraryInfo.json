@@ -1,0 +1,6 @@
+{
+  "name": "paypaljsbuttons",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/paypaljsbuttons/2.0.1/paypal-button.min.js"
+  ]
+}

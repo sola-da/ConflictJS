@@ -1,0 +1,6 @@
+{
+  "name": "geo-location-javascript",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/geo-location-javascript/0.4.8/geo-min.js"
+  ]
+}

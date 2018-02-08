@@ -1,0 +1,6 @@
+{
+  "name": "angular-poller",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-poller/0.4.4/angular-poller.min.js"
+  ]
+}

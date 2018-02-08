@@ -1,0 +1,6 @@
+{
+  "name": "ractive-require",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/ractive-require/0.6.5/ractive-require.min.js"
+  ]
+}

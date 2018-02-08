@@ -1,0 +1,6 @@
+{
+  "name": "angular-ui",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-ui/0.4.0/angular-ui.min.js"
+  ]
+}

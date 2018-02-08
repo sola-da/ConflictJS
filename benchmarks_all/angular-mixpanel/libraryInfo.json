@@ -1,0 +1,6 @@
+{
+  "name": "angular-mixpanel",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-mixpanel/1.1.2/angular-mixpanel.min.js"
+  ]
+}

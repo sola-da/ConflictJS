@@ -1,0 +1,6 @@
+{
+  "name": "benchmark",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/benchmark/2.1.0/benchmark.min.js"
+  ]
+}

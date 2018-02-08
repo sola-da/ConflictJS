@@ -1,0 +1,6 @@
+{
+  "name": "requirejs-mustache",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/requirejs-mustache/0.0.2/stache.min.js"
+  ]
+}

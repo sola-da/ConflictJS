@@ -1,0 +1,6 @@
+{
+  "name": "angular-gravatar",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-gravatar/0.4.2/angular-gravatar.min.js"
+  ]
+}

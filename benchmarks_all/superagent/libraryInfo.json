@@ -1,0 +1,6 @@
+{
+  "name": "superagent",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/superagent/2.0.0/superagent.min.js"
+  ]
+}

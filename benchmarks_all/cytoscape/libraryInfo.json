@@ -1,0 +1,6 @@
+{
+  "name": "cytoscape",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/cytoscape/2.7.0/cytoscape.min.js"
+  ]
+}

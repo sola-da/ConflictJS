@@ -1,0 +1,6 @@
+{
+  "name": "prism",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.min.js"
+  ]
+}

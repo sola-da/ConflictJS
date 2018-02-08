@@ -1,0 +1,6 @@
+{
+  "name": "requirejs-plugins",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/requirejs-plugins/1.0.3/async.min.js"
+  ]
+}

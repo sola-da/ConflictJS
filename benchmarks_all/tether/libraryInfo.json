@@ -1,0 +1,6 @@
+{
+  "name": "tether",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.2/js/tether.min.js"
+  ]
+}

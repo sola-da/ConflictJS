@@ -1,0 +1,6 @@
+{
+  "name": "fingerprintjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs/0.5.3/fingerprint.min.js"
+  ]
+}

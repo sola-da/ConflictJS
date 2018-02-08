@@ -1,0 +1,6 @@
+{
+  "name": "embedly-jquery",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/embedly-jquery/3.1.1/jquery.embedly.min.js"
+  ]
+}

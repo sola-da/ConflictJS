@@ -1,0 +1,6 @@
+{
+  "name": "elfinder",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/elfinder/2.1.12/js/elfinder.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "dustjs-linkedin",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.7.2/dust-core.min.js"
+  ]
+}

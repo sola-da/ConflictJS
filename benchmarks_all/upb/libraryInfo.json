@@ -1,0 +1,6 @@
+{
+  "name": "upb",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/upb/1.2.3/upb.min.js"
+  ]
+}

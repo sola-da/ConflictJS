@@ -1,0 +1,6 @@
+{
+  "name": "postscribe",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/postscribe/2.0.6/postscribe.min.js"
+  ]
+}

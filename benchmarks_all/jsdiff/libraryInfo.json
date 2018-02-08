@@ -1,0 +1,6 @@
+{
+  "name": "jsdiff",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jsdiff/2.2.3/diff.min.js"
+  ]
+}

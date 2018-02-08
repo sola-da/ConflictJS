@@ -1,0 +1,6 @@
+{
+  "name": "eventproxy",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/eventproxy/0.3.4/eventproxy.min.js"
+  ]
+}

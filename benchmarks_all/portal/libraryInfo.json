@@ -1,0 +1,6 @@
+{
+  "name": "portal",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/portal/1.1.1/portal.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "authy-form-helpers",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/authy-form-helpers/2.3/form.authy.min.js"
+  ]
+}

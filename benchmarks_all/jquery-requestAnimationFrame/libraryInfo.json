@@ -1,0 +1,6 @@
+{
+  "name": "jquery-requestAnimationFrame",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-requestAnimationFrame/0.1.2/jquery.requestAnimationFrame.min.js"
+  ]
+}

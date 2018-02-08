@@ -1,0 +1,6 @@
+{
+  "name": "oppia",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/oppia/0.0.1/oppia-player.min.js"
+  ]
+}

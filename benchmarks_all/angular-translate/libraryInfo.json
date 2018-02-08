@@ -1,0 +1,6 @@
+{
+  "name": "angular-translate",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.11.0/angular-translate.min.js"
+  ]
+}

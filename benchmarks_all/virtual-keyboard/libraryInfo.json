@@ -1,0 +1,6 @@
+{
+  "name": "virtual-keyboard",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/virtual-keyboard/1.25.29/js/jquery.keyboard.min.js"
+  ]
+}

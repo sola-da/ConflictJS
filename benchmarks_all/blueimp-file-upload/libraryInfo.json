@@ -1,0 +1,6 @@
+{
+  "name": "blueimp-file-upload",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.12.5/js/jquery.fileupload.min.js"
+  ]
+}

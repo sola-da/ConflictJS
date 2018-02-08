@@ -1,0 +1,6 @@
+{
+  "name": "webtorrent",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/webtorrent/0.95.1/webtorrent.min.js"
+  ]
+}

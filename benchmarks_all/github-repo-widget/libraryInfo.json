@@ -1,0 +1,6 @@
+{
+  "name": "github-repo-widget",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/github-repo-widget/e23d85ab8f/jquery.githubRepoWidget.min.js"
+  ]
+}

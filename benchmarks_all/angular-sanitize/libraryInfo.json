@@ -1,0 +1,6 @@
+{
+  "name": "angular-sanitize",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.7/angular-sanitize.min.js"
+  ]
+}

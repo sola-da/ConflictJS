@@ -1,0 +1,6 @@
+{
+  "name": "dropbox.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/dropbox.js/0.10.3/dropbox.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "backbone.routefilter",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone.routefilter/0.2.0/backbone.routefilter.min.js"
+  ]
+}

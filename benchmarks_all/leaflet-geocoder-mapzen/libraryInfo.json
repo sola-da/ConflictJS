@@ -1,0 +1,6 @@
+{
+  "name": "leaflet-geocoder-mapzen",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet-geocoder-mapzen/1.6.2/leaflet-geocoder-mapzen.min.js"
+  ]
+}

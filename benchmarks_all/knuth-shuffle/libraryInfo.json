@@ -1,0 +1,6 @@
+{
+  "name": "knuth-shuffle",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/knuth-shuffle/1.0.1/index.min.js"
+  ]
+}

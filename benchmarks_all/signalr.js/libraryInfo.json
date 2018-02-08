@@ -1,0 +1,6 @@
+{
+  "name": "signalr.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/signalr.js/2.2.0/jquery.signalR.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "angularjs-pdf",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angularjs-pdf/1.3.0/angular-pdf.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "covjson-reader",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/covjson-reader/0.12.1/covjson-reader.min.js"
+  ]
+}

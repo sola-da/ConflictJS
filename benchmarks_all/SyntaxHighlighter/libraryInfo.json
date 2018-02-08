@@ -1,0 +1,6 @@
+{
+  "name": "SyntaxHighlighter",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"
+  ]
+}

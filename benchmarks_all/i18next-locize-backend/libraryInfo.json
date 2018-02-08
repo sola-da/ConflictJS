@@ -1,0 +1,6 @@
+{
+  "name": "i18next-locize-backend",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/i18next-locize-backend/0.2.0/i18nextLocizeBackend.min.js"
+  ]
+}

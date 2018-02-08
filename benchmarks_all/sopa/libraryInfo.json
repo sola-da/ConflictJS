@@ -1,0 +1,6 @@
+{
+  "name": "sopa",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/sopa/1.0/stopcensorship.min.js"
+  ]
+}

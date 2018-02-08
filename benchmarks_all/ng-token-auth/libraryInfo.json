@@ -1,0 +1,6 @@
+{
+  "name": "ng-token-auth",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/ng-token-auth/0.0.29/ng-token-auth.min.js"
+  ]
+}

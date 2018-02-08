@@ -1,0 +1,6 @@
+{
+  "name": "jplayer",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/jplayer/jquery.jplayer.min.js"
+  ]
+}

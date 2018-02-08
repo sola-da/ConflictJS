@@ -1,0 +1,6 @@
+{
+  "name": "log4javascript",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/log4javascript/1.4.9/log4javascript.min.js"
+  ]
+}

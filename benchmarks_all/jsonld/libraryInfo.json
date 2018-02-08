@@ -1,0 +1,6 @@
+{
+  "name": "jsonld",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jsonld/0.4.11/jsonld.min.js"
+  ]
+}

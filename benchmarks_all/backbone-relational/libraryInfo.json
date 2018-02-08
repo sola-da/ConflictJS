@@ -1,0 +1,6 @@
+{
+  "name": "backbone-relational",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone-relational/0.10.0/backbone-relational.min.js"
+  ]
+}

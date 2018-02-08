@@ -1,0 +1,6 @@
+{
+  "name": "stage.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/stage.js/0.8.4/stage.web.min.js"
+  ]
+}

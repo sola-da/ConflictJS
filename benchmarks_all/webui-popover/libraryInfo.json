@@ -1,0 +1,6 @@
+{
+  "name": "webui-popover",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/webui-popover/1.2.11/jquery.webui-popover.min.js"
+  ]
+}

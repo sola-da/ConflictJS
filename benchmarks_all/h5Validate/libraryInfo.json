@@ -1,0 +1,6 @@
+{
+  "name": "h5Validate",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/h5Validate/0.8.4/jquery.h5validate.min.js"
+  ]
+}

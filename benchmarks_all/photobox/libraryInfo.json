@@ -1,0 +1,6 @@
+{
+  "name": "photobox",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/photobox/1.9.9/photobox/jquery.photobox.min.js"
+  ]
+}

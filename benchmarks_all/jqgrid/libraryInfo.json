@@ -1,0 +1,6 @@
+{
+  "name": "jqgrid",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jqgrid/4.6.0/js/jquery.jqGrid.min.js"
+  ]
+}

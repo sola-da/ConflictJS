@@ -1,0 +1,6 @@
+{
+  "name": "zone.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/zone.js/0.6.12/zone.min.js"
+  ]
+}

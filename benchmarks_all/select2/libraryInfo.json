@@ -1,0 +1,6 @@
+{
+  "name": "select2",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"
+  ]
+}

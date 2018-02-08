@@ -1,0 +1,6 @@
+{
+  "name": "line-chart",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/line-chart/2.0.27/LineChart.min.js"
+  ]
+}

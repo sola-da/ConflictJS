@@ -1,0 +1,6 @@
+{
+  "name": "custom-elements-builder",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.3.4/ceb.min.js"
+  ]
+}

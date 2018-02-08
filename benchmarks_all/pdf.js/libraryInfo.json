@@ -1,0 +1,6 @@
+{
+  "name": "pdf.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/1.5.296/pdf.min.js"
+  ]
+}

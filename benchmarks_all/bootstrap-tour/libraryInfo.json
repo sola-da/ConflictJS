@@ -1,0 +1,6 @@
+{
+  "name": "bootstrap-tour",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.10.3/js/bootstrap-tour.min.js"
+  ]
+}

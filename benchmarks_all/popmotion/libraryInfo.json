@@ -1,0 +1,6 @@
+{
+  "name": "popmotion",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/popmotion/4.3.4/popmotion.global.min.js"
+  ]
+}

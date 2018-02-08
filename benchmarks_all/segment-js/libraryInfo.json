@@ -1,0 +1,6 @@
+{
+  "name": "segment-js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/segment-js/1.0.8/segment.min.js"
+  ]
+}

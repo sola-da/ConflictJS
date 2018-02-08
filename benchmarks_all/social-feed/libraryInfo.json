@@ -1,0 +1,6 @@
+{
+  "name": "social-feed",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/social-feed/0.1.2/js/jquery.socialfeed.min.js"
+  ]
+}

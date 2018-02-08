@@ -1,0 +1,6 @@
+{
+  "name": "keymaster",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/keymaster/1.6.1/keymaster.min.js"
+  ]
+}

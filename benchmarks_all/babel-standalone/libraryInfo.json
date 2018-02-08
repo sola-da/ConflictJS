@@ -1,0 +1,6 @@
+{
+  "name": "babel-standalone",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.10.3/babel.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "angular-translate-loader-partial",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-translate-loader-partial/2.11.0/angular-translate-loader-partial.min.js"
+  ]
+}

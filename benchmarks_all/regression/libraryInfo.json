@@ -1,0 +1,6 @@
+{
+  "name": "regression",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/regression/1.3.0/regression.min.js"
+  ]
+}

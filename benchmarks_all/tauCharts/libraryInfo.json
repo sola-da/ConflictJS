@@ -1,0 +1,6 @@
+{
+  "name": "tauCharts",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/tauCharts/0.9.1/tauCharts.min.js"
+  ]
+}

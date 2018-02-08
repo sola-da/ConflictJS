@@ -1,0 +1,6 @@
+{
+  "name": "countdown",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/countdown/2.6.0/countdown.min.js"
+  ]
+}

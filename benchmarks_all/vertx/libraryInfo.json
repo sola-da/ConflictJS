@@ -1,0 +1,6 @@
+{
+  "name": "vertx",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/vertx/2.0.0/vertxbus.min.js"
+  ]
+}

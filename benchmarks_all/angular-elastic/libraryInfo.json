@@ -1,0 +1,6 @@
+{
+  "name": "angular-elastic",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-elastic/2.5.1/elastic.min.js"
+  ]
+}

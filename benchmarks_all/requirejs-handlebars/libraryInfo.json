@@ -1,0 +1,6 @@
+{
+  "name": "requirejs-handlebars",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/requirejs-handlebars/0.0.2/hbars.min.js"
+  ]
+}

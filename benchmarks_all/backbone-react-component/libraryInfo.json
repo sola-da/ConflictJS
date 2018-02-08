@@ -1,0 +1,6 @@
+{
+  "name": "backbone-react-component",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.10.0/backbone-react-component-min.js"
+  ]
+}

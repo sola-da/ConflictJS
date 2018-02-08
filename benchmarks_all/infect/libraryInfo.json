@@ -1,0 +1,6 @@
+{
+  "name": "infect",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/infect/0.4.6/infect.min.js"
+  ]
+}

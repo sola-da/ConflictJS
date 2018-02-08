@@ -1,0 +1,6 @@
+{
+  "name": "pusher-angular",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/pusher-angular/0.1.9/pusher-angular.min.js"
+  ]
+}

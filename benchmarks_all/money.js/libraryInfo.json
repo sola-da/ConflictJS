@@ -1,0 +1,6 @@
+{
+  "name": "money.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/money.js/0.2.0/money.min.js"
+  ]
+}

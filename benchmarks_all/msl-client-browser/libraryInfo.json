@@ -1,0 +1,6 @@
+{
+  "name": "msl-client-browser",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.6/mockapi-browser.min.js"
+  ]
+}

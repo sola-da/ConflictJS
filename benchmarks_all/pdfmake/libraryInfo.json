@@ -1,0 +1,6 @@
+{
+  "name": "pdfmake",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.20/pdfmake.min.js"
+  ]
+}

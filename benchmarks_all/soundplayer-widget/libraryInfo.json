@@ -1,0 +1,6 @@
+{
+  "name": "soundplayer-widget",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/soundplayer-widget/0.4.1/soundplayer-widget.min.js"
+  ]
+}

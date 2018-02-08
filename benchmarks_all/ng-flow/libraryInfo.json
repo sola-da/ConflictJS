@@ -1,0 +1,6 @@
+{
+  "name": "ng-flow",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/ng-flow/2.7.4/ng-flow-standalone.min.js"
+  ]
+}

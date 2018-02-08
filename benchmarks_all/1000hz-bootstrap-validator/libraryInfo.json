@@ -1,0 +1,6 @@
+{
+  "name": "1000hz-bootstrap-validator",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.10.2/validator.min.js"
+  ]
+}

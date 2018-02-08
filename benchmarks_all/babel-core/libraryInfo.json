@@ -1,0 +1,6 @@
+{
+  "name": "babel-core",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js"
+  ]
+}

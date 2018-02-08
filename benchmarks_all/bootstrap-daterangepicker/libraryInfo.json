@@ -1,0 +1,6 @@
+{
+  "name": "bootstrap-daterangepicker",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.22/daterangepicker.min.js"
+  ]
+}

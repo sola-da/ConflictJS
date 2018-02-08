@@ -1,0 +1,6 @@
+{
+  "name": "weather",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/weather/0.0.2/weather.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "qunit",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/qunit/1.18.0/qunit.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "hiw-api",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/hiw-api/5.2.0/hiw-api.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "mvw-injection",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/mvw-injection/0.2.4/dependency-injection.min.js"
+  ]
+}

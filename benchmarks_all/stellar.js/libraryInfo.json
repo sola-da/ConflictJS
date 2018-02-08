@@ -1,0 +1,6 @@
+{
+  "name": "stellar.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"
+  ]
+}

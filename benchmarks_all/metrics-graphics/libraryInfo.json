@@ -1,0 +1,6 @@
+{
+  "name": "metrics-graphics",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.9.0/metricsgraphics.min.js"
+  ]
+}

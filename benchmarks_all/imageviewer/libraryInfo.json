@@ -1,0 +1,6 @@
+{
+  "name": "imageviewer",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/imageviewer/0.5.1/viewer.min.js"
+  ]
+}

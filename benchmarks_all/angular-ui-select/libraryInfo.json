@@ -1,0 +1,6 @@
+{
+  "name": "angular-ui-select",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.18.0/select.min.js"
+  ]
+}

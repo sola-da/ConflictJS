@@ -1,0 +1,6 @@
+{
+  "name": "chroma-js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.1.1/chroma.min.js"
+  ]
+}

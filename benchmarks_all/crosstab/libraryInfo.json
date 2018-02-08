@@ -1,0 +1,6 @@
+{
+  "name": "crosstab",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/crosstab/0.2.12/crosstab.min.js"
+  ]
+}

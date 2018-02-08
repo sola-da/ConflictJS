@@ -1,0 +1,6 @@
+{
+  "name": "autocomplete.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.20.1/autocomplete.jquery.min.js"
+  ]
+}

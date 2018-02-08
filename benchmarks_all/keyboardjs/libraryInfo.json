@@ -1,0 +1,6 @@
+{
+  "name": "keyboardjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/keyboardjs/2.2.1/keyboard.min.js"
+  ]
+}

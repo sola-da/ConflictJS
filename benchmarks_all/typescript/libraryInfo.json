@@ -1,0 +1,6 @@
+{
+  "name": "typescript",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/typescript/1.9.0/typescript.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "openpgp",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/openpgp/2.3.2/openpgp.min.js"
+  ]
+}

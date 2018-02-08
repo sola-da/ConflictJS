@@ -1,0 +1,6 @@
+{
+  "name": "toastr.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.2/toastr.min.js"
+  ]
+}

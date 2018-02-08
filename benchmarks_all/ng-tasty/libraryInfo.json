@@ -1,0 +1,6 @@
+{
+  "name": "ng-tasty",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/ng-tasty/0.6.1/ng-tasty-tpls.min.js"
+  ]
+}

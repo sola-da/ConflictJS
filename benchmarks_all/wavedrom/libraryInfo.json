@@ -1,0 +1,6 @@
+{
+  "name": "wavedrom",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/wavedrom/1.3.0/wavedrom.min.js"
+  ]
+}

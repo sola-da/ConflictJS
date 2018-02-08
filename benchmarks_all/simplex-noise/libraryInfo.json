@@ -1,0 +1,6 @@
+{
+  "name": "simplex-noise",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.2.0/simplex-noise.min.js"
+  ]
+}

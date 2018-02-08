@@ -1,0 +1,6 @@
+{
+  "name": "froala-editor",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.3.2/js/froala_editor.min.js"
+  ]
+}

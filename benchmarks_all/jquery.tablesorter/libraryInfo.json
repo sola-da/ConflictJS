@@ -1,0 +1,6 @@
+{
+  "name": "jquery.tablesorter",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.26.4/js/jquery.tablesorter.min.js"
+  ]
+}

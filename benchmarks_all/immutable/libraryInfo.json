@@ -1,0 +1,6 @@
+{
+  "name": "immutable",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/immutable/3.8.1/immutable.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "gauge.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/gauge.js/1.2.1/gauge.min.js"
+  ]
+}

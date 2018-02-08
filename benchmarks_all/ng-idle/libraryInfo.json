@@ -1,0 +1,6 @@
+{
+  "name": "ng-idle",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/ng-idle/1.2.2/angular-idle.min.js"
+  ]
+}

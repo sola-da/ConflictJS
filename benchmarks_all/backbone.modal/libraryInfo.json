@@ -1,0 +1,6 @@
+{
+  "name": "backbone.modal",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone.modal/1.1.5/backbone.modal-bundled-min.js"
+  ]
+}

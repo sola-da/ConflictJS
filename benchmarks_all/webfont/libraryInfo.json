@@ -1,0 +1,6 @@
+{
+  "name": "webfont",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.24/webfontloader.js"
+  ]
+}

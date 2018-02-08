@@ -1,0 +1,6 @@
+{
+  "name": "foggy",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/foggy/1.1.1/jquery.foggy.min.js"
+  ]
+}

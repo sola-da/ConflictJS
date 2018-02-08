@@ -1,0 +1,6 @@
+{
+  "name": "showdown",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/showdown/1.4.1/showdown.min.js"
+  ]
+}

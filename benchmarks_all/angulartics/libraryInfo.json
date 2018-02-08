@@ -1,0 +1,6 @@
+{
+  "name": "angulartics",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angulartics/1.1.0/angulartics.min.js"
+  ]
+}

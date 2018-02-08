@@ -1,0 +1,6 @@
+{
+  "name": "backbone-forms",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone-forms/0.14.0/backbone-forms.min.js"
+  ]
+}

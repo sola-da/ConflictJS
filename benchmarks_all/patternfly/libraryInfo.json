@@ -1,0 +1,6 @@
+{
+  "name": "patternfly",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.5.0/js/patternfly.min.js"
+  ]
+}

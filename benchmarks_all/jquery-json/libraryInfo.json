@@ -1,0 +1,6 @@
+{
+  "name": "jquery-json",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-json/2.5.1/jquery.json.min.js"
+  ]
+}

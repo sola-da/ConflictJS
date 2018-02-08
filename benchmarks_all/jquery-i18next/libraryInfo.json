@@ -1,0 +1,6 @@
+{
+  "name": "jquery-i18next",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/0.0.14/i18next-jquery.min.js"
+  ]
+}

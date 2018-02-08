@@ -1,0 +1,6 @@
+{
+  "name": "kendo-ui-core",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/kendo.core.min.js"
+  ]
+}

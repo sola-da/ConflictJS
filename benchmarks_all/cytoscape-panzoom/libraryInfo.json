@@ -1,0 +1,6 @@
+{
+  "name": "cytoscape-panzoom",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/cytoscape-panzoom/2.4.0/cytoscape-panzoom.min.js"
+  ]
+}

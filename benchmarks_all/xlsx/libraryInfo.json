@@ -1,0 +1,6 @@
+{
+  "name": "xlsx",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.min.js"
+  ]
+}

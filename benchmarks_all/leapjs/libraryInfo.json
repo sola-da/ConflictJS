@@ -1,0 +1,6 @@
+{
+  "name": "leapjs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/leapjs/0.6.1/leap.min.js"
+  ]
+}

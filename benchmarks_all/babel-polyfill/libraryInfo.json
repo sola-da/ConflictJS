@@ -1,0 +1,6 @@
+{
+  "name": "babel-polyfill",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.9.1/polyfill.min.js"
+  ]
+}

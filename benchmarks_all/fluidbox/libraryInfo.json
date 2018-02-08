@@ -1,0 +1,6 @@
+{
+  "name": "fluidbox",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/fluidbox/2.0.3/js/jquery.fluidbox.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "outdated-browser",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.3/outdatedbrowser.min.js"
+  ]
+}

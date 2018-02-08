@@ -1,0 +1,6 @@
+{
+  "name": "js-yaml",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.6.1/js-yaml.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "d3.chart",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/d3.chart/0.3.0/d3.chart.min.js"
+  ]
+}

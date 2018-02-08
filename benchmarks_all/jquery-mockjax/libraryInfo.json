@@ -1,0 +1,6 @@
+{
+  "name": "jquery-mockjax",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-mockjax/1.6.2/jquery.mockjax.min.js"
+  ]
+}

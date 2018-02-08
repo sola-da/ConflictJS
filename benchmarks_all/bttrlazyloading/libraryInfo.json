@@ -1,0 +1,6 @@
+{
+  "name": "bttrlazyloading",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/bttrlazyloading/1.0.8/jquery.bttrlazyloading.min.js"
+  ]
+}

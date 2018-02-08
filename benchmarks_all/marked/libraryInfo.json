@@ -1,0 +1,6 @@
+{
+  "name": "marked",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"
+  ]
+}

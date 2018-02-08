@@ -1,0 +1,6 @@
+{
+  "name": "videojs-youtube",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.0.8/Youtube.min.js"
+  ]
+}

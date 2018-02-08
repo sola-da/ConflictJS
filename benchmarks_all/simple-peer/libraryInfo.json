@@ -1,0 +1,6 @@
+{
+  "name": "simple-peer",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/simple-peer/6.0.4/simplepeer.min.js"
+  ]
+}

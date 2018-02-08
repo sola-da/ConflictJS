@@ -1,0 +1,6 @@
+{
+  "name": "photoswipe",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"
+  ]
+}

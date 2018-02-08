@@ -1,0 +1,6 @@
+{
+  "name": "jquery.simpleWeather",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"
+  ]
+}

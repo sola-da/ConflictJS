@@ -1,0 +1,6 @@
+{
+  "name": "plupload",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/plupload/2.1.9/plupload.min.js"
+  ]
+}

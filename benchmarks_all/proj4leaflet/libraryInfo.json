@@ -1,0 +1,6 @@
+{
+  "name": "proj4leaflet",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/proj4leaflet/0.7.2/proj4leaflet.min.js"
+  ]
+}

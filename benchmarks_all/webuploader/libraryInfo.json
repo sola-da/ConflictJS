@@ -1,0 +1,6 @@
+{
+  "name": "webuploader",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/webuploader/0.1.1/webuploader.min.js"
+  ]
+}

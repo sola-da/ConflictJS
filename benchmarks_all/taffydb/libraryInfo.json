@@ -1,0 +1,6 @@
+{
+  "name": "taffydb",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/taffydb/2.7.2/taffy-min.js"
+  ]
+}

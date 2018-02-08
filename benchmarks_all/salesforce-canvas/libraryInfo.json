@@ -1,0 +1,6 @@
+{
+  "name": "salesforce-canvas",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/salesforce-canvas/27.0/canvas-all.min.js"
+  ]
+}

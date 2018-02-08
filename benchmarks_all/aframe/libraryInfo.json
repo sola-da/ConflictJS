@@ -1,0 +1,6 @@
+{
+  "name": "aframe",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/aframe/0.2.0/aframe.min.js"
+  ]
+}

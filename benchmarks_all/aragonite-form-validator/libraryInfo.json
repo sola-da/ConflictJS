@@ -1,0 +1,6 @@
+{
+  "name": "aragonite-form-validator",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/aragonite-form-validator/1.1.2/js/aragonite.min.js"
+  ]
+}

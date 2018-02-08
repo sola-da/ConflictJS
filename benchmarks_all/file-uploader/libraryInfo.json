@@ -1,0 +1,6 @@
+{
+  "name": "file-uploader",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/file-uploader/5.10.0/fine-uploader.min.js"
+  ]
+}

@@ -1,7 +1,5 @@
 # ConflictJS ⚔
 
---------------------------------------------------------------------------------
-
 ConflictJS is an approach that analyses and finds conflicts between JavaScript libraries.
 
 ## How it works?
@@ -18,17 +16,16 @@ The following experiments are run by our approach.
   - If a pair of libraries share the same global variable, and the type of variable is a non-function, check if the value of the variable is same for both libraries _(Value test)_.
   - If a pair of libraries share the same global variable, and the type of variable is a function, check if the behavior of variable is equivalent for both libraries _(Behavior test)_.
 
+
 ## Requirements and installation
 
-The tool has been tested to run on an Ubuntu 16.04 machine using Node.js 7\. The
-dependencies should be installed before running the experiments. Use the following
-commands to install all dependencies.
+The tool has been tested to run on an Ubuntu 16.04 machine using Node.js 7\. The dependencies should be installed before running the experiments. Use the following commands to install all dependencies.
 
 ```shell
 # Install the needed modules
 npm install
 
-# jalangi in particular needs some extra modules to be installed
+# jalangi in particular needs some extra modules to be install  ed
 cd node_modules/jalangi2
 npm install
 
@@ -38,12 +35,10 @@ cd ../../
 
 ## How to run a basic example?
 
-Let's assume that the approach needs to verify if two libraries _jsurl_ and _urljs_ are conflicting.
-
-- All experiments should be run from the current directory
-- Create two new directory called _benchmarks_ and _results_
-- Copy both library folders from _./benchmarks_all_ to _./benchmarks_
-- Also change the _exports.benchmarkDir_ & _resultDir_ configurations in the file _src/config.js_ to the following
+Let's assume that the approach needs to verify if two libraries _jsurl_ and _urljs_ are conflicting. All experiments should be run from the current directory
+1. Create two new directory called _benchmarks_ and _results_
+2. Copy both library folders from _./benchmarks_all_ to _./benchmarks_
+3. Also change the _exports.benchmarkDir_ & _resultDir_ configurations in the file _src/config.js_ to the following
 
   ```javascript
   let resultDir = "results";
@@ -51,7 +46,7 @@ Let's assume that the approach needs to verify if two libraries _jsurl_ and _url
   exports.benchmarkDir = "/benchmarks";
   ```
 
-- Now, issue the following command
+4. Now, issue the following command
 
   ```shell
   node src/runExperiments.js
@@ -61,40 +56,50 @@ This command needs to be run over and over unless all experiments finishes. The 
 
 ## Interpreting results
 
-At the end of the experiments, several files and directories gets created in the _resultDir_. The summary of all results is the content of _validated-conflicts.json_. For the particular example libraries the content of _validated-conflicts.json_
-is something like the following:
+At the end of the experiments, several files and directories gets created in the _resultDir_. The summary of all results is the content of _validated-conflicts.json_. For the particular example libraries the content of _validated-conflicts.json_ is something like the following:
+
 ```json
 {"typeTestßjsurl,urljs°Url":"ERROR object,Function"}
 ```
-#### Interpretation
-* The substring before the ß character denotes the experiment that found the conflict. For this case, the experiment is *typeTest* (Refer to Section 3.2.4 of the paper).
-* Next, the names of the libraries are separated by a comma (,)
-* After the ° character comes the name of the access path. In this case, the name of the access path is *Url*
-* Finally, there can be some message that gives some details about the cause of the
-conflict. For this case, the cause of the conflict is for the accesspath *Url* the types
-of the accesspath are  different in the libraries. For one library, it is an *object* while
-for the other it is *Function*
+
+The easiest way to check is to run the script
+
+```shell
+python src/utilities/getValidatedConflicts.py results/validated-conflicts.json
+```
+
+### Interpreting _validated-conflicts.json_
+
+- Each _key_ in the JSON file represents a combination of library names and accesspath. The _value_ represents the reason for the conflict
+- The substring before the ß character denotes the experiment that found the conflict. For this case, the experiment is _typeTest_ (Refer to Section 3.2.4 of the paper).
+- Next, the names of the libraries are separated by a comma (,). Here, the names of the libraries are jsurl and urljs.
+- After the ° character comes the name of the access path over which the libraries conflict. In this case, the name of the access path is _Url_
+- Finally, there can be some message that gives some details about the cause of the conflict. For this case,  the type of accesspath _Url_  is different in the libraries. For one library, it is an _object_ while for the other it is _Function_
+
+The choice of such characters like ß and ° is driven by the fact that common characters like $ and _are used by accesspaths or library names and we needed an easy way of separation. One may of-course change the separation characters in the file _src/config.js_.
 
 ## How to run any set of libraries?
 
 Copy the libraries for which potential conflicts needs to tested to the _benchmarks_ directory and repeat the previous steps.
 
-## How to run for a library not present in the *benchmarks_all* directory?
+## How to run for a library not present in the _benchmarks_all_ directory?
 
-Let's assume we want to include a library not present in the *benchmarks_all*
-directory. Let's call this new library as *test-lib*.
-* Create a new folder called *test-lib* in the *benchmarks* folder
-* Copy the library file *test-lib.js* to this newly created folder
-* Create a new file called *libraryInfo.json* with the following content
-```json
-{
+Let's assume we want to include a library not present in the _benchmarks_all_ directory. Let's call this new library as _test-lib_.
+
+- Create a new folder called _test-lib_ in the _benchmarks_ folder
+- Copy the library file _test-lib.js_ to this newly created folder
+- Create a new file called _libraryInfo.json_ with the following content
+
+  ```json
+  {
   "name": "test-lib",
   "urls": [
     "./test-lib.js"
   ]
-}
-```
-* You may now run the experiments as mentioned in the previous steps
+  }
+  ```
+
+- You may now run the experiments as mentioned in the previous steps
 
 ## Directory structure
 
@@ -128,7 +133,7 @@ directory. Let's call this new library as *test-lib*.
 
 ## Known issues
 
-- [ ] For some libraries, the global writes analyses has bug and might take a long time to
-finish
+- [ ] For some libraries, the global writes analyses has bug and
+might take very long time to finish
 - [ ] Generated tests do not get serialized for some libraries
 - [ ] For some access paths, the tool crashes

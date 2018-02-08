@@ -1,0 +1,6 @@
+{
+  "name": "idbwrapper",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/idbwrapper/1.7.0/idbstore.min.js"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "videomail-client",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/videomail-client/1.13.3/videomail-client.min.js"
+  ]
+}

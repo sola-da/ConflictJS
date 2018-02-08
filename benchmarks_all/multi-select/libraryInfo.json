@@ -1,0 +1,6 @@
+{
+  "name": "multi-select",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/multi-select/0.9.12/js/jquery.multi-select.min.js"
+  ]
+}

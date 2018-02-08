@@ -1,0 +1,6 @@
+{
+  "name": "flot.tooltip",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/flot.tooltip/0.8.7/jquery.flot.tooltip.min.js"
+  ]
+}

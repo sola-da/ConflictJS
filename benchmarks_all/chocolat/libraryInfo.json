@@ -1,0 +1,6 @@
+{
+  "name": "chocolat",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/chocolat/0.4.14/js/jquery.chocolat.min.js"
+  ]
+}

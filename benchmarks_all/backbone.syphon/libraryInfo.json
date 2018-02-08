@@ -1,0 +1,6 @@
+{
+  "name": "backbone.syphon",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/backbone.syphon/0.6.3/backbone.syphon.min.js"
+  ]
+}

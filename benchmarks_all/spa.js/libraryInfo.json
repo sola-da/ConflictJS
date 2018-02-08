@@ -1,0 +1,6 @@
+{
+  "name": "spa.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/spa.js/2.0.2/spa.min.js"
+  ]
+}

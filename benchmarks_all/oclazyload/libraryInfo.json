@@ -1,0 +1,6 @@
+{
+  "name": "oclazyload",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/oclazyload/1.0.9/ocLazyLoad.min.js"
+  ]
+}

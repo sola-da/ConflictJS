@@ -1,0 +1,6 @@
+{
+  "name": "bottleneck",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/bottleneck/1.12.0/bottleneck.min.js"
+  ]
+}

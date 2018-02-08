@@ -1,0 +1,6 @@
+{
+  "name": "hydra.js",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/hydra.js/3.9.12/hydra.min.js"
+  ]
+}

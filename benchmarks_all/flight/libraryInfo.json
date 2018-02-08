@@ -1,0 +1,6 @@
+{
+  "name": "flight",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/flight/1.1.4/flight.min.js"
+  ]
+}

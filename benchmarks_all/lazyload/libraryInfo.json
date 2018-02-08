@@ -1,0 +1,6 @@
+{
+  "name": "lazyload",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/lazyload/2.0.3/lazyload-min.js"
+  ]
+}

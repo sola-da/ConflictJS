@@ -1,0 +1,6 @@
+{
+  "name": "angularFire",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/angularFire/2.0.1/angularfire.min.js"
+  ]
+}

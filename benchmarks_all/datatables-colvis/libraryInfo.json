@@ -1,0 +1,6 @@
+{
+  "name": "datatables-colvis",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/datatables-colvis/1.1.2/js/dataTables.colVis.min.js"
+  ]
+}

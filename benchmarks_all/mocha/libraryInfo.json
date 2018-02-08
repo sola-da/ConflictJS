@@ -1,0 +1,6 @@
+{
+  "name": "mocha",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/mocha/2.5.3/mocha.min.js"
+  ]
+}
