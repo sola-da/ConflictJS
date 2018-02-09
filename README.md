@@ -17,28 +17,39 @@ The following experiments are run by our approach.
   - If a pair of libraries share the same global variable, and the type of variable is a function, check if the behavior of variable is equivalent for both libraries _(Behavior test)_.
 
 
-## Requirements and installation
+## Requirements and Setup
+The tool has been tested to run on an Ubuntu 16.04 machine using Node.js version 7 and
+chromium browser.
+All dependencies must be installed before running the experiments.
 
-The tool has been tested to run on an Ubuntu 16.04 machine using Node.js 7\. The dependencies should be installed before running the experiments. Use the following commands to install all dependencies.
+We provide a script *init.sh* that does all the steps mentioned below. You can
+either use the script or use the following commands to install all dependencies.
 
 ```shell
-# Install the needed modules
+# Install the chromium-browser
+sudo apt install chromium-browser
+
+# Install the needed node modules
 npm install
 
-# jalangi in particular needs some extra modules to be install  ed
+# jalangi in particular needs some extra modules to be installed
 cd node_modules/jalangi2
 npm install
 
 # Come back to the start directory
 cd ../../
+
+# Now, create two new directory called benchmarks and results
+mkdir -P benchmarks
+mkdir -P results
 ```
+
 
 ## How to run a basic example?
 
 Let's assume that the approach needs to verify if two libraries _jsurl_ and _urljs_ are conflicting. All experiments should be run from the current directory
-1. Create two new directory called _benchmarks_ and _results_
-2. Copy both library folders from _./benchmarks_all_ to _./benchmarks_
-3. Also change the _exports.benchmarkDir_ & _resultDir_ configurations in the file _src/config.js_ to the following
+1. Copy both library folders from _./benchmarks_all_ to _./benchmarks_
+2. Also change the _exports.benchmarkDir_ & _resultDir_ configurations in the file _src/config.js_ to the following
 
   ```javascript
   let resultDir = "results";
@@ -46,7 +57,7 @@ Let's assume that the approach needs to verify if two libraries _jsurl_ and _url
   exports.benchmarkDir = "/benchmarks";
   ```
 
-4. Now, issue the following command
+3. Now, issue the following command
 
   ```shell
   node src/runExperiments.js
