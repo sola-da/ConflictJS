@@ -13,7 +13,7 @@
 
 // The result file
     let currentDir = process.cwd();
-    let resultDir = "results_new";
+    let resultDir = "results";
 
     if (!pathExists(currentDir + '/' + resultDir)) fs.mkdirSync(currentDir + '/' + resultDir);
     exports.validatedProblematicLibrariesFile = currentDir + '/' + resultDir + '/validated-conflicts.json';
@@ -30,7 +30,7 @@
 // Need the following directories in order to function
     exports.resultsDirectory = resultDir;
     exports.generationDirectory = "/generated"; // A directory where all generated tests and HTML files are kept
-    exports.benchmarkDir = "/benchmarks_all"; // Contains libraryNames we want to test
+    exports.benchmarkDir = "/benchmarks"; // Contains libraryNames we want to test
     exports.htmlFragmentsDir = "src/htmlFragments"; // Contains libraryNames we want to test
     exports.globalWritesDir = "/global-writes/";
 })();

@@ -7,7 +7,6 @@ const fs = require('fs');
 
 const config = require('../../config');
 const libraries = require("../../utilities/libraries");
-const libsfromWebsites = require("../../utilities/websiteJSfiles");
 const baseDir = require("process").cwd() + '/';
 const unique = require('../../utilities/constructFileName');
 const pathExists = require('../../utilities/pathExists.js').pathExists;
@@ -89,8 +88,6 @@ function writeCrashingLibs(jobQueue) {
 
 function createJobs(jobQueue) {
     let allLibraries = libraries.allLibraries();
-    // let allLibraries = libsfromWebsites.allLibraries();
-
     // Find if inclusion of single library produces any exception
     filterInclusionCrashingLibs(allLibraries, jobQueue);
     let jobID = "Writing crashing libs";
