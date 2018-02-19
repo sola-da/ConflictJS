@@ -1,11 +1,14 @@
 # ConflictJS ⚔
 
 ConflictJS is an approach that analyses and finds conflicts between JavaScript libraries.
-If you want to include multiple libraries in a web application and
+If you want to include multiple libraries in a web application and is unsure that
+they might conflict with each other then our approach can be used to check for any
+possible conflicts.
+
 
 ## How it works?
 
-The following experiments are run by our approach.
+The following experiments are run by our approach to detect any possible conflict.
 
 1. Filter libraries that fail when included alone.
 2. Find global writes for each library that do not fail when included alone.
