@@ -5,7 +5,6 @@ If you want to include multiple libraries in a web application and is unsure tha
 they might conflict with each other then our approach can be used to check for any
 possible conflicts.
 
-
 ## How it works?
 
 The following experiments are run by our approach to detect any possible conflict.
@@ -125,6 +124,8 @@ Let's assume we want to include a library not present in the *benchmarks_all* di
 - You may now run the experiments as mentioned in the previous steps
 
 ## Directory structure
+- ./benchmarks_all
+    - Contains all libraries that has been used to test our approach.
 
 - ./src/config.js
 
