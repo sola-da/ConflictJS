@@ -2,6 +2,12 @@
 
 ConflictJS is an approach that analyzes and finds conflicts between JavaScript libraries. Such conflicts may arise because libraries write to the same global memory location. If you want to include multiple libraries in a web application and are unsure whether they conflict with each other, ConflictJS can check for possible conflicts.
 
+FOr details, please refer to this paper:
+
+[ConflictJS: Finding and Understanding Conflicts Between JavaScript Libraries](http://mp.binaervarianz.de/icse2018.pdf)
+Jibesh Patra, Pooja N. Dixit, Michael Pradel
+International Conference on Software Engineering (ICSE), 2018
+
 ## How does it work?
 
 The following steps are performed by ConflictJS to detect conflicts:
