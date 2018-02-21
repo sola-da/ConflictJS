@@ -79,7 +79,7 @@ The final results can be found in _resultDir_, as specified in the configuration
 
 ## Interpreting the results
 
-At the end of the experiments, several files and directories are created in the _resultDir_. The summary of all results is the content of _validated-conflicts.json_. For the particular example libraries the content of _validated-conflicts.json_ is something like the following:
+After running _runExperiments.js_ often enough, several files and directories are created in the _resultDir_. The summary of all results is the content of _validated-conflicts.json_. For the particular example libraries the content of _validated-conflicts.json_ is something like the following:
 
 ```json
 {"typeTestßjsurl,urljs°Url":"ERROR object,Function"}
