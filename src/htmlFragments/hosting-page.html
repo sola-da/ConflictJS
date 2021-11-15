@@ -10,19 +10,19 @@
         messages = new Map(),
         timeOutId = 0,
         extraTime = 0,
-        testsgen = [];
+        testsgen = []
     </script>
     <!--CLIENT_SCRIPT-->
     <script>
-      window.addEventListener("message", receiveMessage, true);
+      window.addEventListener("message", receiveMessage, true)
       //      Receive message from iframes
       function receiveMessage(event) {
         if (timeOutId !== 0) {
-          window.clearTimeout(timeOutId);
+          window.clearTimeout(timeOutId)
         }
-        messages.set(event.data, event.source);
-        extraTime = extraTime + event.timeStamp + 100;
-        timeOutId = window.setTimeout(checkMessages, event.timeStamp + 500);
+        messages.set(event.data, event.source)
+        extraTime = extraTime + event.timeStamp + 100
+        timeOutId = window.setTimeout(checkMessages, event.timeStamp + 500)
       }
       //        Send the results back to the server
       function sendBackToServer() {
@@ -34,19 +34,19 @@
             content: result_content,
             generatedTests: testsgen, // only for functions that conflict
           },
-        });
-        var request = new XMLHttpRequest();
-        request.open("POST", "http://localhost:3000/reportResult", true);
+        })
+        var request = new XMLHttpRequest()
+        request.open("POST", "http://localhost:3000/reportResult", true)
         request.setRequestHeader(
           "Content-Type",
           "application/json;charset=UTF-8"
-        );
-        request.send(stringData);
+        )
+        request.send(stringData)
 
-        timeToClose_BrowserTab = timeToClose_BrowserTab + extraTime;
+        timeToClose_BrowserTab = timeToClose_BrowserTab + extraTime
         window.setTimeout(function () {
-          close();
-        }, timeToClose_BrowserTab);
+          close()
+        }, timeToClose_BrowserTab)
       }
     </script>
   </head>

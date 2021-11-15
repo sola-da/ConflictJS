@@ -3,38 +3,38 @@
  */
 function checkMessages() {
   if (!testsGenerated) {
-    let generatedTests = new Map();
+    let generatedTests = new Map()
     if (messages.size > 1) {
       messages.forEach(function (val, key) {
-        let tests = [];
+        let tests = []
         try {
           tests = testGeneration.generateTests(
             [new testGeneration.APIObject("window", val, [accessPath])],
             NO_OF_TESTS,
             NO_OF_CALLS,
             true
-          );
+          )
         } catch (err) {
-          console.log("Test generation failed");
-          tests = [];
+          console.log("Test generation failed")
+          tests = []
         }
-        generatedTests.set(key, tests);
-        generatedTestsSize.push(tests.length);
-      });
+        generatedTests.set(key, tests)
+        generatedTestsSize.push(tests.length)
+      })
     }
 
     // Check the number of tests generated for each library
     let testSizes = generatedTestsSize.filter((num) => {
-      return num > 0;
-    }).length;
+      return num > 0
+    }).length
     // If tests could not be generated for both of the libraries
     if (testSizes == 0) {
-      result_content = "NOT SURE - Tests could not be generated for both";
-      window.setTimeout(sendBackToServer, 100);
+      result_content = "NOT SURE - Tests could not be generated for both"
+      window.setTimeout(sendBackToServer, 100)
     } else if (testSizes == 1) {
       // Tests could not be generated for one of the library
-      result_content = "NOT SURE - Tests could not be generated for one";
-      window.setTimeout(sendBackToServer, 100);
+      result_content = "NOT SURE - Tests could not be generated for one"
+      window.setTimeout(sendBackToServer, 100)
     } else {
       messages.forEach(function (val, key) {
         generatedTests.forEach(function (tests, key_gen) {
@@ -44,16 +44,16 @@ function checkMessages() {
                          val.postMessage([], "*");
                          }*/
             tests.forEach((test) => {
-              testsgen.push(test);
-              val.postMessage(test, "*"); // Send the test for execution
-            });
+              testsgen.push(test)
+              val.postMessage(test, "*") // Send the test for execution
+            })
             // let result = executeGeneratedTests(test);
           }
-        });
-      });
+        })
+      })
     }
-    testsGenerated = true;
-    messages.clear();
+    testsGenerated = true
+    messages.clear()
   } else {
     messages.forEach(function (val, key) {
       if (key === "ERROR") {
@@ -63,9 +63,9 @@ function checkMessages() {
         // Access path: Class
 
         result_content =
-          key /*+ ' no. of generated tests is ' + generatedTestsSize*/;
-      } else testsgen = []; // Empty the generated tests if there is no error
-    });
-    window.setTimeout(sendBackToServer, 100);
+          key /*+ ' no. of generated tests is ' + generatedTestsSize*/
+      } else testsgen = [] // Empty the generated tests if there is no error
+    })
+    window.setTimeout(sendBackToServer, 100)
   }
 }

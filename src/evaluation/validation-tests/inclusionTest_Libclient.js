@@ -3,9 +3,9 @@
  */
 
 window.onerror = function (e) {
-  message = "ERROR";
-};
-window.setTimeout(sendMessage, 1000);
+  message = "ERROR"
+}
+window.setTimeout(sendMessage, 1000)
 function sendMessage() {
-  window.parent.postMessage(message, "*");
+  window.parent.postMessage(message, "*")
 }

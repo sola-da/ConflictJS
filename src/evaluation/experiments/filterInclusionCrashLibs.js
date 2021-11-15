@@ -3,25 +3,25 @@
  *
  * Filter those libs that fail when included alone. The filtered libs are not part of our evaluations
  */
-const fs = require("fs");
+const fs = require("fs")
 
-const config = require("../../config");
-const libraries = require("../../utilities/libraries");
-const baseDir = require("process").cwd() + "/";
-const unique = require("../../utilities/constructFileName");
-const pathExists = require("../../utilities/pathExists.js").pathExists;
+const config = require("../../config")
+const libraries = require("../../utilities/libraries")
+const baseDir = require("process").cwd() + "/"
+const unique = require("../../utilities/constructFileName")
+const pathExists = require("../../utilities/pathExists.js").pathExists
 const resultsDirectory =
-  baseDir + config.resultsDirectory + "/filter-inclusion-crash/"; // The directory where the final  global writes go
+  baseDir + config.resultsDirectory + "/filter-inclusion-crash/" // The directory where the final  global writes go
 
-const htmlgen = require("../../utilities/generate-html");
-const addJobs = require("../../utilities/addJobs");
+const htmlgen = require("../../utilities/generate-html")
+const addJobs = require("../../utilities/addJobs")
 
-const filterInclusionCrashJobIdPrefix = "filter-inclusion-crash";
+const filterInclusionCrashJobIdPrefix = "filter-inclusion-crash"
 
 function filterInclusionCrashingLibs(allLibraries, jobQueue) {
   for (let i = 0; i < allLibraries.length; i++) {
-    let library = allLibraries[i];
-    let libraryName = library.name;
+    let library = allLibraries[i]
+    let libraryName = library.name
     let validationTest = {
       name: filterInclusionCrashJobIdPrefix,
       libraryNames: [libraryName],
@@ -37,26 +37,26 @@ function filterInclusionCrashingLibs(allLibraries, jobQueue) {
       generatedDir: baseDir + "generated/",
       fragmentDir: baseDir + config.htmlFragmentsDir,
       urlprefix: "http://localhost:3000/generated/",
-    };
+    }
 
     if (!pathExists(resultsDirectory)) {
-      fs.mkdirSync(resultsDirectory);
+      fs.mkdirSync(resultsDirectory)
     }
 
     if (!pathExists(validationTest.generatedDir)) {
-      fs.mkdirSync(validationTest.generatedDir);
+      fs.mkdirSync(validationTest.generatedDir)
     }
 
-    let filename = unique.constructUniqueFilename(validationTest);
-    validationTest.resultFilePath = resultsDirectory + filename + ".json";
+    let filename = unique.constructUniqueFilename(validationTest)
+    validationTest.resultFilePath = resultsDirectory + filename + ".json"
 
     if (!pathExists(validationTest.resultFilePath)) {
       validationTest.libraryPaths[libraryName] =
-        libraries.libraryByName(libraryName).libraryFiles[0]; // Currently considering the first file
-      htmlgen.filterInclusionCrashLibs(validationTest);
+        libraries.libraryByName(libraryName).libraryFiles[0] // Currently considering the first file
+      htmlgen.filterInclusionCrashLibs(validationTest)
 
-      let dependence = []; // no dependence since this is the first test I am running
-      addJobs.addtoqueue(validationTest, jobQueue, dependence);
+      let dependence = [] // no dependence since this is the first test I am running
+      addJobs.addtoqueue(validationTest, jobQueue, dependence)
     }
   }
 }
@@ -64,21 +64,21 @@ function filterInclusionCrashingLibs(allLibraries, jobQueue) {
 /* Write the libraries that crash on including alone to json file */
 function writeCrashingLibs(jobQueue) {
   let resultFiles = fs.readdirSync(resultsDirectory).filter(function (elem) {
-    return fs.lstatSync(resultsDirectory + "/" + elem).isFile();
-  });
-  let crashingLibs = new Set();
+    return fs.lstatSync(resultsDirectory + "/" + elem).isFile()
+  })
+  let crashingLibs = new Set()
   for (let i = 0; i < resultFiles.length; i++) {
-    let resultFile = resultFiles[i];
+    let resultFile = resultFiles[i]
     let rawresults = JSON.parse(
       fs.readFileSync(resultsDirectory + "/" + resultFile, { encoding: "utf8" })
-    );
-    let errorPattern = new RegExp("w*(ERROR)", "i");
+    )
+    let errorPattern = new RegExp("w*(ERROR)", "i")
     for (let key in rawresults) {
-      let data = rawresults[key];
+      let data = rawresults[key]
 
       if (errorPattern.test(data)) {
-        let libname = resultFile.split(config.accessPathSeparationChar)[0];
-        crashingLibs.add(libname);
+        let libname = resultFile.split(config.accessPathSeparationChar)[0]
+        crashingLibs.add(libname)
       }
     }
   }
@@ -86,21 +86,21 @@ function writeCrashingLibs(jobQueue) {
   fs.writeFileSync(
     config.singleLibCrashingFile,
     JSON.stringify([...crashingLibs])
-  );
-  setTimeout(jobQueue.markDone.bind(null, "Writing crashing libs"));
+  )
+  setTimeout(jobQueue.markDone.bind(null, "Writing crashing libs"))
 }
 
 function createJobs(jobQueue) {
-  let allLibraries = libraries.allLibraries();
+  let allLibraries = libraries.allLibraries()
   // Find if inclusion of single library produces any exception
-  filterInclusionCrashingLibs(allLibraries, jobQueue);
-  let jobID = "Writing crashing libs";
+  filterInclusionCrashingLibs(allLibraries, jobQueue)
+  let jobID = "Writing crashing libs"
   jobQueue.newJob(
     jobID,
     [new RegExp(filterInclusionCrashJobIdPrefix)],
     writeCrashingLibs.bind(null, jobQueue)
-  );
+  )
 }
 
-exports.filterInclusionCrashJobIdPrefix = filterInclusionCrashJobIdPrefix;
-exports.createJobs = createJobs;
+exports.filterInclusionCrashJobIdPrefix = filterInclusionCrashJobIdPrefix
+exports.createJobs = createJobs

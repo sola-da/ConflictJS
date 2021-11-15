@@ -30,20 +30,20 @@
             content: globalWritesTypes,
             generatedTests: [],
           },
-        });
-        var request = new XMLHttpRequest();
-        request.open("POST", "http://localhost:3000/reportResult", true);
+        })
+        var request = new XMLHttpRequest()
+        request.open("POST", "http://localhost:3000/reportResult", true)
         request.setRequestHeader(
           "Content-Type",
           "application/json;charset=UTF-8"
-        );
-        request.send(stringData);
+        )
+        request.send(stringData)
 
         window.setTimeout(function () {
-          close();
-        }, timeToClose_BrowserTab);
+          close()
+        }, timeToClose_BrowserTab)
       }
-      J$.analysis.endExecution();
+      J$.analysis.endExecution()
     </script>
   </head>
   <body>

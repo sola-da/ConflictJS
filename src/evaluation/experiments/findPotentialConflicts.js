@@ -9,63 +9,63 @@
  * Later these libraryNames that are potentially conflicting are checked in
  * pairs to validate the conflict. (Not in this file)
  */
-(function () {
-  let baseDir = require("process").cwd();
-  const config = require("../../config");
-  const pathExists = require("../../utilities/pathExists.js").pathExists;
+;(function () {
+  let baseDir = require("process").cwd()
+  const config = require("../../config")
+  const pathExists = require("../../utilities/pathExists.js").pathExists
   const globalWritesDir =
-    baseDir + "/" + config.resultsDirectory + "/global-writes/";
+    baseDir + "/" + config.resultsDirectory + "/global-writes/"
   const globalWritesjobidprefix =
-    require("./findGlobalWrites").globalWritesAnalysisJobIdPrefix;
+    require("./findGlobalWrites").globalWritesAnalysisJobIdPrefix
 
-  let fs = require("fs");
-  let jobID = "Finding potential conflicts across all libraryNames";
+  let fs = require("fs")
+  let jobID = "Finding potential conflicts across all libraryNames"
 
   function findPotentialConflicts(jobQueue) {
-    let globalPathToLibs = {};
+    let globalPathToLibs = {}
     // console.log(globalWritesDir);
     if (!pathExists(globalWritesDir)) {
-      setTimeout(jobQueue.markDone.bind(null, jobID));
-      return;
+      setTimeout(jobQueue.markDone.bind(null, jobID))
+      return
     }
     let globalWriteResultFiles = fs
       .readdirSync(globalWritesDir)
       .filter(function (elem) {
-        return fs.lstatSync(globalWritesDir + "/" + elem).isFile();
-      });
+        return fs.lstatSync(globalWritesDir + "/" + elem).isFile()
+      })
     // sort global access paths by libraryNames that write to them
-    let nbIgnoredLibraries = 0;
+    let nbIgnoredLibraries = 0
     for (let i = 0; i < globalWriteResultFiles.length; i++) {
-      let globalWriteResultFile = globalWriteResultFiles[i];
+      let globalWriteResultFile = globalWriteResultFiles[i]
       let libraryName = globalWriteResultFile.split(
         config.accessPathSeparationChar
-      )[0];
+      )[0]
       let globalWritesRaw = fs.readFileSync(
         globalWritesDir + "/" + globalWriteResultFile,
         { encoding: "utf8" }
-      );
+      )
 
       if (globalWritesRaw === "undefined") {
-        nbIgnoredLibraries++;
+        nbIgnoredLibraries++
       } else {
-        let globalWrites = JSON.parse(globalWritesRaw);
-        let writtenPaths = Object.keys(globalWrites);
+        let globalWrites = JSON.parse(globalWritesRaw)
+        let writtenPaths = Object.keys(globalWrites)
         for (let j = 0; j < writtenPaths.length; j++) {
-          let writtenPath = writtenPaths[j];
-          let librariesForPath = globalPathToLibs[writtenPath] || {};
-          librariesForPath[libraryName] = globalWrites[writtenPath]; // The type of access path
-          globalPathToLibs[writtenPath] = librariesForPath;
+          let writtenPath = writtenPaths[j]
+          let librariesForPath = globalPathToLibs[writtenPath] || {}
+          librariesForPath[libraryName] = globalWrites[writtenPath] // The type of access path
+          globalPathToLibs[writtenPath] = librariesForPath
         }
       }
     }
 
     // find paths with at least two writers
-    let finalGlobalPathToLibs = {};
-    let globalPaths = Object.keys(globalPathToLibs);
+    let finalGlobalPathToLibs = {}
+    let globalPaths = Object.keys(globalPathToLibs)
     for (let i = 0; i < globalPaths.length; i++) {
-      let globalPath = globalPaths[i];
+      let globalPath = globalPaths[i]
       if (Object.keys(globalPathToLibs[globalPath]).length > 1) {
-        finalGlobalPathToLibs[globalPath] = globalPathToLibs[globalPath];
+        finalGlobalPathToLibs[globalPath] = globalPathToLibs[globalPath]
       }
     }
 
@@ -74,14 +74,14 @@
         nbIgnoredLibraries +
         "/" +
         globalWriteResultFiles.length
-    );
+    )
 
     fs.writeFileSync(
       baseDir + "/" + config.resultsDirectory + "/potentialConflicts.json",
       JSON.stringify(finalGlobalPathToLibs, 0, 2)
-    );
+    )
 
-    setTimeout(jobQueue.markDone.bind(null, jobID));
+    setTimeout(jobQueue.markDone.bind(null, jobID))
   }
 
   function createJobs(jobQueue) {
@@ -89,9 +89,9 @@
       jobID,
       [new RegExp(globalWritesjobidprefix)],
       findPotentialConflicts.bind(null, jobQueue)
-    );
+    )
   }
 
-  exports.createJobs = createJobs;
-  exports.jobID = jobID;
-})();
+  exports.createJobs = createJobs
+  exports.jobID = jobID
+})()

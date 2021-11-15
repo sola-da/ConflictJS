@@ -1,11 +1,11 @@
 /**
  * Created by jibesh on 09.09.16.
  */
-(function () {
-  const fs = require("fs");
+;(function () {
+  const fs = require("fs")
 
   function pathExists(path) {
-    let fileExists = true;
+    let fileExists = true
     try {
       /* Check if the file exists.
        * Using this, since fs.existsSync is deprecated.
@@ -13,12 +13,12 @@
        *
        * Need node ~= 6.5.0
        * */
-      fs.accessSync(path, fs.constants.F_OK);
+      fs.accessSync(path, fs.constants.F_OK)
     } catch (err) {
-      fileExists = false;
+      fileExists = false
     }
-    return fileExists;
+    return fileExists
   }
 
-  exports.pathExists = pathExists;
-})();
+  exports.pathExists = pathExists
+})()

@@ -5,9 +5,9 @@ function checkMessages() {
   if (messages.size > 0) {
     messages.forEach(function (val, key) {
       if (key === "ERROR") {
-        result_content = key;
+        result_content = key
       }
-    });
+    })
   }
-  window.setTimeout(sendBackToServer, 100);
+  window.setTimeout(sendBackToServer, 100)
 }

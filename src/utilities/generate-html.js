@@ -1,10 +1,10 @@
 /**
  * Created by Jibesh Patra on 28-Mar-2017.
  */
-(function () {
-  const fs = require("fs");
-  const config = require("../config");
-  const constructFileName = require("./constructFileName").constructFilename;
+;(function () {
+  const fs = require("fs")
+  const config = require("../config")
+  const constructFileName = require("./constructFileName").constructFilename
 
   /**
    * Return a random color from the CSS_COLOR_NAMES array
@@ -159,8 +159,8 @@
       "WhiteSmoke",
       "Yellow",
       "YellowGreen",
-    ];
-    return cssColors[Math.floor(Math.random() * cssColors.length)];
+    ]
+    return cssColors[Math.floor(Math.random() * cssColors.length)]
   }
 
   /* Generate HTML files to test if inclusion of single library crashes */
@@ -168,36 +168,36 @@
     let htmltemplate = fs.readFileSync(
       validationTest.fragmentDir + "/filterInclusionCrash.html",
       { encoding: "utf8" }
-    );
+    )
 
-    let libraryName = validationTest.libraryNames[0];
-    let htmlFileNameInclLib = libraryName + validationTest.name + ".html";
-    let libFilePath = validationTest.generatedDir + htmlFileNameInclLib;
+    let libraryName = validationTest.libraryNames[0]
+    let htmlFileNameInclLib = libraryName + validationTest.name + ".html"
+    let libFilePath = validationTest.generatedDir + htmlFileNameInclLib
     let librarySrc =
       ".." +
       config.benchmarkDir +
       "/" +
       libraryName +
       "/" +
-      validationTest.libraryPaths[libraryName];
-    let resultfile = validationTest.resultFilePath;
-    let typeOfTest = libraryName + validationTest.name;
+      validationTest.libraryPaths[libraryName]
+    let resultfile = validationTest.resultFilePath
+    let typeOfTest = libraryName + validationTest.name
 
-    let src = "\t<script src='" + librarySrc + "'></script>";
+    let src = "\t<script src='" + librarySrc + "'></script>"
 
     htmltemplate = htmltemplate
       .split("<!--__RESULT_FILE__PATH-->")
-      .join(resultfile);
+      .join(resultfile)
     htmltemplate = htmltemplate
       .split("<!--__TYPE_OF_TEST__-->")
-      .join(typeOfTest);
-    htmltemplate = htmltemplate.split("<!--SRC-->").join(src);
-    htmltemplate = htmltemplate.split("<!--NAME-->").join(libraryName);
+      .join(typeOfTest)
+    htmltemplate = htmltemplate.split("<!--SRC-->").join(src)
+    htmltemplate = htmltemplate.split("<!--NAME-->").join(libraryName)
 
-    validationTest.jobIds.add(typeOfTest);
+    validationTest.jobIds.add(typeOfTest)
     validationTest.htmlURLs[typeOfTest] =
-      validationTest.urlprefix + htmlFileNameInclLib;
-    fs.writeFileSync(libFilePath, htmltemplate);
+      validationTest.urlprefix + htmlFileNameInclLib
+    fs.writeFileSync(libFilePath, htmltemplate)
   }
 
   /* To generate single inclusion tests and global write analysis*/
@@ -205,36 +205,36 @@
     let htmltemplate = fs.readFileSync(
       validationTest.fragmentDir + "/analyze.html",
       { encoding: "utf8" }
-    );
+    )
 
-    let libraryName = validationTest.libraryNames[0];
-    let htmlFileNameInclLib = libraryName + validationTest.name + ".html";
-    let libFilePath = validationTest.generatedDir + htmlFileNameInclLib;
+    let libraryName = validationTest.libraryNames[0]
+    let htmlFileNameInclLib = libraryName + validationTest.name + ".html"
+    let libFilePath = validationTest.generatedDir + htmlFileNameInclLib
     let librarySrc =
       ".." +
       config.benchmarkDir +
       "/" +
       libraryName +
       "/" +
-      validationTest.libraryPaths[libraryName];
-    let resultfile = validationTest.resultFilePath;
-    let typeOfTest = libraryName + validationTest.name;
+      validationTest.libraryPaths[libraryName]
+    let resultfile = validationTest.resultFilePath
+    let typeOfTest = libraryName + validationTest.name
 
-    let src = "\t<script src='" + librarySrc + "'></script>";
+    let src = "\t<script src='" + librarySrc + "'></script>"
 
-    htmltemplate = htmltemplate.split("<!--SRC-->").join(src);
-    htmltemplate = htmltemplate.split("<!--NAME-->").join(libraryName);
+    htmltemplate = htmltemplate.split("<!--SRC-->").join(src)
+    htmltemplate = htmltemplate.split("<!--NAME-->").join(libraryName)
     htmltemplate = htmltemplate
       .split("<!--__RESULT_FILE__PATH-->")
-      .join(resultfile);
+      .join(resultfile)
     htmltemplate = htmltemplate
       .split("<!--__TYPE_OF_TEST__-->")
-      .join(typeOfTest);
+      .join(typeOfTest)
 
-    validationTest.jobIds.add(typeOfTest);
+    validationTest.jobIds.add(typeOfTest)
     validationTest.htmlURLs[typeOfTest] =
-      validationTest.urlprefix + htmlFileNameInclLib;
-    fs.writeFileSync(libFilePath, htmltemplate);
+      validationTest.urlprefix + htmlFileNameInclLib
+    fs.writeFileSync(libFilePath, htmltemplate)
   }
 
   /**
@@ -257,21 +257,21 @@
   ) {
     let libIframeTemplate = fs.readFileSync(fragmentDir + "/library.html", {
       encoding: "utf8",
-    });
-    let src = "\t<script src='" + librarySrc + "'></script>";
-    libIframeTemplate = libIframeTemplate.split("<!--SRC-->").join(src);
-    libIframeTemplate = libIframeTemplate.split("<!--NAME-->").join(name);
+    })
+    let src = "\t<script src='" + librarySrc + "'></script>"
+    libIframeTemplate = libIframeTemplate.split("<!--SRC-->").join(src)
+    libIframeTemplate = libIframeTemplate.split("<!--NAME-->").join(name)
     libIframeTemplate = libIframeTemplate
       .split("<!--__CLIENT_CODE__-->")
-      .join(LibraryClientCode);
-    libIframeTemplate = libIframeTemplate.split("COLOR").join(getRandomColor());
+      .join(LibraryClientCode)
+    libIframeTemplate = libIframeTemplate.split("COLOR").join(getRandomColor())
 
-    fs.writeFileSync(libFilePath, libIframeTemplate);
+    fs.writeFileSync(libFilePath, libIframeTemplate)
     return (
       "\n\t<iframe src=" +
       libFileURL +
       ' frameborder="0" width="200" height="50" scrolling="no">iframes-not-supported</iframe>'
-    );
+    )
   }
 
   // Generate iframes that contain two libraries lib1,lib2 and lib2,lib1
@@ -282,8 +282,8 @@
   ) {
     let libIframeTemplate = fs.readFileSync(fragmentDir + "/library.html", {
       encoding: "utf8",
-    });
-    let lib1_name = validationTest.libraryNames[0];
+    })
+    let lib1_name = validationTest.libraryNames[0]
     let lib1_src =
       "\t<script src='" +
       ".." +
@@ -292,8 +292,8 @@
       lib1_name +
       "/" +
       validationTest.libraryPaths[lib1_name] +
-      "'></script>\n";
-    let lib2_name = validationTest.libraryNames[1];
+      "'></script>\n"
+    let lib2_name = validationTest.libraryNames[1]
     let lib2_src =
       "\t<script src='" +
       ".." +
@@ -302,54 +302,54 @@
       lib2_name +
       "/" +
       validationTest.libraryPaths[lib2_name] +
-      "'></script>\n";
+      "'></script>\n"
 
     // lib1 - lib2
     let iframeFileName =
-      lib1_name + lib2_name + validationTest.name + "_iframe.html";
-    let iframeFilePath = validationTest.generatedDir + iframeFileName;
-    let iframeURL = validationTest.urlprefix + iframeFileName;
+      lib1_name + lib2_name + validationTest.name + "_iframe.html"
+    let iframeFilePath = validationTest.generatedDir + iframeFileName
+    let iframeURL = validationTest.urlprefix + iframeFileName
 
     libIframeTemplate = libIframeTemplate
       .split("<!--SRC-->")
-      .join(lib1_src + lib2_src);
+      .join(lib1_src + lib2_src)
     libIframeTemplate = libIframeTemplate
       .split("<!--NAME-->")
-      .join(lib1_name + lib2_name);
+      .join(lib1_name + lib2_name)
     libIframeTemplate = libIframeTemplate
       .split("<!--__CLIENT_CODE__-->")
-      .join(LibraryClientCode);
-    libIframeTemplate = libIframeTemplate.split("COLOR").join(getRandomColor());
-    fs.writeFileSync(iframeFilePath, libIframeTemplate);
+      .join(LibraryClientCode)
+    libIframeTemplate = libIframeTemplate.split("COLOR").join(getRandomColor())
+    fs.writeFileSync(iframeFilePath, libIframeTemplate)
     validationTest.libIframes[lib1_name + lib2_name] =
       "\n\t<iframe src=" +
       iframeURL +
-      ' frameborder="0" width="200" height="50" scrolling="no">iframes-not-supported</iframe>';
+      ' frameborder="0" width="200" height="50" scrolling="no">iframes-not-supported</iframe>'
 
     // lib2 - lib1
     libIframeTemplate = fs.readFileSync(fragmentDir + "/library.html", {
       encoding: "utf8",
-    });
+    })
     iframeFileName =
-      lib2_name + lib1_name + validationTest.name + "_iframe.html";
-    iframeFilePath = validationTest.generatedDir + iframeFileName;
-    iframeURL = validationTest.urlprefix + iframeFileName;
+      lib2_name + lib1_name + validationTest.name + "_iframe.html"
+    iframeFilePath = validationTest.generatedDir + iframeFileName
+    iframeURL = validationTest.urlprefix + iframeFileName
 
     libIframeTemplate = libIframeTemplate
       .split("<!--SRC-->")
-      .join(lib2_src + lib1_src);
+      .join(lib2_src + lib1_src)
     libIframeTemplate = libIframeTemplate
       .split("<!--NAME-->")
-      .join(lib2_name + lib1_name);
+      .join(lib2_name + lib1_name)
     libIframeTemplate = libIframeTemplate
       .split("<!--__CLIENT_CODE__-->")
-      .join(LibraryClientCode);
-    libIframeTemplate = libIframeTemplate.split("COLOR").join(getRandomColor());
-    fs.writeFileSync(iframeFilePath, libIframeTemplate);
+      .join(LibraryClientCode)
+    libIframeTemplate = libIframeTemplate.split("COLOR").join(getRandomColor())
+    fs.writeFileSync(iframeFilePath, libIframeTemplate)
     validationTest.libIframes[lib2_name + lib1_name] =
       "\n\t<iframe src=" +
       iframeURL +
-      ' frameborder="0" width="200" height="50" scrolling="no">iframes-not-supported</iframe>';
+      ' frameborder="0" width="200" height="50" scrolling="no">iframes-not-supported</iframe>'
   }
 
   /* All experiments use the same HTML templates. Generate the templates in the beginning with space for client generation
@@ -383,12 +383,12 @@
     hostingPageClient,
     LibraryClientCode
   ) {
-    let fragmentDir = validationTest.fragmentDir;
+    let fragmentDir = validationTest.fragmentDir
     let hostinghtmlTemplate = fs.readFileSync(
       fragmentDir + "/hosting-page.html",
       { encoding: "utf8" }
-    );
-    let libfilename, libFilePath, libFileURL;
+    )
+    let libfilename, libFilePath, libFileURL
 
     validationTest.libraryNames.forEach((libraryName) => {
       let src =
@@ -397,10 +397,10 @@
         "/" +
         libraryName +
         "/" +
-        validationTest.libraryPaths[libraryName];
-      libfilename = libraryName + validationTest.name + "_iframe.html";
-      libFilePath = validationTest.generatedDir + libfilename;
-      libFileURL = validationTest.urlprefix + libfilename;
+        validationTest.libraryPaths[libraryName]
+      libfilename = libraryName + validationTest.name + "_iframe.html"
+      libFilePath = validationTest.generatedDir + libfilename
+      libFileURL = validationTest.urlprefix + libfilename
       validationTest.libIframes[libraryName] = generateiframes(
         src,
         libraryName,
@@ -408,137 +408,137 @@
         libFileURL,
         LibraryClientCode,
         fragmentDir
-      );
-    });
-    let lib1 = validationTest.libraryNames[0];
-    let lib2 = validationTest.libraryNames[1];
-    let accessPath = validationTest.accessPath;
-    let resultfile = validationTest.resultFilePath;
+      )
+    })
+    let lib1 = validationTest.libraryNames[0]
+    let lib2 = validationTest.libraryNames[1]
+    let accessPath = validationTest.accessPath
+    let resultfile = validationTest.resultFilePath
 
     // Generates iframes that contain both lib1-lib2 and lib2-lib1
-    generateCombinedIframes(validationTest, LibraryClientCode, fragmentDir);
+    generateCombinedIframes(validationTest, LibraryClientCode, fragmentDir)
 
     // Common for all hosting pages
     hostinghtmlTemplate = hostinghtmlTemplate
       .split("<!--CLIENT_SCRIPT-->")
-      .join(hostingPageClient);
+      .join(hostingPageClient)
     hostinghtmlTemplate = hostinghtmlTemplate
       .split("<!--__RESULT_FILE__PATH-->")
-      .join(resultfile);
-    let generatedHTML, typeOfTest;
+      .join(resultfile)
+    let generatedHTML, typeOfTest
 
     //    One =>
     typeOfTest = constructFileName(
       validationTest.name,
       [lib1, lib2],
       accessPath
-    );
-    populateHTMLStats(validationTest, typeOfTest);
+    )
+    populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
       .split("<!--LIB_IFRAME_HOLDER-->")
-      .join(validationTest.libIframes[lib1] + validationTest.libIframes[lib2]);
+      .join(validationTest.libIframes[lib1] + validationTest.libIframes[lib2])
     generatedHTML = generatedHTML
       .split("<!--__TYPE_OF_TEST__-->")
-      .join(typeOfTest);
-    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML);
+      .join(typeOfTest)
+    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
     //    Two =>
     typeOfTest = constructFileName(
       validationTest.name,
       [lib1, lib2, lib1],
       accessPath
-    );
-    populateHTMLStats(validationTest, typeOfTest);
+    )
+    populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
       .split("<!--LIB_IFRAME_HOLDER-->")
       .join(
         validationTest.libIframes[lib1 + lib2] + validationTest.libIframes[lib1]
-      );
+      )
     generatedHTML = generatedHTML
       .split("<!--__TYPE_OF_TEST__-->")
-      .join(typeOfTest);
-    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML);
+      .join(typeOfTest)
+    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
     //    Three =>
     typeOfTest = constructFileName(
       validationTest.name,
       [lib2, lib1, lib1],
       accessPath
-    );
-    populateHTMLStats(validationTest, typeOfTest);
+    )
+    populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
       .split("<!--LIB_IFRAME_HOLDER-->")
       .join(
         validationTest.libIframes[lib2 + lib1] + validationTest.libIframes[lib1]
-      );
+      )
     generatedHTML = generatedHTML
       .split("<!--__TYPE_OF_TEST__-->")
-      .join(typeOfTest);
-    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML);
+      .join(typeOfTest)
+    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
     //    Four =>
     typeOfTest = constructFileName(
       validationTest.name,
       [lib1, lib2, lib2],
       accessPath
-    );
-    populateHTMLStats(validationTest, typeOfTest);
+    )
+    populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
       .split("<!--LIB_IFRAME_HOLDER-->")
       .join(
         validationTest.libIframes[lib1 + lib2] + validationTest.libIframes[lib2]
-      );
+      )
     generatedHTML = generatedHTML
       .split("<!--__TYPE_OF_TEST__-->")
-      .join(typeOfTest);
-    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML);
+      .join(typeOfTest)
+    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
     //    Five =>
     typeOfTest = constructFileName(
       validationTest.name,
       [lib2, lib1, lib2],
       accessPath
-    );
-    populateHTMLStats(validationTest, typeOfTest);
+    )
+    populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
       .split("<!--LIB_IFRAME_HOLDER-->")
       .join(
         validationTest.libIframes[lib2 + lib1] + validationTest.libIframes[lib2]
-      );
+      )
     generatedHTML = generatedHTML
       .split("<!--__TYPE_OF_TEST__-->")
-      .join(typeOfTest);
-    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML);
+      .join(typeOfTest)
+    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
     //    Six =>
     typeOfTest = constructFileName(
       validationTest.name,
       [lib1, lib2, lib2, lib1],
       accessPath
-    );
-    populateHTMLStats(validationTest, typeOfTest);
+    )
+    populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
       .split("<!--LIB_IFRAME_HOLDER-->")
       .join(
         validationTest.libIframes[lib1 + lib2] +
           validationTest.libIframes[lib2 + lib1]
-      );
+      )
     generatedHTML = generatedHTML
       .split("<!--__TYPE_OF_TEST__-->")
-      .join(typeOfTest);
-    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML);
+      .join(typeOfTest)
+    fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
   }
 
   function populateHTMLStats(validationTest, typeOfTest) {
-    let htmlFileName = typeOfTest + ".html";
-    validationTest.jobIds.add(typeOfTest);
+    let htmlFileName = typeOfTest + ".html"
+    validationTest.jobIds.add(typeOfTest)
     validationTest.htmlFilePaths[typeOfTest] =
-      validationTest.generatedDir + htmlFileName;
+      validationTest.generatedDir + htmlFileName
     validationTest.htmlURLs[typeOfTest] =
-      validationTest.urlprefix + htmlFileName;
+      validationTest.urlprefix + htmlFileName
   }
 
-  exports.filterInclusionCrashLibs = filterInclusionCrashLibs;
-  exports.globalWriteAnalysis = globalWriteAnalysis;
-  exports.generateTemplate = generateTemplate;
-})();
+  exports.filterInclusionCrashLibs = filterInclusionCrashLibs
+  exports.globalWriteAnalysis = globalWriteAnalysis
+  exports.generateTemplate = generateTemplate
+})()

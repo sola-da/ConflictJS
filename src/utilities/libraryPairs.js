@@ -2,20 +2,20 @@
  * Created by Jibesh Patra on 19-Dec-2016.
  */
 
-(function () {
+;(function () {
   /* Take an array of libraryNames and find pairs and returns in an Array */
   function libraryPairs(libraries) {
     if (libraries.length === 1) {
-      return [libraries];
+      return [libraries]
     }
-    let pairedArray = [];
+    let pairedArray = []
     libraries.forEach((element, index, ar) => {
       for (let i = index + 1; i < ar.length; i++) {
-        if (i !== index) pairedArray.push([element, ar[i]]);
+        if (i !== index) pairedArray.push([element, ar[i]])
       }
-    });
-    return pairedArray;
+    })
+    return pairedArray
   }
 
-  exports.libraryPairs = libraryPairs;
-})();
+  exports.libraryPairs = libraryPairs
+})()
