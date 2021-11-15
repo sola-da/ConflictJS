@@ -2,7 +2,7 @@
  * Created by jibesh on 09.09.16.
  */
 ;(function () {
-  const fs = require("fs")
+  const fs = require('fs')
 
   function pathExists(path) {
     let fileExists = true

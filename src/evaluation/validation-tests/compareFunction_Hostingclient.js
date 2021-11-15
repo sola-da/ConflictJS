@@ -9,13 +9,13 @@ function checkMessages() {
         let tests = []
         try {
           tests = testGeneration.generateTests(
-            [new testGeneration.APIObject("window", val, [accessPath])],
+            [new testGeneration.APIObject('window', val, [accessPath])],
             NO_OF_TESTS,
             NO_OF_CALLS,
             true
           )
         } catch (err) {
-          console.log("Test generation failed")
+          console.log('Test generation failed')
           tests = []
         }
         generatedTests.set(key, tests)
@@ -29,11 +29,11 @@ function checkMessages() {
     }).length
     // If tests could not be generated for both of the libraries
     if (testSizes == 0) {
-      result_content = "NOT SURE - Tests could not be generated for both"
+      result_content = 'NOT SURE - Tests could not be generated for both'
       window.setTimeout(sendBackToServer, 100)
     } else if (testSizes == 1) {
       // Tests could not be generated for one of the library
-      result_content = "NOT SURE - Tests could not be generated for one"
+      result_content = 'NOT SURE - Tests could not be generated for one'
       window.setTimeout(sendBackToServer, 100)
     } else {
       messages.forEach(function (val, key) {
@@ -45,7 +45,7 @@ function checkMessages() {
                          }*/
             tests.forEach((test) => {
               testsgen.push(test)
-              val.postMessage(test, "*") // Send the test for execution
+              val.postMessage(test, '*') // Send the test for execution
             })
             // let result = executeGeneratedTests(test);
           }
@@ -56,7 +56,7 @@ function checkMessages() {
     messages.clear()
   } else {
     messages.forEach(function (val, key) {
-      if (key === "ERROR") {
+      if (key === 'ERROR') {
         // FIXME: For some error the generated tests are not going back to Server. Eg.
         // lib1: jsface
         // lib2: matreshka

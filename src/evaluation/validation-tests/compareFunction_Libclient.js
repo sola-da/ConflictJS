@@ -4,10 +4,10 @@
 
 window.setTimeout(sendMessage, 1000)
 function sendMessage() {
-  window.parent.postMessage(message, "*")
+  window.parent.postMessage(message, '*')
 }
 
-window.addEventListener("message", receiveMessage, true)
+window.addEventListener('message', receiveMessage, true)
 //      Receive message from iframes
 function receiveMessage(event) {
   try {
@@ -18,7 +18,7 @@ function receiveMessage(event) {
     eval(event.data)
   } catch (err) {
     console.log(err)
-    message = "ERROR"
+    message = 'ERROR'
   }
   window.setTimeout(sendMessage, 100)
 }

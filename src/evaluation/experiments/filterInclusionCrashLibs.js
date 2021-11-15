@@ -3,20 +3,20 @@
  *
  * Filter those libs that fail when included alone. The filtered libs are not part of our evaluations
  */
-const fs = require("fs")
+const fs = require('fs')
 
-const config = require("../../config")
-const libraries = require("../../utilities/libraries")
-const baseDir = require("process").cwd() + "/"
-const unique = require("../../utilities/constructFileName")
-const pathExists = require("../../utilities/pathExists.js").pathExists
+const config = require('../../config')
+const libraries = require('../../utilities/libraries')
+const baseDir = require('process').cwd() + '/'
+const unique = require('../../utilities/constructFileName')
+const pathExists = require('../../utilities/pathExists.js').pathExists
 const resultsDirectory =
-  baseDir + config.resultsDirectory + "/filter-inclusion-crash/" // The directory where the final  global writes go
+  baseDir + config.resultsDirectory + '/filter-inclusion-crash/' // The directory where the final  global writes go
 
-const htmlgen = require("../../utilities/generate-html")
-const addJobs = require("../../utilities/addJobs")
+const htmlgen = require('../../utilities/generate-html')
+const addJobs = require('../../utilities/addJobs')
 
-const filterInclusionCrashJobIdPrefix = "filter-inclusion-crash"
+const filterInclusionCrashJobIdPrefix = 'filter-inclusion-crash'
 
 function filterInclusionCrashingLibs(allLibraries, jobQueue) {
   for (let i = 0; i < allLibraries.length; i++) {
@@ -25,18 +25,18 @@ function filterInclusionCrashingLibs(allLibraries, jobQueue) {
     let validationTest = {
       name: filterInclusionCrashJobIdPrefix,
       libraryNames: [libraryName],
-      accessPath: "accessPath",
+      accessPath: 'accessPath',
       isValidated: false, // The moment a library pair is known to be validated make this true
       runTests: new Set(), // Tests that have already executed
       libraryPaths: {}, // name => path (src)
-      resultFilePath: "",
+      resultFilePath: '',
       htmlFilePaths: {}, // The HTML file that gets generated
       htmlURLs: {}, // The HTML file that gets generated and loaded in browser
       libIframes: {},
       jobIds: new Set(),
-      generatedDir: baseDir + "generated/",
+      generatedDir: baseDir + 'generated/',
       fragmentDir: baseDir + config.htmlFragmentsDir,
-      urlprefix: "http://localhost:3000/generated/",
+      urlprefix: 'http://localhost:3000/generated/',
     }
 
     if (!pathExists(resultsDirectory)) {
@@ -48,7 +48,7 @@ function filterInclusionCrashingLibs(allLibraries, jobQueue) {
     }
 
     let filename = unique.constructUniqueFilename(validationTest)
-    validationTest.resultFilePath = resultsDirectory + filename + ".json"
+    validationTest.resultFilePath = resultsDirectory + filename + '.json'
 
     if (!pathExists(validationTest.resultFilePath)) {
       validationTest.libraryPaths[libraryName] =
@@ -64,15 +64,15 @@ function filterInclusionCrashingLibs(allLibraries, jobQueue) {
 /* Write the libraries that crash on including alone to json file */
 function writeCrashingLibs(jobQueue) {
   let resultFiles = fs.readdirSync(resultsDirectory).filter(function (elem) {
-    return fs.lstatSync(resultsDirectory + "/" + elem).isFile()
+    return fs.lstatSync(resultsDirectory + '/' + elem).isFile()
   })
   let crashingLibs = new Set()
   for (let i = 0; i < resultFiles.length; i++) {
     let resultFile = resultFiles[i]
     let rawresults = JSON.parse(
-      fs.readFileSync(resultsDirectory + "/" + resultFile, { encoding: "utf8" })
+      fs.readFileSync(resultsDirectory + '/' + resultFile, { encoding: 'utf8' })
     )
-    let errorPattern = new RegExp("w*(ERROR)", "i")
+    let errorPattern = new RegExp('w*(ERROR)', 'i')
     for (let key in rawresults) {
       let data = rawresults[key]
 
@@ -87,14 +87,14 @@ function writeCrashingLibs(jobQueue) {
     config.singleLibCrashingFile,
     JSON.stringify([...crashingLibs])
   )
-  setTimeout(jobQueue.markDone.bind(null, "Writing crashing libs"))
+  setTimeout(jobQueue.markDone.bind(null, 'Writing crashing libs'))
 }
 
 function createJobs(jobQueue) {
   let allLibraries = libraries.allLibraries()
   // Find if inclusion of single library produces any exception
   filterInclusionCrashingLibs(allLibraries, jobQueue)
-  let jobID = "Writing crashing libs"
+  let jobID = 'Writing crashing libs'
   jobQueue.newJob(
     jobID,
     [new RegExp(filterInclusionCrashJobIdPrefix)],

@@ -7,8 +7,8 @@ function checkMessages() {
       messages.forEach(function (val2, key2) {
         if (key !== key2) {
           let comparisonMessage = areEqual(val[accessPath], val2[accessPath])
-          if (comparisonMessage !== "EQUAL") {
-            result_content = "ERROR " + comparisonMessage
+          if (comparisonMessage !== 'EQUAL') {
+            result_content = 'ERROR ' + comparisonMessage
           }
         }
       })
@@ -23,7 +23,7 @@ function areEqual(obj1, obj2) {
   // console.log(obj1);
   // console.log(obj2);
   if (obj1 === obj2) {
-    return "EQUAL"
+    return 'EQUAL'
   }
   if (obj1 && obj2) {
     len1 = Object.keys(obj1).length
@@ -32,7 +32,7 @@ function areEqual(obj1, obj2) {
   /* Step by step comparision */
 
   if (len1 !== len2) {
-    return "SIZE of objects different " + len1 + " and " + len2
+    return 'SIZE of objects different ' + len1 + ' and ' + len2
   }
 
   var functions_inObj1 = [],
@@ -64,16 +64,16 @@ function areEqual(obj1, obj2) {
         new Set(functions_inObj2)
       )
     ) {
-      return "NOT SURE - objects contain functions"
+      return 'NOT SURE - objects contain functions'
       // var listOfFunctionAccessPath = comparedFunctionsWithinObjects(obj1, functions_inObj1, obj2, functions_inObj2, accessPathName);
       // return listOfFunctionAccessPath;
       // if () {
       //     return 'EQUAL Objects having FUNCTIONS';
       // }
-    } else return "NOT EQUAL"
+    } else return 'NOT EQUAL'
   }
 
-  return "EQUAL"
+  return 'EQUAL'
 }
 
 /* Compare the names of the functions stored in the objects */
@@ -90,13 +90,13 @@ function findFunctions(obj) {
   var funcTypes = []
   for (const key in obj) {
     let types = myType(obj[key])
-    if (types === "Function") {
+    if (types === 'Function') {
       // return true; // Returns true specifying that the object has
       funcTypes.push(key)
-    } else if (types === "object") {
+    } else if (types === 'object') {
       let nestedFunctions = findFunctions(obj[key])
       nestedFunctions.forEach((elem) => {
-        funcTypes.push(key + "." + elem)
+        funcTypes.push(key + '.' + elem)
       })
     }
   }
@@ -104,17 +104,17 @@ function findFunctions(obj) {
 }
 
 function myType(value) {
-  if (_.isArray(value)) return "Array"
-  else if (_.isFunction(value)) return "Function"
-  else if (_.isBoolean(value)) return "Boolean"
-  else if (_.isNumber(value)) return "Number"
-  else if (_.isDate(value)) return "Date"
-  else if (_.isRegExp(value)) return "RegExp"
-  else if (_.isNull(value)) return "null"
-  else if (_.isUndefined(value)) return "undefined"
-  else if (_.isString(value)) return "String"
-  else if (_.isArguments(value)) return "Arguments"
-  else if (value instanceof Map) return "Map"
-  else if (value instanceof Set) return "Set"
+  if (_.isArray(value)) return 'Array'
+  else if (_.isFunction(value)) return 'Function'
+  else if (_.isBoolean(value)) return 'Boolean'
+  else if (_.isNumber(value)) return 'Number'
+  else if (_.isDate(value)) return 'Date'
+  else if (_.isRegExp(value)) return 'RegExp'
+  else if (_.isNull(value)) return 'null'
+  else if (_.isUndefined(value)) return 'undefined'
+  else if (_.isString(value)) return 'String'
+  else if (_.isArguments(value)) return 'Arguments'
+  else if (value instanceof Map) return 'Map'
+  else if (value instanceof Set) return 'Set'
   else return typeof value // If none of above then probably 'object'
 }

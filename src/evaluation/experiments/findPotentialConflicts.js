@@ -10,16 +10,16 @@
  * pairs to validate the conflict. (Not in this file)
  */
 ;(function () {
-  let baseDir = require("process").cwd()
-  const config = require("../../config")
-  const pathExists = require("../../utilities/pathExists.js").pathExists
+  let baseDir = require('process').cwd()
+  const config = require('../../config')
+  const pathExists = require('../../utilities/pathExists.js').pathExists
   const globalWritesDir =
-    baseDir + "/" + config.resultsDirectory + "/global-writes/"
+    baseDir + '/' + config.resultsDirectory + '/global-writes/'
   const globalWritesjobidprefix =
-    require("./findGlobalWrites").globalWritesAnalysisJobIdPrefix
+    require('./findGlobalWrites').globalWritesAnalysisJobIdPrefix
 
-  let fs = require("fs")
-  let jobID = "Finding potential conflicts across all libraryNames"
+  let fs = require('fs')
+  let jobID = 'Finding potential conflicts across all libraryNames'
 
   function findPotentialConflicts(jobQueue) {
     let globalPathToLibs = {}
@@ -31,7 +31,7 @@
     let globalWriteResultFiles = fs
       .readdirSync(globalWritesDir)
       .filter(function (elem) {
-        return fs.lstatSync(globalWritesDir + "/" + elem).isFile()
+        return fs.lstatSync(globalWritesDir + '/' + elem).isFile()
       })
     // sort global access paths by libraryNames that write to them
     let nbIgnoredLibraries = 0
@@ -41,11 +41,11 @@
         config.accessPathSeparationChar
       )[0]
       let globalWritesRaw = fs.readFileSync(
-        globalWritesDir + "/" + globalWriteResultFile,
-        { encoding: "utf8" }
+        globalWritesDir + '/' + globalWriteResultFile,
+        { encoding: 'utf8' }
       )
 
-      if (globalWritesRaw === "undefined") {
+      if (globalWritesRaw === 'undefined') {
         nbIgnoredLibraries++
       } else {
         let globalWrites = JSON.parse(globalWritesRaw)
@@ -70,14 +70,14 @@
     }
 
     console.log(
-      "Ignored libraryNames: " +
+      'Ignored libraryNames: ' +
         nbIgnoredLibraries +
-        "/" +
+        '/' +
         globalWriteResultFiles.length
     )
 
     fs.writeFileSync(
-      baseDir + "/" + config.resultsDirectory + "/potentialConflicts.json",
+      baseDir + '/' + config.resultsDirectory + '/potentialConflicts.json',
       JSON.stringify(finalGlobalPathToLibs, 0, 2)
     )
 

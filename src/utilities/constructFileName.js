@@ -3,17 +3,17 @@
  */
 
 ;(function () {
-  let accessPathSeparationChar = require("../config").accessPathSeparationChar
+  let accessPathSeparationChar = require('../config').accessPathSeparationChar
   let fileNamePrefixSeparationChar =
-    require("../config").fileNamePrefixSeparationChar
+    require('../config').fileNamePrefixSeparationChar
   let libraryNamesConjunctionChar =
-    require("../config").libraryNamesConjunctionChar
+    require('../config').libraryNamesConjunctionChar
 
   function constructFilename(filenamePrefix, libraryNames, accessPathName) {
     if (accessPathName) {
-      accessPathName = accessPathName.replace(/\//g, "SLASH") // Some access paths have this char
-      accessPathName = accessPathName.replace(/_/g, "µ") // Some access paths have this char
-      accessPathName = accessPathName.replace(/%/g, "PERCENT") // Some access paths have this char
+      accessPathName = accessPathName.replace(/\//g, 'SLASH') // Some access paths have this char
+      accessPathName = accessPathName.replace(/_/g, 'µ') // Some access paths have this char
+      accessPathName = accessPathName.replace(/%/g, 'PERCENT') // Some access paths have this char
     }
     let fileName = filenamePrefix + fileNamePrefixSeparationChar
     fileName = fileName + libraryNames
@@ -28,9 +28,9 @@
       accessPathName = validationTest.accessPath
 
     if (accessPathName) {
-      accessPathName = accessPathName.replace(/\//g, "SLASH") // Some access paths have this char
-      accessPathName = accessPathName.replace(/_/g, "µ") // Some access paths have this char
-      accessPathName = accessPathName.replace(/%/g, "PERCENT") // Some access paths have this char
+      accessPathName = accessPathName.replace(/\//g, 'SLASH') // Some access paths have this char
+      accessPathName = accessPathName.replace(/_/g, 'µ') // Some access paths have this char
+      accessPathName = accessPathName.replace(/%/g, 'PERCENT') // Some access paths have this char
     }
     let fileName = libraryNames
     return fileName + accessPathSeparationChar + accessPathName
@@ -42,9 +42,9 @@
       accessPathName = validationTest.accessPath
 
     if (accessPathName) {
-      accessPathName = accessPathName.replace(/\//g, "SLASH") // Some access paths have this char
-      accessPathName = accessPathName.replace(/_/g, "µ") // Some access paths have this char
-      accessPathName = accessPathName.replace(/%/g, "PERCENT") // Some access paths have this char
+      accessPathName = accessPathName.replace(/\//g, 'SLASH') // Some access paths have this char
+      accessPathName = accessPathName.replace(/_/g, 'µ') // Some access paths have this char
+      accessPathName = accessPathName.replace(/%/g, 'PERCENT') // Some access paths have this char
     }
     let fileName = filenamePrefix + fileNamePrefixSeparationChar
     fileName = fileName + libraryNames

@@ -1,15 +1,15 @@
 // Author: Michael Pradel, Jibesh Patra
 
 ;(function () {
-  if (typeof window === "undefined") {
-    var seedrandom = require("seedrandom")
-    var _ = require("underscore")
+  if (typeof window === 'undefined') {
+    var seedrandom = require('seedrandom')
+    var _ = require('underscore')
   } else {
     var _ = window._
   }
 
   function assert(c) {
-    if (!c) throw "Assertion violated!"
+    if (!c) throw 'Assertion violated!'
   }
 
   function APIObject(name, object, filter) {
@@ -22,8 +22,8 @@
     var objectKeys = Object.getOwnPropertyNames(object)
     for (var i = 0; i < objectKeys.length; i++) {
       var key = objectKeys[i]
-      if (typeof object[key] === "function" && object[key].name === "") {
-        Object.defineProperty(object[key], "name", {
+      if (typeof object[key] === 'function' && object[key].name === '') {
+        Object.defineProperty(object[key], 'name', {
           value: key,
         })
       }
@@ -32,7 +32,7 @@
 
   // types: undefined, object, number, boolean, string, function -- anything else?
   function typeOf(value) {
-    if (value === null) return "null"
+    if (value === null) return 'null'
     return typeof value
   }
 
@@ -50,7 +50,7 @@
 
   Test.prototype = {
     freshVar: function () {
-      return "var" + this.lastVarCtr++
+      return 'var' + this.lastVarCtr++
     },
     varForConstant: function (constant) {
       var varName = this.freshVar()
@@ -89,7 +89,7 @@
       return lastRelVal
     },
     toString: function () {
-      var result = ""
+      var result = ''
 
       // constants
       var constantVars = Object.keys(this.constantPool)
@@ -98,25 +98,25 @@
         var constant = this.constantPool[constantVar]
 
         var constantString =
-          typeof constant === "string" ? '"' + constant + '"' : constant
+          typeof constant === 'string' ? '"' + constant + '"' : constant
         if (Array.isArray(constant)) {
-          constantString = "["
+          constantString = '['
           constant.forEach((elem) => {
-            if (typeOf(elem) === "string") {
+            if (typeOf(elem) === 'string') {
               if (constantString.length === 1)
                 constantString += "'" + elem + "'"
               else constantString += ",'" + elem + "'"
             } else {
               if (constantString.length === 1) constantString += elem
-              else constantString += "," + elem
+              else constantString += ',' + elem
             }
           })
-          constantString += "]"
+          constantString += ']'
         }
-        if (constant && typeof constant === "object") {
+        if (constant && typeof constant === 'object') {
           constantString = JSON.stringify(constant)
         }
-        result += "var " + constantVar + " = " + constantString + ";\n"
+        result += 'var ' + constantVar + ' = ' + constantString + ';\n'
         // console.log(result);
       }
 
@@ -127,7 +127,7 @@
       // statements
       for (var i = 0; i < this.statements.length; i++) {
         var statement = this.statements[i]
-        result += statement + "\n"
+        result += statement + '\n'
       }
       return result
     },
@@ -157,13 +157,13 @@
     },
     get: function (variable) {
       if (!this.varToVal.hasOwnProperty(variable))
-        throw "Undefined variable " + variable
+        throw 'Undefined variable ' + variable
       return this.varToVal[variable]
     },
   }
 
   function Call(fct, baseVar, argVars, retVar, filter) {
-    assert(typeof fct === "function")
+    assert(typeof fct === 'function')
     this.filter = filter
     this.fct = fct
     this.baseVar = baseVar
@@ -194,13 +194,13 @@
       }
       return (
         this.retVar +
-        " = " +
+        ' = ' +
         this.baseVar +
-        "." +
+        '.' +
         this.filter +
-        "(" +
+        '(' +
         this.argVars.join() +
-        ");"
+        ');'
       )
       /* Doing the following does not work for function expressions. Calling fct.name for Function expressions
              returns the wrong name.
@@ -226,9 +226,9 @@
     var type = typeof val
     return (
       val === val &&
-      (type === "number" ||
-        type === "boolean" ||
-        type === "string" ||
+      (type === 'number' ||
+        type === 'boolean' ||
+        type === 'string' ||
         val === undefined ||
         val === null)
     )
@@ -238,22 +238,22 @@
     execute: function (varStore) {
       var actualVal = varStore.get(this.varName)
       if (actualVal !== this.expectedValue)
-        throw "Expected " + this.expectedValue + " but found " + actualVal
+        throw 'Expected ' + this.expectedValue + ' but found ' + actualVal
     },
     toString: function () {
       var type = typeof this.expectedValue
       var expectedValueString
       if (
-        type === "number" ||
-        type === "boolean" ||
+        type === 'number' ||
+        type === 'boolean' ||
         this.expectedValue === undefined ||
         this.expectedValue === null
       ) {
         expectedValueString = String(this.expectedValue)
-      } else if (type === "string") {
+      } else if (type === 'string') {
         expectedValueString = '"' + this.expectedValue + '"'
-      } else throw "Unexpected type in an equality assertion: " + type
-      return "assertEqual(" + this.varName + ", " + expectedValueString + ");"
+      } else throw 'Unexpected type in an equality assertion: ' + type
+      return 'assertEqual(' + this.varName + ', ' + expectedValueString + ');'
     },
     clone: function () {
       return new EqualityAssertion(this.varName, this.expectedValue)
@@ -262,9 +262,9 @@
 
   function Random(seed) {
     // initialize seedrandom so that it overwrites Math.random with deterministic PRNG
-    if (typeof window === "undefined")
+    if (typeof window === 'undefined')
       seedrandom(seed, {
-        global: "true",
+        global: 'true',
       })
     else Math.seedrandom(seed)
 
@@ -284,20 +284,20 @@
   function Decisions() {
     /* number and string have triple probability of getting selected */
     this.constantTypes = [
-      "number",
-      "number",
-      "number",
-      "string",
-      "string",
-      "string",
-      "undefined",
-      "null",
-      "boolean",
-      "boolean",
-      "Array",
-      "Object",
-      "Array",
-      "Object",
+      'number',
+      'number',
+      'number',
+      'string',
+      'string',
+      'string',
+      'undefined',
+      'null',
+      'boolean',
+      'boolean',
+      'Array',
+      'Object',
+      'Array',
+      'Object',
     ]
 
     this.charsForRandomStrings = []
@@ -339,7 +339,7 @@
     pickFunction: function (apiObject) {
       var fcts = []
       var filter = apiObject.filter[0]
-      var filterSegements = filter.split(".")
+      var filterSegements = filter.split('.')
 
       // var keys = Object.keys(apiObject.object);
       var keys = Object.getOwnPropertyNames(apiObject.object)
@@ -347,7 +347,7 @@
         var key = keys[i]
         var val = apiObject.object[key]
         if (
-          typeof val === "function" &&
+          typeof val === 'function' &&
           (apiObject.filter === undefined ||
             apiObject.filter.indexOf(key) !== -1)
         ) {
@@ -366,11 +366,11 @@
           })
           if (
             constructedMultiSegmentValue &&
-            typeof constructedMultiSegmentValue === "function"
+            typeof constructedMultiSegmentValue === 'function'
           ) {
             // If the function is anonymous, give it the name of accesspath
-            if (constructedMultiSegmentValue.name === "") {
-              Object.defineProperty(constructedMultiSegmentValue, "name", {
+            if (constructedMultiSegmentValue.name === '') {
+              Object.defineProperty(constructedMultiSegmentValue, 'name', {
                 value: filter,
               })
             }
@@ -401,22 +401,22 @@
     pickRandomConstant: function () {
       var type = this.r.pickFromArray(this.constantTypes)
       switch (type) {
-        case "boolean":
+        case 'boolean':
           return this.pickRandomBoolean()
-        case "string":
+        case 'string':
           return this.pickRandomString()
-        case "number":
+        case 'number':
           return this.pickRandomNumber()
-        case "undefined":
+        case 'undefined':
           return undefined
-        case "null":
+        case 'null':
           return null
-        case "Array":
+        case 'Array':
           return this.pickRandomArray()
-        case "Object":
+        case 'Object':
           return this.pickRandomObject()
       }
-      throw "Should never be reached."
+      throw 'Should never be reached.'
     },
     pickRandomBoolean: function () {
       if (this.r.nextNb() < 0.5) return true
@@ -442,19 +442,19 @@
       var randomArray = []
       var arrayLengths = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
       var length = this.r.pickFromArray(arrayLengths)
-      var PossibleArrayTypes = ["string", "number", "both"]
+      var PossibleArrayTypes = ['string', 'number', 'both']
       var arrayType = this.r.pickFromArray(PossibleArrayTypes)
-      if (arrayType === "string") {
+      if (arrayType === 'string') {
         while (randomArray.length != length) {
           var randomString = this.pickRandomString()
           while (randomString.length === 0 || randomString.indexOf("'") !== -1)
             randomString = this.pickRandomString()
           randomArray.push(randomString)
         }
-      } else if (arrayType === "number") {
+      } else if (arrayType === 'number') {
         while (randomArray.length != length)
           randomArray.push(this.r.pickFromArray(this.randomNumberPool))
-      } else if (arrayType === "both") {
+      } else if (arrayType === 'both') {
         while (randomArray.length != length) {
           if (this.r.nextNb() < 0.5) {
             randomArray.push(this.r.pickFromArray(this.randomNumberPool))
@@ -471,7 +471,7 @@
       }
       // console.log(randomArray);
       if (!Array.isArray(randomArray)) {
-        throw "Not Array"
+        throw 'Not Array'
       }
       return randomArray
     },
@@ -481,7 +481,7 @@
          }
          },*/
     pickRandomString: function () {
-      var s = ""
+      var s = ''
       while (this.r.nextNb() < 0.5) {
         s += this.r.pickFromArray(this.charsForRandomStrings)
       }
@@ -501,7 +501,7 @@
 
   function ExtendTestTask(test) {
     this.test = test
-    this.description = "(generic task description to be replaced by subtypes)"
+    this.description = '(generic task description to be replaced by subtypes)'
   }
 
   ExtendTestTask.prototype = {
@@ -509,21 +509,21 @@
       for (var tries = 0; tries < 100; tries++) {
         var candidateTest = this.createCandidate()
 
-        if (candidateTest === "NO_TEST_GENERATED") {
+        if (candidateTest === 'NO_TEST_GENERATED') {
           break
         }
         try {
-          if (candidateTest !== "NO_TEST_GENERATED") {
+          if (candidateTest !== 'NO_TEST_GENERATED') {
             candidateTest.execute()
           }
         } catch (e) {
           // console.log("\nCandidate test failed: \n" + candidateTest);
-          console.log("Will try again..")
+          console.log('Will try again..')
           continue // try again
         }
         return candidateTest
       }
-      if (candidateTest !== "NO_TEST_GENERATED") {
+      if (candidateTest !== 'NO_TEST_GENERATED') {
         // throw "Failed to execute task: " + this.description;
       }
     },
@@ -531,7 +531,7 @@
 
   function AppendAPICallTask(test) {
     ExtendTestTask.call(this, test)
-    this.description = "Extend test with API call"
+    this.description = 'Extend test with API call'
   }
 
   AppendAPICallTask.prototype = Object.create(ExtendTestTask.prototype)
@@ -548,7 +548,7 @@
      * The generated tests file will be empty
      * */
     if (!fct) {
-      return "NO_TEST_GENERATED"
+      return 'NO_TEST_GENERATED'
     }
     var retVar = candidateTest.freshVar()
     var argVars = []
@@ -594,7 +594,7 @@
    */
   function generateTests(apiObjects, maxNbTests, maxNbCallsPerTest, asStrings) {
     var tests = []
-    console.log("Will generate " + maxNbTests + " tests")
+    console.log('Will generate ' + maxNbTests + ' tests')
     for (var nbTests = 0; nbTests < maxNbTests; nbTests++) {
       var test = new Test(apiObjects) // the empty test object with apiObject appended
 
@@ -636,22 +636,22 @@
   // ------------------------- for testing ------------------------
   if (0) {
     var myAPI = new APIObject(
-      "myAPI",
+      'myAPI',
       {
         foo: function (a, b) {
           //console.log("foo called with " + a + " and " + b);
-          if (a > 5) throw "error"
+          if (a > 5) throw 'error'
           return a + b
         },
         other: function () {},
         other2: function () {},
         other3: function () {},
       },
-      ["foo"]
+      ['foo']
     )
 
     var myAPI2 = new APIObject(
-      "myAPI2",
+      'myAPI2',
       {
         bar: 23,
         baz: function (a, b, c, d, e) {
@@ -661,19 +661,19 @@
           return 2 * a * b
         },
       },
-      ["baz"]
+      ['baz']
     )
 
     var tests = generateTests([myAPI2], 10, 10, true)
     for (var i = 0; i < tests.length; i++) {
       var test = tests[i]
-      console.log("\nTest " + i + ":\n" + test)
+      console.log('\nTest ' + i + ':\n' + test)
       // test.execute();
     }
   }
   // ------------------------- end of testing ------------------------
 
-  if (typeof window === "undefined") {
+  if (typeof window === 'undefined') {
     // node.js export
     exports.generateTests = generateTests
   } else {

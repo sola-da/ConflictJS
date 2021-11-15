@@ -3,7 +3,7 @@
  */
 
 ;(function () {
-  const browser = require("./browser")
+  const browser = require('./browser')
 
   function addtoqueue(validationTest, jobQueue, dependence) {
     validationTest.jobIds.forEach((jobID) => {

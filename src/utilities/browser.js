@@ -1,15 +1,15 @@
 // Author: Michael Pradel, Jibesh Patra
 
 ;(function () {
-  const childProcess = require("child_process")
-  const config = require("../config")
+  const childProcess = require('child_process')
+  const config = require('../config')
   let browserCmd
   let browserProcess
 
   function hasCommand(cmd) {
-    let cp = require("child_process")
-    let result = cp.execSync("whereis " + cmd, { encoding: "utf8" })
-    let regExp = new RegExp(cmd, "g")
+    let cp = require('child_process')
+    let result = cp.execSync('whereis ' + cmd, { encoding: 'utf8' })
+    let regExp = new RegExp(cmd, 'g')
     return result.match(regExp).length > 1
   }
 
@@ -19,8 +19,8 @@
       ? config.browserPath
       : hasCommand(config.browserName)
       ? config.browserName
-      : "google-chrome"
-    browserProcess = childProcess.spawn(browserCmd, [""])
+      : 'google-chrome'
+    browserProcess = childProcess.spawn(browserCmd, [''])
   }
 
   function close() {
@@ -28,8 +28,8 @@
   }
 
   function loadURL(url) {
-    console.log("Loading URL in browser: " + url)
-    let process = childProcess.spawn(browserCmd, [url, "--headless"], {
+    console.log('Loading URL in browser: ' + url)
+    let process = childProcess.spawn(browserCmd, [url, '--headless'], {
       detached: true,
     })
     return process

@@ -1,13 +1,13 @@
 // Author: Michael Pradel
 
 ;(function () {
-  var assert = require("assert")
+  var assert = require('assert')
   var resultDir =
-    require("process").cwd() + "/" + require("../config").resultsDirectory + "/"
-  const childProcess = require("child_process")
-  const pathExists = require("./pathExists.js").pathExists
-  const fs = require("fs")
-  const timeout_kill_job = require("../config").timeout_kill_job
+    require('process').cwd() + '/' + require('../config').resultsDirectory + '/'
+  const childProcess = require('child_process')
+  const pathExists = require('./pathExists.js').pathExists
+  const fs = require('fs')
+  const timeout_kill_job = require('../config').timeout_kill_job
 
   var idToJob = {}
   var jobQueue = [] // ids
@@ -16,9 +16,9 @@
   let killedJobs = previousKilledJobs() // Ids of jobs killed because they took too much time
   let killedjobIds = new Set()
 
-  var alreadyKilledJobs = resultDir + "killed-jobs.json"
+  var alreadyKilledJobs = resultDir + 'killed-jobs.json'
 
-  var maxConcurrentJobs = require("os").cpus().length
+  var maxConcurrentJobs = require('os').cpus().length
 
   var finalize
 
@@ -44,11 +44,11 @@
   function execute() {
     console.log(runningJobs)
     console.log(
-      "Jobs: " +
+      'Jobs: ' +
         Object.keys(runningJobs).length +
-        " running, " +
+        ' running, ' +
         jobQueue.length +
-        " waiting"
+        ' waiting'
     )
     checkLongRunningJobs()
 
@@ -67,7 +67,7 @@
       killedJobs = previousKilledJobs()
       if (killedJobs.has(jobID)) {
         console.log(
-          "Skipping: -------> In last run " + jobID + " took too much TIME"
+          'Skipping: -------> In last run ' + jobID + ' took too much TIME'
         )
         jobQueue.splice(i, 1)
         continue
@@ -94,7 +94,7 @@
 
       // start job if all dependences are done
       if (!hasOpenDependence) {
-        console.log("\n>>> Starting job: " + job.id + " <<<\n")
+        console.log('\n>>> Starting job: ' + job.id + ' <<<\n')
         jobQueue.splice(i, 1)
         runningJobs[job.id] = true
         job.delegationTime = new Date()
@@ -116,11 +116,11 @@
         killedJobs.add(jobId)
         fs.writeFileSync(alreadyKilledJobs, JSON.stringify([...killedJobs]))
         console.error(
-          "\n\t KILLING job " +
+          '\n\t KILLING job ' +
             jobId +
-            " ran > " +
+            ' ran > ' +
             timeout_kill_job +
-            " ms" /*+ ' PID ' + proc.pid*/
+            ' ms' /*+ ' PID ' + proc.pid*/
         )
 
         /* Apart from removing from the running job id report the result as empty */
@@ -128,9 +128,9 @@
         let result = {}
 
         if (pathExists(resultFile)) {
-          result = JSON.parse(fs.readFileSync(resultFile, { encoding: "utf8" }))
+          result = JSON.parse(fs.readFileSync(resultFile, { encoding: 'utf8' }))
         }
-        result[job.id] = "RAN TOO LONG > " + timeout_kill_job + " ms"
+        result[job.id] = 'RAN TOO LONG > ' + timeout_kill_job + ' ms'
 
         fs.writeFileSync(resultFile, JSON.stringify(result))
         // proc.kill('SIGKILL');
@@ -146,7 +146,7 @@
 
   function previousKilledJobs() {
     if (pathExists(alreadyKilledJobs)) {
-      let jobIds = JSON.parse(fs.readFileSync(alreadyKilledJobs, "utf8"))
+      let jobIds = JSON.parse(fs.readFileSync(alreadyKilledJobs, 'utf8'))
       return new Set(jobIds)
     }
     return new Set()
@@ -156,7 +156,7 @@
     if (killedjobIds.has(id)) {
       return
     }
-    console.log("\n=== Job done: " + id + " ===\n")
+    console.log('\n=== Job done: ' + id + ' ===\n')
     assert(idToJob.hasOwnProperty(id))
     assert(jobQueue.indexOf(id) === -1)
     assert(runningJobs.hasOwnProperty(id))

@@ -5,9 +5,9 @@
     <title>Filter inclusion crash</title>
     <script src="../src/utilities/time-to-closeTab.js"></script>
     <script>
-      var message = "<!--NAME-->"
+      var message = '<!--NAME-->'
       window.onerror = function (e) {
-        message = "ERROR"
+        message = 'ERROR'
       }
     </script>
     <!--SRC-->
@@ -16,17 +16,17 @@
       function sendBackToServer() {
         var stringData = JSON.stringify({
           result: {
-            typeofTest: "<!--__TYPE_OF_TEST__-->",
-            resultFilePath: "<!--__RESULT_FILE__PATH-->",
+            typeofTest: '<!--__TYPE_OF_TEST__-->',
+            resultFilePath: '<!--__RESULT_FILE__PATH-->',
             content: message,
             generatedTests: [],
           },
         })
         var request = new XMLHttpRequest()
-        request.open("POST", "http://localhost:3000/reportResult", true)
+        request.open('POST', 'http://localhost:3000/reportResult', true)
         request.setRequestHeader(
-          "Content-Type",
-          "application/json;charset=UTF-8"
+          'Content-Type',
+          'application/json;charset=UTF-8'
         )
         request.send(stringData)
 

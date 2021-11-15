@@ -2,9 +2,9 @@
  * Created by Jibesh Patra on 28-Mar-2017.
  */
 ;(function () {
-  const fs = require("fs")
-  const config = require("../config")
-  const constructFileName = require("./constructFileName").constructFilename
+  const fs = require('fs')
+  const config = require('../config')
+  const constructFileName = require('./constructFileName').constructFilename
 
   /**
    * Return a random color from the CSS_COLOR_NAMES array
@@ -12,153 +12,153 @@
    * */
   function getRandomColor() {
     const cssColors = [
-      "AliceBlue",
-      "AntiqueWhite",
-      "Aqua",
-      "Aquamarine",
-      "Azure",
-      "Beige",
-      "Bisque",
-      "Black",
-      "BlanchedAlmond",
-      "Blue",
-      "BlueViolet",
-      "Brown",
-      "BurlyWood",
-      "CadetBlue",
-      "Chartreuse",
-      "Chocolate",
-      "Coral",
-      "CornflowerBlue",
-      "Cornsilk",
-      "Crimson",
-      "Cyan",
-      "DarkBlue",
-      "DarkCyan",
-      "DarkGoldenRod",
-      "DarkGray",
-      "DarkGrey",
-      "DarkGreen",
-      "DarkKhaki",
-      "DarkMagenta",
-      "DarkOliveGreen",
-      "Darkorange",
-      "DarkOrchid",
-      "DarkRed",
-      "DarkSalmon",
-      "DarkSeaGreen",
-      "DarkSlateBlue",
-      "DarkSlateGray",
-      "DarkSlateGrey",
-      "DarkTurquoise",
-      "DarkViolet",
-      "DeepPink",
-      "DeepSkyBlue",
-      "DimGray",
-      "DimGrey",
-      "DodgerBlue",
-      "FireBrick",
-      "FloralWhite",
-      "ForestGreen",
-      "Fuchsia",
-      "Gainsboro",
-      "GhostWhite",
-      "Gold",
-      "GoldenRod",
-      "Gray",
-      "Grey",
-      "Green",
-      "GreenYellow",
-      "HoneyDew",
-      "HotPink",
-      "IndianRed",
-      "Indigo",
-      "Ivory",
-      "Khaki",
-      "Lavender",
-      "LavenderBlush",
-      "LawnGreen",
-      "LemonChiffon",
-      "LightBlue",
-      "LightCoral",
-      "LightCyan",
-      "LightGoldenRodYellow",
-      "LightGray",
-      "LightGrey",
-      "LightGreen",
-      "LightPink",
-      "LightSalmon",
-      "LightSeaGreen",
-      "LightSkyBlue",
-      "LightSlateGray",
-      "LightSlateGrey",
-      "LightSteelBlue",
-      "LightYellow",
-      "Lime",
-      "LimeGreen",
-      "Linen",
-      "Magenta",
-      "Maroon",
-      "MediumAquaMarine",
-      "MediumBlue",
-      "MediumOrchid",
-      "MediumPurple",
-      "MediumSeaGreen",
-      "MediumSlateBlue",
-      "MediumSpringGreen",
-      "MediumTurquoise",
-      "MediumVioletRed",
-      "MidnightBlue",
-      "MintCream",
-      "MistyRose",
-      "Moccasin",
-      "NavajoWhite",
-      "Navy",
-      "OldLace",
-      "Olive",
-      "OliveDrab",
-      "Orange",
-      "OrangeRed",
-      "Orchid",
-      "PaleGoldenRod",
-      "PaleGreen",
-      "PaleTurquoise",
-      "PaleVioletRed",
-      "PapayaWhip",
-      "PeachPuff",
-      "Peru",
-      "Pink",
-      "Plum",
-      "PowderBlue",
-      "Purple",
-      "Red",
-      "RosyBrown",
-      "RoyalBlue",
-      "SaddleBrown",
-      "Salmon",
-      "SandyBrown",
-      "SeaGreen",
-      "SeaShell",
-      "Sienna",
-      "Silver",
-      "SkyBlue",
-      "SlateBlue",
-      "SlateGray",
-      "SlateGrey",
-      "Snow",
-      "SpringGreen",
-      "SteelBlue",
-      "Tan",
-      "Teal",
-      "Thistle",
-      "Tomato",
-      "Turquoise",
-      "Violet",
-      "Wheat",
-      "White",
-      "WhiteSmoke",
-      "Yellow",
-      "YellowGreen",
+      'AliceBlue',
+      'AntiqueWhite',
+      'Aqua',
+      'Aquamarine',
+      'Azure',
+      'Beige',
+      'Bisque',
+      'Black',
+      'BlanchedAlmond',
+      'Blue',
+      'BlueViolet',
+      'Brown',
+      'BurlyWood',
+      'CadetBlue',
+      'Chartreuse',
+      'Chocolate',
+      'Coral',
+      'CornflowerBlue',
+      'Cornsilk',
+      'Crimson',
+      'Cyan',
+      'DarkBlue',
+      'DarkCyan',
+      'DarkGoldenRod',
+      'DarkGray',
+      'DarkGrey',
+      'DarkGreen',
+      'DarkKhaki',
+      'DarkMagenta',
+      'DarkOliveGreen',
+      'Darkorange',
+      'DarkOrchid',
+      'DarkRed',
+      'DarkSalmon',
+      'DarkSeaGreen',
+      'DarkSlateBlue',
+      'DarkSlateGray',
+      'DarkSlateGrey',
+      'DarkTurquoise',
+      'DarkViolet',
+      'DeepPink',
+      'DeepSkyBlue',
+      'DimGray',
+      'DimGrey',
+      'DodgerBlue',
+      'FireBrick',
+      'FloralWhite',
+      'ForestGreen',
+      'Fuchsia',
+      'Gainsboro',
+      'GhostWhite',
+      'Gold',
+      'GoldenRod',
+      'Gray',
+      'Grey',
+      'Green',
+      'GreenYellow',
+      'HoneyDew',
+      'HotPink',
+      'IndianRed',
+      'Indigo',
+      'Ivory',
+      'Khaki',
+      'Lavender',
+      'LavenderBlush',
+      'LawnGreen',
+      'LemonChiffon',
+      'LightBlue',
+      'LightCoral',
+      'LightCyan',
+      'LightGoldenRodYellow',
+      'LightGray',
+      'LightGrey',
+      'LightGreen',
+      'LightPink',
+      'LightSalmon',
+      'LightSeaGreen',
+      'LightSkyBlue',
+      'LightSlateGray',
+      'LightSlateGrey',
+      'LightSteelBlue',
+      'LightYellow',
+      'Lime',
+      'LimeGreen',
+      'Linen',
+      'Magenta',
+      'Maroon',
+      'MediumAquaMarine',
+      'MediumBlue',
+      'MediumOrchid',
+      'MediumPurple',
+      'MediumSeaGreen',
+      'MediumSlateBlue',
+      'MediumSpringGreen',
+      'MediumTurquoise',
+      'MediumVioletRed',
+      'MidnightBlue',
+      'MintCream',
+      'MistyRose',
+      'Moccasin',
+      'NavajoWhite',
+      'Navy',
+      'OldLace',
+      'Olive',
+      'OliveDrab',
+      'Orange',
+      'OrangeRed',
+      'Orchid',
+      'PaleGoldenRod',
+      'PaleGreen',
+      'PaleTurquoise',
+      'PaleVioletRed',
+      'PapayaWhip',
+      'PeachPuff',
+      'Peru',
+      'Pink',
+      'Plum',
+      'PowderBlue',
+      'Purple',
+      'Red',
+      'RosyBrown',
+      'RoyalBlue',
+      'SaddleBrown',
+      'Salmon',
+      'SandyBrown',
+      'SeaGreen',
+      'SeaShell',
+      'Sienna',
+      'Silver',
+      'SkyBlue',
+      'SlateBlue',
+      'SlateGray',
+      'SlateGrey',
+      'Snow',
+      'SpringGreen',
+      'SteelBlue',
+      'Tan',
+      'Teal',
+      'Thistle',
+      'Tomato',
+      'Turquoise',
+      'Violet',
+      'Wheat',
+      'White',
+      'WhiteSmoke',
+      'Yellow',
+      'YellowGreen',
     ]
     return cssColors[Math.floor(Math.random() * cssColors.length)]
   }
@@ -166,19 +166,19 @@
   /* Generate HTML files to test if inclusion of single library crashes */
   function filterInclusionCrashLibs(validationTest) {
     let htmltemplate = fs.readFileSync(
-      validationTest.fragmentDir + "/filterInclusionCrash.html",
-      { encoding: "utf8" }
+      validationTest.fragmentDir + '/filterInclusionCrash.html',
+      { encoding: 'utf8' }
     )
 
     let libraryName = validationTest.libraryNames[0]
-    let htmlFileNameInclLib = libraryName + validationTest.name + ".html"
+    let htmlFileNameInclLib = libraryName + validationTest.name + '.html'
     let libFilePath = validationTest.generatedDir + htmlFileNameInclLib
     let librarySrc =
-      ".." +
+      '..' +
       config.benchmarkDir +
-      "/" +
+      '/' +
       libraryName +
-      "/" +
+      '/' +
       validationTest.libraryPaths[libraryName]
     let resultfile = validationTest.resultFilePath
     let typeOfTest = libraryName + validationTest.name
@@ -186,13 +186,13 @@
     let src = "\t<script src='" + librarySrc + "'></script>"
 
     htmltemplate = htmltemplate
-      .split("<!--__RESULT_FILE__PATH-->")
+      .split('<!--__RESULT_FILE__PATH-->')
       .join(resultfile)
     htmltemplate = htmltemplate
-      .split("<!--__TYPE_OF_TEST__-->")
+      .split('<!--__TYPE_OF_TEST__-->')
       .join(typeOfTest)
-    htmltemplate = htmltemplate.split("<!--SRC-->").join(src)
-    htmltemplate = htmltemplate.split("<!--NAME-->").join(libraryName)
+    htmltemplate = htmltemplate.split('<!--SRC-->').join(src)
+    htmltemplate = htmltemplate.split('<!--NAME-->').join(libraryName)
 
     validationTest.jobIds.add(typeOfTest)
     validationTest.htmlURLs[typeOfTest] =
@@ -203,32 +203,32 @@
   /* To generate single inclusion tests and global write analysis*/
   function globalWriteAnalysis(validationTest) {
     let htmltemplate = fs.readFileSync(
-      validationTest.fragmentDir + "/analyze.html",
-      { encoding: "utf8" }
+      validationTest.fragmentDir + '/analyze.html',
+      { encoding: 'utf8' }
     )
 
     let libraryName = validationTest.libraryNames[0]
-    let htmlFileNameInclLib = libraryName + validationTest.name + ".html"
+    let htmlFileNameInclLib = libraryName + validationTest.name + '.html'
     let libFilePath = validationTest.generatedDir + htmlFileNameInclLib
     let librarySrc =
-      ".." +
+      '..' +
       config.benchmarkDir +
-      "/" +
+      '/' +
       libraryName +
-      "/" +
+      '/' +
       validationTest.libraryPaths[libraryName]
     let resultfile = validationTest.resultFilePath
     let typeOfTest = libraryName + validationTest.name
 
     let src = "\t<script src='" + librarySrc + "'></script>"
 
-    htmltemplate = htmltemplate.split("<!--SRC-->").join(src)
-    htmltemplate = htmltemplate.split("<!--NAME-->").join(libraryName)
+    htmltemplate = htmltemplate.split('<!--SRC-->').join(src)
+    htmltemplate = htmltemplate.split('<!--NAME-->').join(libraryName)
     htmltemplate = htmltemplate
-      .split("<!--__RESULT_FILE__PATH-->")
+      .split('<!--__RESULT_FILE__PATH-->')
       .join(resultfile)
     htmltemplate = htmltemplate
-      .split("<!--__TYPE_OF_TEST__-->")
+      .split('<!--__TYPE_OF_TEST__-->')
       .join(typeOfTest)
 
     validationTest.jobIds.add(typeOfTest)
@@ -255,20 +255,20 @@
     LibraryClientCode,
     fragmentDir
   ) {
-    let libIframeTemplate = fs.readFileSync(fragmentDir + "/library.html", {
-      encoding: "utf8",
+    let libIframeTemplate = fs.readFileSync(fragmentDir + '/library.html', {
+      encoding: 'utf8',
     })
     let src = "\t<script src='" + librarySrc + "'></script>"
-    libIframeTemplate = libIframeTemplate.split("<!--SRC-->").join(src)
-    libIframeTemplate = libIframeTemplate.split("<!--NAME-->").join(name)
+    libIframeTemplate = libIframeTemplate.split('<!--SRC-->').join(src)
+    libIframeTemplate = libIframeTemplate.split('<!--NAME-->').join(name)
     libIframeTemplate = libIframeTemplate
-      .split("<!--__CLIENT_CODE__-->")
+      .split('<!--__CLIENT_CODE__-->')
       .join(LibraryClientCode)
-    libIframeTemplate = libIframeTemplate.split("COLOR").join(getRandomColor())
+    libIframeTemplate = libIframeTemplate.split('COLOR').join(getRandomColor())
 
     fs.writeFileSync(libFilePath, libIframeTemplate)
     return (
-      "\n\t<iframe src=" +
+      '\n\t<iframe src=' +
       libFileURL +
       ' frameborder="0" width="200" height="50" scrolling="no">iframes-not-supported</iframe>'
     )
@@ -280,74 +280,74 @@
     LibraryClientCode,
     fragmentDir
   ) {
-    let libIframeTemplate = fs.readFileSync(fragmentDir + "/library.html", {
-      encoding: "utf8",
+    let libIframeTemplate = fs.readFileSync(fragmentDir + '/library.html', {
+      encoding: 'utf8',
     })
     let lib1_name = validationTest.libraryNames[0]
     let lib1_src =
       "\t<script src='" +
-      ".." +
+      '..' +
       config.benchmarkDir +
-      "/" +
+      '/' +
       lib1_name +
-      "/" +
+      '/' +
       validationTest.libraryPaths[lib1_name] +
       "'></script>\n"
     let lib2_name = validationTest.libraryNames[1]
     let lib2_src =
       "\t<script src='" +
-      ".." +
+      '..' +
       config.benchmarkDir +
-      "/" +
+      '/' +
       lib2_name +
-      "/" +
+      '/' +
       validationTest.libraryPaths[lib2_name] +
       "'></script>\n"
 
     // lib1 - lib2
     let iframeFileName =
-      lib1_name + lib2_name + validationTest.name + "_iframe.html"
+      lib1_name + lib2_name + validationTest.name + '_iframe.html'
     let iframeFilePath = validationTest.generatedDir + iframeFileName
     let iframeURL = validationTest.urlprefix + iframeFileName
 
     libIframeTemplate = libIframeTemplate
-      .split("<!--SRC-->")
+      .split('<!--SRC-->')
       .join(lib1_src + lib2_src)
     libIframeTemplate = libIframeTemplate
-      .split("<!--NAME-->")
+      .split('<!--NAME-->')
       .join(lib1_name + lib2_name)
     libIframeTemplate = libIframeTemplate
-      .split("<!--__CLIENT_CODE__-->")
+      .split('<!--__CLIENT_CODE__-->')
       .join(LibraryClientCode)
-    libIframeTemplate = libIframeTemplate.split("COLOR").join(getRandomColor())
+    libIframeTemplate = libIframeTemplate.split('COLOR').join(getRandomColor())
     fs.writeFileSync(iframeFilePath, libIframeTemplate)
     validationTest.libIframes[lib1_name + lib2_name] =
-      "\n\t<iframe src=" +
+      '\n\t<iframe src=' +
       iframeURL +
       ' frameborder="0" width="200" height="50" scrolling="no">iframes-not-supported</iframe>'
 
     // lib2 - lib1
-    libIframeTemplate = fs.readFileSync(fragmentDir + "/library.html", {
-      encoding: "utf8",
+    libIframeTemplate = fs.readFileSync(fragmentDir + '/library.html', {
+      encoding: 'utf8',
     })
     iframeFileName =
-      lib2_name + lib1_name + validationTest.name + "_iframe.html"
+      lib2_name + lib1_name + validationTest.name + '_iframe.html'
     iframeFilePath = validationTest.generatedDir + iframeFileName
     iframeURL = validationTest.urlprefix + iframeFileName
 
     libIframeTemplate = libIframeTemplate
-      .split("<!--SRC-->")
+      .split('<!--SRC-->')
       .join(lib2_src + lib1_src)
     libIframeTemplate = libIframeTemplate
-      .split("<!--NAME-->")
+      .split('<!--NAME-->')
       .join(lib2_name + lib1_name)
     libIframeTemplate = libIframeTemplate
-      .split("<!--__CLIENT_CODE__-->")
+      .split('<!--__CLIENT_CODE__-->')
       .join(LibraryClientCode)
-    libIframeTemplate = libIframeTemplate.split("COLOR").join(getRandomColor())
+    libIframeTemplate = libIframeTemplate.split('COLOR').join(getRandomColor())
     fs.writeFileSync(iframeFilePath, libIframeTemplate)
     validationTest.libIframes[lib2_name + lib1_name] =
-      "\n\t<iframe src=" +
+      '\n\t<iframe src=' +
       iframeURL +
       ' frameborder="0" width="200" height="50" scrolling="no">iframes-not-supported</iframe>'
   }
@@ -385,20 +385,20 @@
   ) {
     let fragmentDir = validationTest.fragmentDir
     let hostinghtmlTemplate = fs.readFileSync(
-      fragmentDir + "/hosting-page.html",
-      { encoding: "utf8" }
+      fragmentDir + '/hosting-page.html',
+      { encoding: 'utf8' }
     )
     let libfilename, libFilePath, libFileURL
 
     validationTest.libraryNames.forEach((libraryName) => {
       let src =
-        ".." +
+        '..' +
         config.benchmarkDir +
-        "/" +
+        '/' +
         libraryName +
-        "/" +
+        '/' +
         validationTest.libraryPaths[libraryName]
-      libfilename = libraryName + validationTest.name + "_iframe.html"
+      libfilename = libraryName + validationTest.name + '_iframe.html'
       libFilePath = validationTest.generatedDir + libfilename
       libFileURL = validationTest.urlprefix + libfilename
       validationTest.libIframes[libraryName] = generateiframes(
@@ -420,10 +420,10 @@
 
     // Common for all hosting pages
     hostinghtmlTemplate = hostinghtmlTemplate
-      .split("<!--CLIENT_SCRIPT-->")
+      .split('<!--CLIENT_SCRIPT-->')
       .join(hostingPageClient)
     hostinghtmlTemplate = hostinghtmlTemplate
-      .split("<!--__RESULT_FILE__PATH-->")
+      .split('<!--__RESULT_FILE__PATH-->')
       .join(resultfile)
     let generatedHTML, typeOfTest
 
@@ -435,10 +435,10 @@
     )
     populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
-      .split("<!--LIB_IFRAME_HOLDER-->")
+      .split('<!--LIB_IFRAME_HOLDER-->')
       .join(validationTest.libIframes[lib1] + validationTest.libIframes[lib2])
     generatedHTML = generatedHTML
-      .split("<!--__TYPE_OF_TEST__-->")
+      .split('<!--__TYPE_OF_TEST__-->')
       .join(typeOfTest)
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
@@ -450,12 +450,12 @@
     )
     populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
-      .split("<!--LIB_IFRAME_HOLDER-->")
+      .split('<!--LIB_IFRAME_HOLDER-->')
       .join(
         validationTest.libIframes[lib1 + lib2] + validationTest.libIframes[lib1]
       )
     generatedHTML = generatedHTML
-      .split("<!--__TYPE_OF_TEST__-->")
+      .split('<!--__TYPE_OF_TEST__-->')
       .join(typeOfTest)
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
@@ -467,12 +467,12 @@
     )
     populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
-      .split("<!--LIB_IFRAME_HOLDER-->")
+      .split('<!--LIB_IFRAME_HOLDER-->')
       .join(
         validationTest.libIframes[lib2 + lib1] + validationTest.libIframes[lib1]
       )
     generatedHTML = generatedHTML
-      .split("<!--__TYPE_OF_TEST__-->")
+      .split('<!--__TYPE_OF_TEST__-->')
       .join(typeOfTest)
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
@@ -484,12 +484,12 @@
     )
     populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
-      .split("<!--LIB_IFRAME_HOLDER-->")
+      .split('<!--LIB_IFRAME_HOLDER-->')
       .join(
         validationTest.libIframes[lib1 + lib2] + validationTest.libIframes[lib2]
       )
     generatedHTML = generatedHTML
-      .split("<!--__TYPE_OF_TEST__-->")
+      .split('<!--__TYPE_OF_TEST__-->')
       .join(typeOfTest)
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
@@ -501,12 +501,12 @@
     )
     populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
-      .split("<!--LIB_IFRAME_HOLDER-->")
+      .split('<!--LIB_IFRAME_HOLDER-->')
       .join(
         validationTest.libIframes[lib2 + lib1] + validationTest.libIframes[lib2]
       )
     generatedHTML = generatedHTML
-      .split("<!--__TYPE_OF_TEST__-->")
+      .split('<!--__TYPE_OF_TEST__-->')
       .join(typeOfTest)
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
@@ -518,19 +518,19 @@
     )
     populateHTMLStats(validationTest, typeOfTest)
     generatedHTML = hostinghtmlTemplate
-      .split("<!--LIB_IFRAME_HOLDER-->")
+      .split('<!--LIB_IFRAME_HOLDER-->')
       .join(
         validationTest.libIframes[lib1 + lib2] +
           validationTest.libIframes[lib2 + lib1]
       )
     generatedHTML = generatedHTML
-      .split("<!--__TYPE_OF_TEST__-->")
+      .split('<!--__TYPE_OF_TEST__-->')
       .join(typeOfTest)
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
   }
 
   function populateHTMLStats(validationTest, typeOfTest) {
-    let htmlFileName = typeOfTest + ".html"
+    let htmlFileName = typeOfTest + '.html'
     validationTest.jobIds.add(typeOfTest)
     validationTest.htmlFilePaths[typeOfTest] =
       validationTest.generatedDir + htmlFileName

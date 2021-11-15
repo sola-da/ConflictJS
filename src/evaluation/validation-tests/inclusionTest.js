@@ -2,8 +2,8 @@
  * Created by Jibesh Patra on 28-Mar-2017.
  */
 ;(function () {
-  const htmlgen = require("../../utilities/generate-html")
-  const addjobs = require("../../utilities/addJobs").addtoqueue
+  const htmlgen = require('../../utilities/generate-html')
+  const addjobs = require('../../utilities/addJobs').addtoqueue
 
   function inclusionTest(validationTest, jobQueue, dependence) {
     let hostingPageClient, LibraryClientCode

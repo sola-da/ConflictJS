@@ -4,7 +4,7 @@
 function checkMessages() {
   if (messages.size > 0) {
     messages.forEach(function (val, key) {
-      if (key === "ERROR") {
+      if (key === 'ERROR') {
         result_content = key
       }
     })
