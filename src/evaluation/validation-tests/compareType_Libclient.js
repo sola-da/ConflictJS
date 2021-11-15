@@ -4,5 +4,5 @@
 
 window.setTimeout(sendMessage, 1000);
 function sendMessage() {
-    window.parent.postMessage(message, "*");
+  window.parent.postMessage(message, "*");
 }

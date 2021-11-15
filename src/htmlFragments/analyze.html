@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
+  <head lang="en">
+    <meta charset="UTF-8" />
     <title>Global write analysis</title>
 
     <!-- Needed for finding type -->
@@ -20,30 +20,36 @@
     <!--SRC-->
     <script src="../src/utilities/time-to-closeTab.js"></script>
     <script>
-        //        Send the results back to the server
-        function sendBackToServer(globalWritesTypes) {
-            var stringData = JSON.stringify({
-                result: {
-                    typeofTest: "<!--__TYPE_OF_TEST__-->",
-                    resultFilePath: "<!--__RESULT_FILE__PATH-->",
-//                    jobID: "<!--__JOB_ID__-->",
-                    content: globalWritesTypes,
-                    generatedTests: []
-                }
-            });
-            var request = new XMLHttpRequest();
-            request.open('POST', 'http://localhost:3000/reportResult', true);
-            request.setRequestHeader('Content-Type', "application/json;charset=UTF-8");
-            request.send(stringData);
+      //        Send the results back to the server
+      function sendBackToServer(globalWritesTypes) {
+        var stringData = JSON.stringify({
+          result: {
+            typeofTest: "<!--__TYPE_OF_TEST__-->",
+            resultFilePath: "<!--__RESULT_FILE__PATH-->",
+            //                    jobID: "<!--__JOB_ID__-->",
+            content: globalWritesTypes,
+            generatedTests: [],
+          },
+        });
+        var request = new XMLHttpRequest();
+        request.open("POST", "http://localhost:3000/reportResult", true);
+        request.setRequestHeader(
+          "Content-Type",
+          "application/json;charset=UTF-8"
+        );
+        request.send(stringData);
 
-            window.setTimeout(function () {
-                close();
-            }, timeToClose_BrowserTab);
-        }
-        J$.analysis.endExecution();
+        window.setTimeout(function () {
+          close();
+        }, timeToClose_BrowserTab);
+      }
+      J$.analysis.endExecution();
     </script>
-</head>
-<body>
-<h2>Analyzing global writes of <!--NAME--></h2>
-</body>
+  </head>
+  <body>
+    <h2>
+      Analyzing global writes of
+      <!--NAME-->
+    </h2>
+  </body>
 </html>

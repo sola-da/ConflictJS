@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Hosting page</title>
     <script src="../node_modules/underscore/underscore-min.js"></script>
     <script src="../src/utilities/time-to-closeTab.js"></script>
-    <script> var result_content = 'NO_CONFLICT', messages = new Map(), timeOutId = 0, extraTime = 0,
-        testsgen = [];   </script>
+    <script>
+      var result_content = "NO_CONFLICT",
+        messages = new Map(),
+        timeOutId = 0,
+        extraTime = 0,
+        testsgen = [];
+    </script>
     <!--CLIENT_SCRIPT-->
     <script>
-        window.addEventListener("message", receiveMessage, true);
-        //      Receive message from iframes
-        function receiveMessage(event) {
-            if (timeOutId !== 0) {
-                window.clearTimeout(timeOutId);
-            }
-            messages.set(event.data, event.source);
-            extraTime = extraTime + event.timeStamp + 100;
-            timeOutId = window.setTimeout(checkMessages, event.timeStamp + 500);
+      window.addEventListener("message", receiveMessage, true);
+      //      Receive message from iframes
+      function receiveMessage(event) {
+        if (timeOutId !== 0) {
+          window.clearTimeout(timeOutId);
         }
-        //        Send the results back to the server
-        function sendBackToServer() {
-            var stringData = JSON.stringify({
-                result: {
-                    typeofTest: "<!--__TYPE_OF_TEST__-->",
-                    resultFilePath: "<!--__RESULT_FILE__PATH-->",
-//                    jobID: "<!--__JOB_ID__-->",
-                    content: result_content,
-                    generatedTests: testsgen // only for functions that conflict
-                }
-            });
-            var request = new XMLHttpRequest();
-            request.open('POST', 'http://localhost:3000/reportResult', true);
-            request.setRequestHeader('Content-Type', "application/json;charset=UTF-8");
-            request.send(stringData);
+        messages.set(event.data, event.source);
+        extraTime = extraTime + event.timeStamp + 100;
+        timeOutId = window.setTimeout(checkMessages, event.timeStamp + 500);
+      }
+      //        Send the results back to the server
+      function sendBackToServer() {
+        var stringData = JSON.stringify({
+          result: {
+            typeofTest: "<!--__TYPE_OF_TEST__-->",
+            resultFilePath: "<!--__RESULT_FILE__PATH-->",
+            //                    jobID: "<!--__JOB_ID__-->",
+            content: result_content,
+            generatedTests: testsgen, // only for functions that conflict
+          },
+        });
+        var request = new XMLHttpRequest();
+        request.open("POST", "http://localhost:3000/reportResult", true);
+        request.setRequestHeader(
+          "Content-Type",
+          "application/json;charset=UTF-8"
+        );
+        request.send(stringData);
 
-            timeToClose_BrowserTab = timeToClose_BrowserTab + extraTime;
-            window.setTimeout(function () {
-                close();
-            }, timeToClose_BrowserTab);
-        }
-
+        timeToClose_BrowserTab = timeToClose_BrowserTab + extraTime;
+        window.setTimeout(function () {
+          close();
+        }, timeToClose_BrowserTab);
+      }
     </script>
-</head>
-<body>
-<h1>Libraries host</h1>
-<!--LIB_IFRAME_HOLDER-->
-</body>
+  </head>
+  <body>
+    <h1>Libraries host</h1>
+    <!--LIB_IFRAME_HOLDER-->
+  </body>
 </html>
