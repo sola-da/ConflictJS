@@ -1,6 +1,4 @@
 {
   "name": "3Dmol",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.0.6/3Dmol-min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.0.6/3Dmol-min.js"]
 }

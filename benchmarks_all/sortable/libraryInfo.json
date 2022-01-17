@@ -1,6 +1,6 @@
 {
-  "name": "sortable",
+  "name": "Sortable",
   "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"
+    "https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.4.2/Sortable.min.js"
   ]
 }

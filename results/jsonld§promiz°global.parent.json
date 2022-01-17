@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz°global.parent": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,jsonld°global.parent": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.parent": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.parent": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.parent": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.parent": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.parent": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.parent": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.parent": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.parent": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.parent": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.parent": "RAN TOO LONG > 120000 ms",
+  "value-test-non-functionsßjsonld,promiz°global.parent": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,jsonld°global.parent": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,jsonld°global.parent": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz°global.parent": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz,jsonld°global.parent": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,promiz°global.parent": "NO_CONFLICT"
+}

@@ -14,7 +14,9 @@ function checkMessages() {
       })
     })
   }
-  window.setTimeout(sendBackToServer, 100)
+
+  sendBackToServer()
+  // window.setTimeout(sendBackToServer, 100)
 }
 
 function areEqual(obj1, obj2) {
@@ -35,7 +37,7 @@ function areEqual(obj1, obj2) {
     return 'SIZE of objects different ' + len1 + ' and ' + len2
   }
 
-  var functions_inObj1 = [],
+  let functions_inObj1 = [],
     functions_inObj2 = []
 
   /* Keep track of the properties in objects that are functions.
@@ -65,7 +67,7 @@ function areEqual(obj1, obj2) {
       )
     ) {
       return 'NOT SURE - objects contain functions'
-      // var listOfFunctionAccessPath = comparedFunctionsWithinObjects(obj1, functions_inObj1, obj2, functions_inObj2, accessPathName);
+      // let listOfFunctionAccessPath = comparedFunctionsWithinObjects(obj1, functions_inObj1, obj2, functions_inObj2, accessPathName);
       // return listOfFunctionAccessPath;
       // if () {
       //     return 'EQUAL Objects having FUNCTIONS';
@@ -79,7 +81,7 @@ function areEqual(obj1, obj2) {
 /* Compare the names of the functions stored in the objects */
 function nameOfFunctionsAreSame(set1, set2) {
   if (set1.size !== set2.size) return false
-  for (var elem of set1) if (!set2.has(elem)) return false
+  for (let elem of set1) if (!set2.has(elem)) return false
   return true
 }
 
@@ -87,7 +89,7 @@ function nameOfFunctionsAreSame(set1, set2) {
  *  It goes inside nested objects and pulls out the function types present in the nested objects.
  * */
 function findFunctions(obj) {
-  var funcTypes = []
+  let funcTypes = []
   for (const key in obj) {
     let types = myType(obj[key])
     if (types === 'Function') {
@@ -95,7 +97,7 @@ function findFunctions(obj) {
       funcTypes.push(key)
     } else if (types === 'object') {
       let nestedFunctions = findFunctions(obj[key])
-      nestedFunctions.forEach((elem) => {
+      nestedFunctions.forEach(elem => {
         funcTypes.push(key + '.' + elem)
       })
     }

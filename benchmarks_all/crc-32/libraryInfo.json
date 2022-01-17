@@ -1,6 +1,4 @@
 {
   "name": "crc-32",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/crc-32/0.4.1/crc32.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/crc-32/0.4.1/crc32.min.js"]
 }

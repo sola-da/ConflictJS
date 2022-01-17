@@ -1,6 +1,4 @@
 {
   "name": "absurd",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/absurd/0.3.6/absurd.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/absurd/0.3.6/absurd.min.js"]
 }

@@ -1,6 +1,4 @@
 {
   "name": "animo.js",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/animo.js/1.0.3/animo.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/animo.js/1.0.3/animo.min.js"]
 }

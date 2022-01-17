@@ -20,7 +20,10 @@
       : hasCommand(config.browserName)
       ? config.browserName
       : 'google-chrome'
-    browserProcess = childProcess.spawn(browserCmd, [''])
+    browserProcess = childProcess.spawn(browserCmd, [
+      '--headless',
+      '--disable-gpu',
+    ])
   }
 
   function close() {
@@ -28,10 +31,15 @@
   }
 
   function loadURL(url) {
-    console.log('Loading URL in browser: ' + url)
-    let process = childProcess.spawn(browserCmd, [url, '--headless'], {
-      detached: true,
-    })
+    // console.log('Loading URL in browser: ' + url)
+    let process = childProcess.spawn(
+      browserCmd,
+      // [url],
+      [url, '--headless', '--disable-gpu'],
+      {
+        detached: true,
+      }
+    )
     return process
   }
 

@@ -1,0 +1,14 @@
+{
+  "inclusionTestßgh.js,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßgh.js,mark.js,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßmark.js,gh.js,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßgh.js,mark.js,mark.js,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßgh.js,mark.js,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßmark.js,gh.js,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßgh.js,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßgh.js,mark.js,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßmark.js,gh.js,gh.js°µclassCallCheck": "ERROR Function,undefined",
+  "typeTestßgh.js,mark.js,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßmark.js,gh.js,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßgh.js,mark.js,mark.js,gh.js°µclassCallCheck": "NO_CONFLICT"
+}

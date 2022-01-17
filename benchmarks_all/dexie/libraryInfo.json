@@ -1,6 +1,4 @@
 {
   "name": "dexie",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/dexie/1.4.1/dexie.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/dexie/1.4.1/dexie.min.js"]
 }

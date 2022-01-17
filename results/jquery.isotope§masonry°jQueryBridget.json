@@ -1,0 +1,14 @@
+{
+  "inclusionTestßjquery.isotope,masonry°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßjquery.isotope,masonry,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßmasonry,jquery.isotope,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßjquery.isotope,masonry,masonry°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßmasonry,jquery.isotope,masonry°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßjquery.isotope,masonry,masonry,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "typeTestßjquery.isotope,masonry°jQueryBridget": "ERROR Function,undefined",
+  "typeTestßjquery.isotope,masonry,jquery.isotope°jQueryBridget": "ERROR Function,undefined",
+  "typeTestßmasonry,jquery.isotope,jquery.isotope°jQueryBridget": "ERROR Function,undefined",
+  "typeTestßjquery.isotope,masonry,masonry°jQueryBridget": "NO_CONFLICT",
+  "typeTestßmasonry,jquery.isotope,masonry°jQueryBridget": "ERROR Function,undefined",
+  "typeTestßjquery.isotope,masonry,masonry,jquery.isotope°jQueryBridget": "ERROR Function,undefined"
+}

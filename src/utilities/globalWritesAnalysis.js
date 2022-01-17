@@ -7,15 +7,15 @@
          We need this because this returns properties even if they are non-enumerable. Number could be overwritten but could
          be non enumerable
          */
-    var globalProps = Object.getOwnPropertyNames(window)
+    let globalProps = Object.getOwnPropertyNames(window)
 
     // TODO: ideally, should track all writes to global state as it is just before a particular lib is loaded
 
-    var globalWritesTypes = {} // access path --> type
-    var alreadyVisited = new Set()
+    let globalWritesTypes = {} // access path --> type
+    let alreadyVisited = new Set()
 
-    var theManyNamesOfGlobal = ['window', 'top', 'frames', 'self', 'parent']
-    var manyDifferentTypes = [
+    let theManyNamesOfGlobal = ['window', 'top', 'frames', 'self', 'parent']
+    let manyDifferentTypes = [
       'undefined',
       'boolean',
       'number',
@@ -25,14 +25,14 @@
     ] // Types except object
 
     function globalRefs(base, propName) {
-      var result = []
-      for (var i = 0; i < globalProps.length; i++) {
+      let result = []
+      for (let i = 0; i < globalProps.length; i++) {
         // result = [];
-        var prop = globalProps[i]
-        var multiseg = prop.split('.')
-        var access = window[prop]
+        let prop = globalProps[i]
+        let multiseg = prop.split('.')
+        let access = window[prop]
         if (multiseg.length > 1) {
-          multiseg.forEach((elem) => {
+          multiseg.forEach(elem => {
             if (!access) {
               access = window[elem]
             } else access = access[elem]
@@ -83,7 +83,7 @@
       return result
     }
 
-    var traversedobjects = new Set()
+    let traversedobjects = new Set()
 
     function returnNestedPropNames(obj) {
       let namesandTypes = new Map()
@@ -93,7 +93,7 @@
       traversedobjects.add(obj)
       let props = Object.keys(obj)
       // console.log("Size: ", props.length);
-      props.forEach((prop) => {
+      props.forEach(prop => {
         if (!blackSet.has(prop)) {
           let typeOfProp = myType(obj[prop])
           namesandTypes.set(prop, typeOfProp)
@@ -137,8 +137,8 @@
 
         if (globalWritesTypes.hasOwnProperty(name)) {
           //    Remove all elements that start with 'name'
-          var propNames = Object.keys(globalWritesTypes)
-          propNames.forEach((prop) => {
+          let propNames = Object.keys(globalWritesTypes)
+          propNames.forEach(prop => {
             if (prop.split('.')[0] === name) {
               delete globalWritesTypes[prop]
               globalProps.splice(globalProps.indexOf(prop), 1)
@@ -150,7 +150,7 @@
         //       E.g., an array.
         if (typeOfCurrent === 'object') {
           traversedobjects.clear()
-          var nestedProp = returnNestedPropNames(val)
+          let nestedProp = returnNestedPropNames(val)
           nestedProp.forEach((typeOfProperty, propertyName) => {
             globalWritesTypes[name + '.' + propertyName] = typeOfProperty
             globalProps.push(name + '.' + propertyName)
@@ -163,7 +163,7 @@
       }
       /*else {
              globalProps.forEach(elem => {
-             var obj;
+             let obj;
              elem.split('.').forEach(e => {
              if (!obj) {
              obj = window[e];
@@ -196,7 +196,7 @@
     }
 
     /* TODO: To handle 'delete' of properties in objects */
-    var blackSet = new Set()
+    let blackSet = new Set()
     blackSet.add('navigator')
     blackSet.add('Navigator')
     blackSet.add('clientInformation')
@@ -215,13 +215,13 @@
       // console.log("start = ", start);
       // console.log("accespath = ", currentAccessPath);
       if (base === start) return currentAccessPath
-      var properties = []
+      let properties = []
       properties = Object.getOwnPropertyNames(start)
       // properties.splice(properties.indexOf('*J$SID*'), 1);
       // properties.splice(properties.indexOf('*J$IID*'), 1);
       // console.log(properties.length);
       if (!alreadyVisited.has(start)) {
-        for (var prop = 0; prop < properties.length; prop++) {
+        for (let prop = 0; prop < properties.length; prop++) {
           alreadyVisited.add(start)
           // console.log(start);
           let propName = properties[prop]
@@ -235,7 +235,7 @@
           if (blackSet.has(propName) || typeOfStart === 'Arguments') continue
 
           try {
-            var nextStart = start[propName]
+            let nextStart = start[propName]
             if (nextStart === null || nextStart === undefined) {
               continue
             }
@@ -255,7 +255,7 @@
           if (nextStart === base) {
             return accesspath
           } else {
-            var isReachable = findReachableAccessPath(
+            let isReachable = findReachableAccessPath(
               base,
               alreadyVisited,
               nextStart,
@@ -272,7 +272,7 @@
 
     this.putField = function (iid, base, offset, val, isComputed, isOpAssign) {
       alreadyVisited.clear()
-      var reachablePath = findReachableAccessPath(
+      let reachablePath = findReachableAccessPath(
         base,
         alreadyVisited,
         window,
@@ -286,7 +286,7 @@
           if (typeOfCurrent === 'object') {
             let name = reachablePath + '.' + offset
             traversedobjects.clear()
-            var nestedProp = returnNestedPropNames(val)
+            let nestedProp = returnNestedPropNames(val)
             nestedProp.forEach((typeOfProperty, propertyName) => {
               globalWritesTypes[name + '.' + propertyName] = typeOfProperty
               // globalProps.push(name + '.' + propertyName);
@@ -298,9 +298,9 @@
         }
       }
 
-      var globalPathsToField = globalRefs(base, offset)
-      for (var i = 0; i < globalPathsToField.length; i++) {
-        var globalPathToField = globalPathsToField[i]
+      let globalPathsToField = globalRefs(base, offset)
+      for (let i = 0; i < globalPathsToField.length; i++) {
+        let globalPathToField = globalPathsToField[i]
         globalWritesTypes[globalPathToField] = typeOfCurrent
         globalProps.push(globalPathToField)
       }
@@ -315,7 +315,7 @@
         let val = 'START'
         try {
           let propertyExists = true
-          key.split('.').forEach((p) => {
+          key.split('.').forEach(p => {
             if (val === 'START') {
               if (window.hasOwnProperty(p)) {
                 val = window[p]
@@ -355,7 +355,7 @@
       sendBackToServer(globalWritesTypes)
       // console.log("Types: " + JSON.stringify(globalWritesTypes, 0, 2));
 
-      /*            var stringData = JSON.stringify({
+      /*            let stringData = JSON.stringify({
              result: {
              id: _LibraryInterference_libraryName, // The name of the results file for writing the global-writes
              jobID: _LibraryInterference_jobID,
@@ -364,7 +364,7 @@
              typeOfTest: _TypeOfTest // The name of the directory for the writing the results of the global-writes
              }
              });
-             var request = new XMLHttpRequest();
+             let request = new XMLHttpRequest();
              request.open('POST', 'http://localhost:3000/reportResult', true);
              request.setRequestHeader('Content-Type', "application/json;charset=UTF-8");
              request.send(stringData);*/

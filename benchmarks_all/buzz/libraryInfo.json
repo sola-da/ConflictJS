@@ -1,6 +1,4 @@
 {
   "name": "buzz",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.0/buzz.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.0/buzz.min.js"]
 }

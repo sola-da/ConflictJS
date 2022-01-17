@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title>Global write analysis</title>
+
+    <!-- Needed for finding type -->
+    <script src="../node_modules/underscore/underscore-min.js"></script>
+
+    <script src="../node_modules/jalangi2/node_modules/esotope/esotope.js"></script>
+    <script src="../node_modules/jalangi2/node_modules/acorn/dist/acorn.js"></script>
+    <script src="../node_modules/jalangi2/src/js/Constants.js"></script>
+    <script src="../node_modules/jalangi2/src/js/Config.js"></script>
+    <script src="../node_modules/jalangi2/src/js/instrument/astUtil.js"></script>
+    <script src="../node_modules/jalangi2/src/js/instrument/esnstrument.js"></script>
+    <script src="../node_modules/jalangi2/src/js/runtime/iidToLocation.js"></script>
+    <script src="../node_modules/jalangi2/src/js/runtime/analysis.js"></script>
+
+    <script src="../src/utilities/globalWritesAnalysis.js"></script>
+    	<script src='../benchmarks_all/z-schema/ZSchema-browser-min_instrumented.js'></script>
+    <script src="../src/utilities/time-to-closeTab.js"></script>
+    <script>
+      // analyze.html
+
+      //        Send the results back to the server
+      function sendBackToServer(globalWritesTypes) {
+        let stringData = JSON.stringify({
+          result: {
+            typeofTest: 'z-schemaglobal-write-analysis',
+            resultFilePath: '/Users/yumabuchi/lab/ConflictJS/results/global-writes/z-schema°global-writes.json',
+            //                    jobID: "<!--__JOB_ID__-->",
+            content: globalWritesTypes,
+            generatedTests: [],
+          },
+        })
+        let request = new XMLHttpRequest()
+        request.open('POST', 'http://localhost:3000/reportResult', true)
+        request.setRequestHeader(
+          'Content-Type',
+          'application/json;charset=UTF-8'
+        )
+        request.send(stringData)
+
+        close()
+        // window.setTimeout(function () {
+        //   close()
+        // }, timeToClose_BrowserTab)
+      }
+      J$.analysis.endExecution()
+    </script>
+  </head>
+  <body>
+    <h2>
+      Analyzing global writes of
+      z-schema
+    </h2>
+  </body>
+</html>

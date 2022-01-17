@@ -24,17 +24,21 @@ function checkMessages() {
     }
 
     // Check the number of tests generated for each library
-    let testSizes = generatedTestsSize.filter((num) => {
+    let testSizes = generatedTestsSize.filter(num => {
       return num > 0
     }).length
     // If tests could not be generated for both of the libraries
     if (testSizes == 0) {
       result_content = 'NOT SURE - Tests could not be generated for both'
-      window.setTimeout(sendBackToServer, 100)
+
+      sendBackToServer()
+      // window.setTimeout(sendBackToServer, 100)
     } else if (testSizes == 1) {
       // Tests could not be generated for one of the library
       result_content = 'NOT SURE - Tests could not be generated for one'
-      window.setTimeout(sendBackToServer, 100)
+
+      sendBackToServer()
+      // window.setTimeout(sendBackToServer, 100)
     } else {
       messages.forEach(function (val, key) {
         generatedTests.forEach(function (tests, key_gen) {
@@ -43,7 +47,7 @@ function checkMessages() {
                          if (test_size === 0) {
                          val.postMessage([], "*");
                          }*/
-            tests.forEach((test) => {
+            tests.forEach(test => {
               testsgen.push(test)
               val.postMessage(test, '*') // Send the test for execution
             })
@@ -66,6 +70,8 @@ function checkMessages() {
           key /*+ ' no. of generated tests is ' + generatedTestsSize*/
       } else testsgen = [] // Empty the generated tests if there is no error
     })
-    window.setTimeout(sendBackToServer, 100)
+
+    sendBackToServer()
+    // window.setTimeout(sendBackToServer, 100)
   }
 }

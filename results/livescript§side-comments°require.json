@@ -1,0 +1,20 @@
+{
+  "inclusionTestßlivescript,side-comments°require": "NO_CONFLICT",
+  "inclusionTestßlivescript,side-comments,livescript°require": "NO_CONFLICT",
+  "inclusionTestßside-comments,livescript,livescript°require": "NO_CONFLICT",
+  "inclusionTestßlivescript,side-comments,side-comments°require": "NO_CONFLICT",
+  "inclusionTestßside-comments,livescript,side-comments°require": "NO_CONFLICT",
+  "inclusionTestßlivescript,side-comments,side-comments,livescript°require": "NO_CONFLICT",
+  "typeTestßlivescript,side-comments°require": "NO_CONFLICT",
+  "typeTestßlivescript,side-comments,livescript°require": "NO_CONFLICT",
+  "typeTestßlivescript,side-comments,side-comments°require": "NO_CONFLICT",
+  "typeTestßside-comments,livescript,livescript°require": "NO_CONFLICT",
+  "typeTestßside-comments,livescript,side-comments°require": "NO_CONFLICT",
+  "typeTestßlivescript,side-comments,side-comments,livescript°require": "NO_CONFLICT",
+  "value-test-functionsßlivescript,side-comments°require": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßlivescript,side-comments,livescript°require": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßside-comments,livescript,livescript°require": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßlivescript,side-comments,side-comments°require": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßside-comments,livescript,side-comments°require": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßlivescript,side-comments,side-comments,livescript°require": "NOT SURE - Tests could not be generated for both"
+}

@@ -44,7 +44,7 @@
     /* Take an access path that is potentially conflicting and dispatch one job after another
      * to validate if it is really conflicting for a pair of libraryNames.
      * */
-    accessPaths.forEach((accessPath) => {
+    accessPaths.forEach(accessPath => {
       let libraryNames = Object.keys(potentialConflicts[accessPath])
       let pairsOfLibraries = libraryPairs(libraryNames)
 
@@ -70,7 +70,7 @@
           fs.mkdirSync(validationTest.generatedDir)
         }
 
-        pairsOfLibraries[i].forEach((lib) => {
+        pairsOfLibraries[i].forEach(lib => {
           validationTest.libraryPaths[lib] =
             libraries.libraryByName(lib).libraryFiles[0] // Currently considering the first file
         })
@@ -133,7 +133,7 @@
 
   function accessPathFunctionType(conflictingLibs, libraryPair) {
     let types = new Set()
-    libraryPair.forEach((lib) => {
+    libraryPair.forEach(lib => {
       types.add(conflictingLibs[lib])
     })
     if (types.size > 1) throw 'Different types found during global analysis'

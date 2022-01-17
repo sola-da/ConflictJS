@@ -34,7 +34,7 @@
   // Need the following directories in order to function
   exports.resultsDirectory = resultDir
   exports.generationDirectory = '/generated' // A directory where all generated tests and HTML files are kept
-  exports.benchmarkDir = '/benchmarks' // Contains libraryNames we want to test
+  exports.benchmarkDir = '/benchmarks_all' // Contains libraryNames we want to test
   exports.htmlFragmentsDir = 'src/htmlFragments' // Contains libraryNames we want to test
   exports.globalWritesDir = '/global-writes/'
 })()

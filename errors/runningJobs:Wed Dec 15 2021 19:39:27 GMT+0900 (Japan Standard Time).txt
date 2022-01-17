@@ -1,0 +1,10 @@
+{
+  "typeTestßdraggabilly,packery°jQueryBridget": true,
+  "typeTestßgifshot,setImmediate,setImmediate,gifshot°onmessage": true,
+  "typeTestßpromiz,jsonld,promiz°global.customElements": true,
+  "typeTestßpromiz,jsonld,promiz°global.statusbar": true,
+  "typeTestßjsonld,promiz°global.toolbar": true,
+  "typeTestßpromiz,jsonld,promiz°global.top": true,
+  "typeTestßjsonld,promiz°global.defaultStatus": true,
+  "typeTestßjsonld,promiz,jsonld°global.defaultStatus": true
+}

@@ -1,0 +1,14 @@
+{
+  "inclusionTestßdraggabilly,masonry°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßmasonry,draggabilly,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,masonry,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,masonry,masonry°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,masonry,masonry,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßmasonry,draggabilly,masonry°jQueryBridget": "NO_CONFLICT",
+  "typeTestßdraggabilly,masonry°jQueryBridget": "NO_CONFLICT",
+  "typeTestßdraggabilly,masonry,masonry°jQueryBridget": "ERROR Function,undefined",
+  "typeTestßdraggabilly,masonry,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "typeTestßmasonry,draggabilly,draggabilly°jQueryBridget": "ERROR Function,undefined",
+  "typeTestßdraggabilly,masonry,masonry,draggabilly°jQueryBridget": "ERROR Function,undefined",
+  "typeTestßmasonry,draggabilly,masonry°jQueryBridget": "ERROR Function,undefined"
+}

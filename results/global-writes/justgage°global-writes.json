@@ -1,0 +1,13 @@
+{
+  "kvLookup": "Function",
+  "getColor": "Function",
+  "setDy": "Function",
+  "getRandomInt": "Function",
+  "cutHex": "Function",
+  "humanFriendlyNumber": "Function",
+  "formatNumber": "Function",
+  "getStyle": "Function",
+  "onCreateElementNsReady": "Function",
+  "extend": "Function",
+  "JustGage": "Function"
+}

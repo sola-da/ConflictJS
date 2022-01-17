@@ -1,6 +1,4 @@
 {
   "name": "cldrjs",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/cldrjs/0.4.5/cldr.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/cldrjs/0.4.5/cldr.min.js"]
 }

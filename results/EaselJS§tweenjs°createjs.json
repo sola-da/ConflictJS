@@ -1,0 +1,14 @@
+{
+  "inclusionTestßEaselJS,tweenjs°createjs": "NO_CONFLICT",
+  "inclusionTestßEaselJS,tweenjs,tweenjs°createjs": "NO_CONFLICT",
+  "inclusionTestßEaselJS,tweenjs,EaselJS°createjs": "NO_CONFLICT",
+  "inclusionTestßtweenjs,EaselJS,EaselJS°createjs": "NO_CONFLICT",
+  "inclusionTestßtweenjs,EaselJS,tweenjs°createjs": "NO_CONFLICT",
+  "inclusionTestßEaselJS,tweenjs,tweenjs,EaselJS°createjs": "NO_CONFLICT",
+  "typeTestßtweenjs,EaselJS,tweenjs°createjs": "NO_CONFLICT",
+  "typeTestßEaselJS,tweenjs°createjs": "NO_CONFLICT",
+  "typeTestßEaselJS,tweenjs,tweenjs°createjs": "ERROR object,undefined",
+  "typeTestßtweenjs,EaselJS,EaselJS°createjs": "NO_CONFLICT",
+  "typeTestßEaselJS,tweenjs,EaselJS°createjs": "NO_CONFLICT",
+  "typeTestßEaselJS,tweenjs,tweenjs,EaselJS°createjs": "NO_CONFLICT"
+}

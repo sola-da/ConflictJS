@@ -1,0 +1,14 @@
+{
+  "inclusionTestßflickity,classie,classie°classie": "NO_CONFLICT",
+  "inclusionTestßclassie,flickity,classie°classie": "NO_CONFLICT",
+  "inclusionTestßclassie,flickity°classie": "NO_CONFLICT",
+  "inclusionTestßclassie,flickity,flickity°classie": "NO_CONFLICT",
+  "inclusionTestßclassie,flickity,flickity,classie°classie": "NO_CONFLICT",
+  "inclusionTestßflickity,classie,flickity°classie": "NO_CONFLICT",
+  "typeTestßclassie,flickity°classie": "NO_CONFLICT",
+  "typeTestßflickity,classie,flickity°classie": "NO_CONFLICT",
+  "typeTestßclassie,flickity,flickity°classie": "NO_CONFLICT",
+  "typeTestßflickity,classie,classie°classie": "ERROR object,undefined",
+  "typeTestßclassie,flickity,classie°classie": "NO_CONFLICT",
+  "typeTestßclassie,flickity,flickity,classie°classie": "ERROR object,undefined"
+}

@@ -1,0 +1,20 @@
+{
+  "inclusionTestßLadda,ladda-bootstrap°Ladda": "NO_CONFLICT",
+  "inclusionTestßladda-bootstrap,Ladda,Ladda°Ladda": "NO_CONFLICT",
+  "inclusionTestßLadda,ladda-bootstrap,ladda-bootstrap°Ladda": "NO_CONFLICT",
+  "inclusionTestßLadda,ladda-bootstrap,ladda-bootstrap,Ladda°Ladda": "NO_CONFLICT",
+  "inclusionTestßLadda,ladda-bootstrap,Ladda°Ladda": "NO_CONFLICT",
+  "inclusionTestßladda-bootstrap,Ladda,ladda-bootstrap°Ladda": "NO_CONFLICT",
+  "typeTestßLadda,ladda-bootstrap°Ladda": "NO_CONFLICT",
+  "typeTestßLadda,ladda-bootstrap,ladda-bootstrap°Ladda": "NO_CONFLICT",
+  "typeTestßladda-bootstrap,Ladda,Ladda°Ladda": "NO_CONFLICT",
+  "typeTestßLadda,ladda-bootstrap,Ladda°Ladda": "NO_CONFLICT",
+  "typeTestßladda-bootstrap,Ladda,ladda-bootstrap°Ladda": "NO_CONFLICT",
+  "typeTestßLadda,ladda-bootstrap,ladda-bootstrap,Ladda°Ladda": "NO_CONFLICT",
+  "value-test-non-functionsßLadda,ladda-bootstrap°Ladda": "NO_CONFLICT",
+  "value-test-non-functionsßLadda,ladda-bootstrap,Ladda°Ladda": "ERROR NOT EQUAL",
+  "value-test-non-functionsßladda-bootstrap,Ladda,Ladda°Ladda": "ERROR NOT SURE - objects contain functions",
+  "value-test-non-functionsßLadda,ladda-bootstrap,ladda-bootstrap°Ladda": "NO_CONFLICT",
+  "value-test-non-functionsßladda-bootstrap,Ladda,ladda-bootstrap°Ladda": "NO_CONFLICT",
+  "value-test-non-functionsßLadda,ladda-bootstrap,ladda-bootstrap,Ladda°Ladda": "ERROR NOT EQUAL"
+}

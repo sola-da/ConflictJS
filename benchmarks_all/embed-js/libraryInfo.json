@@ -1,6 +1,4 @@
 {
   "name": "embed-js",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/embed-js/4.1.3/embed.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/embed-js/4.1.3/embed.min.js"]
 }

@@ -1,6 +1,4 @@
 {
   "name": "doony",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/doony/2.1/js/doony.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/doony/2.1/js/doony.min.js"]
 }

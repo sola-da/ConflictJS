@@ -1,0 +1,14 @@
+{
+  "inclusionTestßaplayer,conditional-field,aplayer°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßaplayer,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßconditional-field,aplayer,aplayer°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßaplayer,conditional-field,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßconditional-field,aplayer,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßaplayer,conditional-field,conditional-field,aplayer°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßaplayer,conditional-field°µclassCallCheck": "ERROR Function,undefined",
+  "typeTestßaplayer,conditional-field,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßaplayer,conditional-field,aplayer°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßconditional-field,aplayer,aplayer°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßconditional-field,aplayer,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßaplayer,conditional-field,conditional-field,aplayer°µclassCallCheck": "NO_CONFLICT"
+}

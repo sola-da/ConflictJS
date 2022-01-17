@@ -2,10 +2,10 @@
 
 ;(function () {
   if (typeof window === 'undefined') {
-    var seedrandom = require('seedrandom')
-    var _ = require('underscore')
+    let seedrandom = require('seedrandom')
+    let _ = require('underscore')
   } else {
-    var _ = window._
+    let _ = window._
   }
 
   function assert(c) {
@@ -18,10 +18,10 @@
     this.filter = filter // array of strings
 
     // make sure that each function (including anonymous ones) have a name
-    // var objectKeys = Object.keys(object);
-    var objectKeys = Object.getOwnPropertyNames(object)
-    for (var i = 0; i < objectKeys.length; i++) {
-      var key = objectKeys[i]
+    // let objectKeys = Object.keys(object);
+    let objectKeys = Object.getOwnPropertyNames(object)
+    for (let i = 0; i < objectKeys.length; i++) {
+      let key = objectKeys[i]
       if (typeof object[key] === 'function' && object[key].name === '') {
         Object.defineProperty(object[key], 'name', {
           value: key,
@@ -53,55 +53,55 @@
       return 'var' + this.lastVarCtr++
     },
     varForConstant: function (constant) {
-      var varName = this.freshVar()
+      let varName = this.freshVar()
       this.constantPool[varName] = constant
       return varName
     },
     /*        varForBaseVar: function (baseVal) {
-         var varName = this.freshVar();
+         let varName = this.freshVar();
          this.baseVarPool[varName] = baseVal;
          return varName;
          },*/
     execute: function () {
       // initialize variable store w/ api objects and constants
-      var varStore = new VarStore(this.varToType)
-      for (var i = 0; i < this.apiObjects.length; i++) {
-        var apiObject = this.apiObjects[i]
+      let varStore = new VarStore(this.varToType)
+      for (let i = 0; i < this.apiObjects.length; i++) {
+        let apiObject = this.apiObjects[i]
         varStore.put(apiObject.name, apiObject.object)
       }
-      var constantVars = Object.keys(this.constantPool)
-      for (var i = 0; i < constantVars.length; i++) {
-        var constantVar = constantVars[i]
+      let constantVars = Object.keys(this.constantPool)
+      for (let i = 0; i < constantVars.length; i++) {
+        let constantlet = constantVars[i]
         varStore.put(constantVar, this.constantPool[constantVar])
       }
 
-      /*var baseVars = Object.keys(this.baseVarPool);
-             for (var i = 0; i < baseVars.length; i++) {
-             var baseVar = baseVars[i];
+      /*let baseVars = Object.keys(this.baseVarPool);
+             for (let i = 0; i < baseVars.length; i++) {
+             let baselet = baseVars[i];
              varStore.put(baseVar, this.baseVarPool[baseVar]);
              }*/
       // execute one statement after the other
-      var lastRelVal
-      for (var i = 0; i < this.statements.length; i++) {
-        var statement = this.statements[i]
+      let lastRelVal
+      for (let i = 0; i < this.statements.length; i++) {
+        let statement = this.statements[i]
         lastRelVal = statement.execute(varStore)
       }
       return lastRelVal
     },
     toString: function () {
-      var result = ''
+      let result = ''
 
       // constants
-      var constantVars = Object.keys(this.constantPool)
-      for (var j = 0; j < constantVars.length; j++) {
-        var constantVar = constantVars[j]
-        var constant = this.constantPool[constantVar]
+      let constantVars = Object.keys(this.constantPool)
+      for (let j = 0; j < constantVars.length; j++) {
+        let constantlet = constantVars[j]
+        let constant = this.constantPool[constantVar]
 
-        var constantString =
+        let constantString =
           typeof constant === 'string' ? '"' + constant + '"' : constant
         if (Array.isArray(constant)) {
           constantString = '['
-          constant.forEach((elem) => {
+          constant.forEach(elem => {
             if (typeOf(elem) === 'string') {
               if (constantString.length === 1)
                 constantString += "'" + elem + "'"
@@ -116,7 +116,7 @@
         if (constant && typeof constant === 'object') {
           constantString = JSON.stringify(constant)
         }
-        result += 'var ' + constantVar + ' = ' + constantString + ';\n'
+        result += 'let ' + constantlet + ' = ' + constantString + ';\n'
         // console.log(result);
       }
 
@@ -125,16 +125,16 @@
         "function assertEqual(actual, expected) {\n  if (actual !== expected) {\n    throw 'Expected ' + expected + ' but found '+ actual;\n  }\n}\n"
 
       // statements
-      for (var i = 0; i < this.statements.length; i++) {
-        var statement = this.statements[i]
+      for (let i = 0; i < this.statements.length; i++) {
+        let statement = this.statements[i]
         result += statement + '\n'
       }
       return result
     },
     clone: function () {
-      var clonedTest = new Test(this.apiObjects)
-      for (var i = 0; i < this.statements.length; i++) {
-        var statement = this.statements[i]
+      let clonedTest = new Test(this.apiObjects)
+      for (let i = 0; i < this.statements.length; i++) {
+        let statement = this.statements[i]
         clonedTest.statements.push(statement.clone())
       }
       clonedTest.constantPool = _.clone(this.constantPool)
@@ -166,17 +166,17 @@
     assert(typeof fct === 'function')
     this.filter = filter
     this.fct = fct
-    this.baseVar = baseVar
+    this.baselet = baseVar
     this.argVars = argVars
-    this.retVar = retVar
+    this.retlet = retVar
   }
 
   Call.prototype = {
     execute: function (varStore) {
-      var baseVal = varStore.get(this.baseVar) // usually the window object
-      var argVals = []
-      for (var i = 0; i < this.argVars.length; i++) {
-        var argVar = this.argVars[i]
+      let baseVal = varStore.get(this.baseVar) // usually the window object
+      let argVals = []
+      for (let i = 0; i < this.argVars.length; i++) {
+        let arglet = this.argVars[i]
         argVals.push(varStore.get(argVar))
       }
       /* Call the function with argVals
@@ -184,7 +184,7 @@
        *  the following call is window.foo(argVals)
        *  Store the return value of the call in retVal
        * */
-      var retVal = this.fct.apply(baseVal, argVals)
+      let retVal = this.fct.apply(baseVal, argVals)
       varStore.put(this.retVar, retVal)
       return retVal
     },
@@ -193,9 +193,9 @@
         console.log(this)
       }
       return (
-        this.retVar +
+        this.retlet +
         ' = ' +
-        this.baseVar +
+        this.baselet +
         '.' +
         this.filter +
         '(' +
@@ -204,7 +204,7 @@
       )
       /* Doing the following does not work for function expressions. Calling fct.name for Function expressions
              returns the wrong name.
-             return this.retVar + " = " + this.baseVar + "." + this.fct.name + "(" + this.argVars.join() + ");";*/
+             return this.retlet + " = " + this.baselet + "." + this.fct.name + "(" + this.argVars.join() + ");";*/
     },
     clone: function () {
       return new Call(
@@ -223,7 +223,7 @@
   }
 
   EqualityAssertion.isSupportedValue = function (val) {
-    var type = typeof val
+    let type = typeof val
     return (
       val === val &&
       (type === 'number' ||
@@ -236,13 +236,13 @@
 
   EqualityAssertion.prototype = {
     execute: function (varStore) {
-      var actualVal = varStore.get(this.varName)
+      let actualVal = varStore.get(this.varName)
       if (actualVal !== this.expectedValue)
         throw 'Expected ' + this.expectedValue + ' but found ' + actualVal
     },
     toString: function () {
-      var type = typeof this.expectedValue
-      var expectedValueString
+      let type = typeof this.expectedValue
+      let expectedValueString
       if (
         type === 'number' ||
         type === 'boolean' ||
@@ -273,7 +273,7 @@
 
   Random.prototype = {
     pickFromArray: function (array) {
-      var index = Math.round(this.nextNb() * (array.length - 1))
+      let index = Math.round(this.nextNb() * (array.length - 1))
       return array[index]
     },
     pickIndex: function (length) {
@@ -301,7 +301,7 @@
     ]
 
     this.charsForRandomStrings = []
-    for (var charCode = 32; charCode < 126; charCode++) {
+    for (let charCode = 32; charCode < 126; charCode++) {
       // charCode 34 is " We do not want to include it. This generates strings for examples W" which are syntax errors
       if (
         charCode !== 34 &&
@@ -316,7 +316,7 @@
     // this.charsForRandomStrings.push("\r");
     // console.log(this.charsForRandomStrings);
     /* We might want to serialize the seed along with the generated tests in order to replicate the failure */
-    var seed = Math.floor(100)
+    let seed = Math.floor(100)
     this.r = new Random(seed)
 
     this.randomNumberPool = [
@@ -328,7 +328,7 @@
       Number.MAX_VALUE,
     ]
 
-    var sizeOfRandomNumberPool = 30
+    let sizeOfRandomNumberPool = 30
     while (this.randomNumberPool.length !== sizeOfRandomNumberPool) {
       this.randomNumberPool.push(Math.floor(this.r.nextNb() * 1000))
     }
@@ -337,15 +337,15 @@
 
   Decisions.prototype = {
     pickFunction: function (apiObject) {
-      var fcts = []
-      var filter = apiObject.filter[0]
-      var filterSegements = filter.split('.')
+      let fcts = []
+      let filter = apiObject.filter[0]
+      let filterSegements = filter.split('.')
 
-      // var keys = Object.keys(apiObject.object);
-      var keys = Object.getOwnPropertyNames(apiObject.object)
-      for (var i = 0; i < keys.length; i++) {
-        var key = keys[i]
-        var val = apiObject.object[key]
+      // let keys = Object.keys(apiObject.object);
+      let keys = Object.getOwnPropertyNames(apiObject.object)
+      for (let i = 0; i < keys.length; i++) {
+        let key = keys[i]
+        let val = apiObject.object[key]
         if (
           typeof val === 'function' &&
           (apiObject.filter === undefined ||
@@ -360,7 +360,7 @@
          * The following code extracts these functions
          */
         if (key === filterSegements[0] && filterSegements.length > 1) {
-          var constructedMultiSegmentValue = apiObject.object
+          let constructedMultiSegmentValue = apiObject.object
           filterSegements.forEach(function (seg) {
             constructedMultiSegmentValue = constructedMultiSegmentValue[seg]
           })
@@ -385,21 +385,21 @@
       /* TODO: Currently I am generating tests using the number of arguments I have seen in the original function. I might want to change it.
        *  Round(A random number * 2) = 0 or 1 or 2
        * */
-      var numberOfArguments = fct.length
+      let numberOfArguments = fct.length
       return Math.round(this.r.nextNb() * numberOfArguments)
     },
     pickArgument: function (test) {
       // 50-50 chance to use existing value (if any) or a new value
-      var vars = Object.keys(test.varToType)
+      let vars = Object.keys(test.varToType)
       if (vars.length > 0 && this.r.nextNb() < 0.5) {
         return this.r.pickFromArray(vars)
       } else {
-        var constant = this.pickRandomConstant()
+        let constant = this.pickRandomConstant()
         return test.varForConstant(constant)
       }
     },
     pickRandomConstant: function () {
-      var type = this.r.pickFromArray(this.constantTypes)
+      let type = this.r.pickFromArray(this.constantTypes)
       switch (type) {
         case 'boolean':
           return this.pickRandomBoolean()
@@ -423,10 +423,10 @@
       else return false
     },
     pickRandomObject: function () {
-      var obj = {}
-      var objSize = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-      var length = this.r.pickFromArray(objSize)
-      var prop, val
+      let obj = {}
+      let objSize = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      let length = this.r.pickFromArray(objSize)
+      let prop, val
       while (Object.keys(obj).length !== length) {
         if (this.r.nextNb() < 0.5) prop = this.pickRandomString()
         else prop = this.pickRandomNumber()
@@ -439,14 +439,14 @@
       return obj
     },
     pickRandomArray: function () {
-      var randomArray = []
-      var arrayLengths = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-      var length = this.r.pickFromArray(arrayLengths)
-      var PossibleArrayTypes = ['string', 'number', 'both']
-      var arrayType = this.r.pickFromArray(PossibleArrayTypes)
+      let randomArray = []
+      let arrayLengths = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      let length = this.r.pickFromArray(arrayLengths)
+      let PossibleArrayTypes = ['string', 'number', 'both']
+      let arrayType = this.r.pickFromArray(PossibleArrayTypes)
       if (arrayType === 'string') {
         while (randomArray.length != length) {
-          var randomString = this.pickRandomString()
+          let randomString = this.pickRandomString()
           while (randomString.length === 0 || randomString.indexOf("'") !== -1)
             randomString = this.pickRandomString()
           randomArray.push(randomString)
@@ -481,7 +481,7 @@
          }
          },*/
     pickRandomString: function () {
-      var s = ''
+      let s = ''
       while (this.r.nextNb() < 0.5) {
         s += this.r.pickFromArray(this.charsForRandomStrings)
       }
@@ -497,7 +497,7 @@
     },
   }
 
-  var decisions = new Decisions()
+  let decisions = new Decisions()
 
   function ExtendTestTask(test) {
     this.test = test
@@ -506,8 +506,8 @@
 
   ExtendTestTask.prototype = {
     perform: function () {
-      for (var tries = 0; tries < 100; tries++) {
-        var candidateTest = this.createCandidate()
+      for (let tries = 0; tries < 100; tries++) {
+        let candidateTest = this.createCandidate()
 
         if (candidateTest === 'NO_TEST_GENERATED') {
           break
@@ -538,10 +538,10 @@
   AppendAPICallTask.constructor = AppendAPICallTask
 
   AppendAPICallTask.prototype.createCandidate = function () {
-    var candidateTest = this.test.clone()
-    var apiObjectIndex = decisions.r.pickIndex(candidateTest.apiObjects.length)
-    var apiObject = candidateTest.apiObjects[apiObjectIndex]
-    var fct = decisions.pickFunction(apiObject)
+    let candidateTest = this.test.clone()
+    let apiObjectIndex = decisions.r.pickIndex(candidateTest.apiObjects.length)
+    let apiObject = candidateTest.apiObjects[apiObjectIndex]
+    let fct = decisions.pickFunction(apiObject)
     /* Some times it is not possible to pick the function because it is unavailable.
      * This may be because the function is browser specific.
      * If could not pick function then skip generating tests for it.
@@ -550,30 +550,30 @@
     if (!fct) {
       return 'NO_TEST_GENERATED'
     }
-    var retVar = candidateTest.freshVar()
-    var argVars = []
-    var nbArgs = decisions.pickNbArguments(fct)
-    for (var argIdx = 0; argIdx < nbArgs; argIdx++) {
+    let retlet = candidateTest.freshVar()
+    let argVars = []
+    let nbArgs = decisions.pickNbArguments(fct)
+    for (let argIdx = 0; argIdx < nbArgs; argIdx++) {
       argVars.push(decisions.pickArgument(candidateTest))
     }
-    /*  Usually, the baseVar is always windows. This results in a lot of failed tests getting created
+    /*  Usually, the baselet is always windows. This results in a lot of failed tests getting created
      *  To prevent this, adding more types of baseVar
      * */
-    /*        var array = decisions.pickRandomArray();
+    /*        let array = decisions.pickRandomArray();
          candidateTest.varForBaseVar(array);
-         var num = decisions.pickRandomNumber();
+         let num = decisions.pickRandomNumber();
          candidateTest.varForBaseVar(num);
-         var str = decisions.pickRandomString();
+         let str = decisions.pickRandomString();
          candidateTest.varForBaseVar(str);
-         var baseVars = Object.keys(candidateTest.baseVarPool);
+         let baseVars = Object.keys(candidateTest.baseVarPool);
          baseVars.push(apiObject.name);
-         var pickedBaseVar = decisions.r.pickFromArray(baseVars);*/
+         let pickedBaselet = decisions.r.pickFromArray(baseVars);*/
 
-    // var baseVars = [apiObject.name, array, num, str];
-    // var pickedBaseVar = decisions.r.pickFromArray(baseVars);
+    // let baseVars = [apiObject.name, array, num, str];
+    // let pickedBaselet = decisions.r.pickFromArray(baseVars);
 
     // console.log(apiObject);
-    var call = new Call(
+    let call = new Call(
       fct,
       apiObject.name,
       argVars,
@@ -593,12 +593,12 @@
    * @return {Array}
    */
   function generateTests(apiObjects, maxNbTests, maxNbCallsPerTest, asStrings) {
-    var tests = []
+    let tests = []
     console.log('Will generate ' + maxNbTests + ' tests')
-    for (var nbTests = 0; nbTests < maxNbTests; nbTests++) {
-      var test = new Test(apiObjects) // the empty test object with apiObject appended
+    for (let nbTests = 0; nbTests < maxNbTests; nbTests++) {
+      let test = new Test(apiObjects) // the empty test object with apiObject appended
 
-      for (var nbCalls = 0; nbCalls < maxNbCallsPerTest; nbCalls++) {
+      for (let nbCalls = 0; nbCalls < maxNbCallsPerTest; nbCalls++) {
         // append API call
         test = new AppendAPICallTask(test).perform()
         if (!test) {
@@ -607,8 +607,8 @@
         // console.log("Test is now:\n" + test);
 
         // append assertions about new API call's return value
-        var newCallsRetVar = _.last(test.statements).retVar
-        var newCallsRetVal = test.execute() // should we avoid re-executing the test here?
+        let newCallsRetlet = _.last(test.statements).retVar
+        let newCallsRetVal = test.execute() // should we avoid re-executing the test here?
         // console.log(newCallsRetVal);
         if (EqualityAssertion.isSupportedValue(newCallsRetVal)) {
           test.statements.push(
@@ -622,9 +622,9 @@
     }
 
     if (asStrings) {
-      var testsAsString = []
-      for (var i = 0; i < tests.length; i++) {
-        var test = tests[i]
+      let testsAsString = []
+      for (let i = 0; i < tests.length; i++) {
+        let test = tests[i]
         testsAsString.push(test.toString())
       }
       return testsAsString
@@ -635,7 +635,7 @@
 
   // ------------------------- for testing ------------------------
   if (0) {
-    var myAPI = new APIObject(
+    let myAPI = new APIObject(
       'myAPI',
       {
         foo: function (a, b) {
@@ -650,7 +650,7 @@
       ['foo']
     )
 
-    var myAPI2 = new APIObject(
+    let myAPI2 = new APIObject(
       'myAPI2',
       {
         bar: 23,
@@ -664,9 +664,9 @@
       ['baz']
     )
 
-    var tests = generateTests([myAPI2], 10, 10, true)
-    for (var i = 0; i < tests.length; i++) {
-      var test = tests[i]
+    let tests = generateTests([myAPI2], 10, 10, true)
+    for (let i = 0; i < tests.length; i++) {
+      let test = tests[i]
       console.log('\nTest ' + i + ':\n' + test)
       // test.execute();
     }

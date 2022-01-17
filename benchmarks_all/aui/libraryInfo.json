@@ -1,6 +1,4 @@
 {
   "name": "aui",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/aui/5.9.5/aui/js/aui.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/aui/5.9.5/aui/js/aui.min.js"]
 }

@@ -7,4 +7,4 @@
  *
  * Highlight here the time to close a browser tab automatically.  (milliseconds)
  */
-var timeToClose_BrowserTab = 60000
+let timeToClose_BrowserTab = 60000

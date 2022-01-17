@@ -1,6 +1,4 @@
 {
   "name": "6px",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/6px/1.0.3/6px.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/6px/1.0.3/6px.min.js"]
 }

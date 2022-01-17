@@ -1,6 +1,4 @@
 {
   "name": "aight",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/aight/1.2.2/aight.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/aight/1.2.2/aight.min.js"]
 }

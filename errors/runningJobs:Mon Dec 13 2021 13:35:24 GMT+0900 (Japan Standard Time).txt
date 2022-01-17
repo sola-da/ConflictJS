@@ -1,0 +1,10 @@
+{
+  "inclusionTestßpromiz,jsonld,jsonld°global.document.location.port": true,
+  "inclusionTestßjsonld,promiz°global.defaultStatus": true,
+  "inclusionTestßjsonld,promiz,jsonld°global.defaultStatus": true,
+  "inclusionTestßpromiz,jsonld,jsonld°global.defaultStatus": true,
+  "inclusionTestßjsonld,promiz,promiz°global.defaultStatus": true,
+  "inclusionTestßpromiz,jsonld,promiz°global.defaultStatus": true,
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.defaultStatus": true,
+  "inclusionTestßpromiz,jsonld,jsonld°global.defaultstatus": true
+}

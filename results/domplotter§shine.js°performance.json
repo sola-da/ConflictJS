@@ -1,0 +1,20 @@
+{
+  "inclusionTestßdomplotter,shine.js°performance": "NO_CONFLICT",
+  "inclusionTestßshine.js,domplotter,domplotter°performance": "NO_CONFLICT",
+  "inclusionTestßdomplotter,shine.js,domplotter°performance": "NO_CONFLICT",
+  "inclusionTestßdomplotter,shine.js,shine.js°performance": "NO_CONFLICT",
+  "inclusionTestßshine.js,domplotter,shine.js°performance": "NO_CONFLICT",
+  "inclusionTestßdomplotter,shine.js,shine.js,domplotter°performance": "NO_CONFLICT",
+  "typeTestßdomplotter,shine.js°performance": "NO_CONFLICT",
+  "typeTestßdomplotter,shine.js,domplotter°performance": "NO_CONFLICT",
+  "typeTestßshine.js,domplotter,domplotter°performance": "NO_CONFLICT",
+  "typeTestßdomplotter,shine.js,shine.js°performance": "NO_CONFLICT",
+  "typeTestßshine.js,domplotter,shine.js°performance": "NO_CONFLICT",
+  "typeTestßdomplotter,shine.js,shine.js,domplotter°performance": "NO_CONFLICT",
+  "value-test-non-functionsßdomplotter,shine.js°performance": "ERROR NOT SURE - objects contain functions",
+  "value-test-non-functionsßshine.js,domplotter,shine.js°performance": "ERROR NOT SURE - objects contain functions",
+  "value-test-non-functionsßdomplotter,shine.js,shine.js°performance": "ERROR NOT SURE - objects contain functions",
+  "value-test-non-functionsßdomplotter,shine.js,domplotter°performance": "ERROR NOT SURE - objects contain functions",
+  "value-test-non-functionsßshine.js,domplotter,domplotter°performance": "ERROR NOT SURE - objects contain functions",
+  "value-test-non-functionsßdomplotter,shine.js,shine.js,domplotter°performance": "ERROR NOT SURE - objects contain functions"
+}

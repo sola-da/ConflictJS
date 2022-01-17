@@ -1,6 +1,4 @@
 {
   "name": "chance",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/chance/1.0.3/chance.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/chance/1.0.3/chance.min.js"]
 }

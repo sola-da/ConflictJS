@@ -1,0 +1,14 @@
+{
+  "inclusionTestßconditional-field,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßconditional-field,gh.js,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßconditional-field,gh.js,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßgh.js,conditional-field,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßgh.js,conditional-field,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßconditional-field,gh.js,gh.js,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßconditional-field,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßgh.js,conditional-field,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßconditional-field,gh.js,conditional-field°µclassCallCheck": "ERROR Function,undefined",
+  "typeTestßconditional-field,gh.js,gh.js°µclassCallCheck": "ERROR Function,undefined",
+  "typeTestßgh.js,conditional-field,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßconditional-field,gh.js,gh.js,conditional-field°µclassCallCheck": "NO_CONFLICT"
+}

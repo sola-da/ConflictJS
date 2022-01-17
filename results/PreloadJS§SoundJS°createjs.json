@@ -1,0 +1,14 @@
+{
+  "inclusionTestßPreloadJS,SoundJS°createjs": "NO_CONFLICT",
+  "inclusionTestßPreloadJS,SoundJS,PreloadJS°createjs": "NO_CONFLICT",
+  "inclusionTestßSoundJS,PreloadJS,SoundJS°createjs": "NO_CONFLICT",
+  "inclusionTestßPreloadJS,SoundJS,SoundJS°createjs": "NO_CONFLICT",
+  "inclusionTestßSoundJS,PreloadJS,PreloadJS°createjs": "NO_CONFLICT",
+  "inclusionTestßPreloadJS,SoundJS,SoundJS,PreloadJS°createjs": "NO_CONFLICT",
+  "typeTestßPreloadJS,SoundJS,PreloadJS°createjs": "ERROR object,undefined",
+  "typeTestßPreloadJS,SoundJS°createjs": "NO_CONFLICT",
+  "typeTestßSoundJS,PreloadJS,SoundJS°createjs": "NO_CONFLICT",
+  "typeTestßPreloadJS,SoundJS,SoundJS,PreloadJS°createjs": "NO_CONFLICT",
+  "typeTestßPreloadJS,SoundJS,SoundJS°createjs": "NO_CONFLICT",
+  "typeTestßSoundJS,PreloadJS,PreloadJS°createjs": "NO_CONFLICT"
+}

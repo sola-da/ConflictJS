@@ -1,6 +1,4 @@
 {
   "name": "domready",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/domready/1.0.8/ready.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/domready/1.0.8/ready.min.js"]
 }

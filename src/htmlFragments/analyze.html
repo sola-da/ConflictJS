@@ -20,9 +20,11 @@
     <!--SRC-->
     <script src="../src/utilities/time-to-closeTab.js"></script>
     <script>
+      // analyze.html
+
       //        Send the results back to the server
       function sendBackToServer(globalWritesTypes) {
-        var stringData = JSON.stringify({
+        let stringData = JSON.stringify({
           result: {
             typeofTest: '<!--__TYPE_OF_TEST__-->',
             resultFilePath: '<!--__RESULT_FILE__PATH-->',
@@ -31,7 +33,7 @@
             generatedTests: [],
           },
         })
-        var request = new XMLHttpRequest()
+        let request = new XMLHttpRequest()
         request.open('POST', 'http://localhost:3000/reportResult', true)
         request.setRequestHeader(
           'Content-Type',
@@ -39,9 +41,10 @@
         )
         request.send(stringData)
 
-        window.setTimeout(function () {
-          close()
-        }, timeToClose_BrowserTab)
+        close()
+        // window.setTimeout(function () {
+        //   close()
+        // }, timeToClose_BrowserTab)
       }
       J$.analysis.endExecution()
     </script>

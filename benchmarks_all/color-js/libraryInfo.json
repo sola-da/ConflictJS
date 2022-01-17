@@ -1,6 +1,4 @@
 {
   "name": "color-js",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/color-js/1.0.1/color.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/color-js/1.0.1/color.min.js"]
 }

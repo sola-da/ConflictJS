@@ -1,6 +1,4 @@
 {
   "name": "crel",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/crel/3.0.0/crel.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/crel/3.0.0/crel.min.js"]
 }

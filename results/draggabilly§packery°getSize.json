@@ -1,0 +1,14 @@
+{
+  "inclusionTestßdraggabilly,packery°getSize": "NO_CONFLICT",
+  "inclusionTestßpackery,draggabilly,draggabilly°getSize": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,packery,draggabilly°getSize": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,packery,packery°getSize": "NO_CONFLICT",
+  "inclusionTestßpackery,draggabilly,packery°getSize": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,packery,packery,draggabilly°getSize": "NO_CONFLICT",
+  "typeTestßdraggabilly,packery°getSize": "NO_CONFLICT",
+  "typeTestßdraggabilly,packery,packery°getSize": "ERROR Function,undefined",
+  "typeTestßdraggabilly,packery,draggabilly°getSize": "NO_CONFLICT",
+  "typeTestßpackery,draggabilly,draggabilly°getSize": "NO_CONFLICT",
+  "typeTestßpackery,draggabilly,packery°getSize": "ERROR Function,undefined",
+  "typeTestßdraggabilly,packery,packery,draggabilly°getSize": "NO_CONFLICT"
+}

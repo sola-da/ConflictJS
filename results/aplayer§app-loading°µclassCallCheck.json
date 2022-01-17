@@ -1,0 +1,14 @@
+{
+  "inclusionTestßaplayer,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßaplayer,app-loading,aplayer°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,aplayer,aplayer°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßaplayer,app-loading,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßaplayer,app-loading,app-loading,aplayer°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,aplayer,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßaplayer,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßapp-loading,aplayer,aplayer°µclassCallCheck": "ERROR Function,undefined",
+  "typeTestßaplayer,app-loading,aplayer°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßaplayer,app-loading,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßaplayer,app-loading,app-loading,aplayer°µclassCallCheck": "ERROR Function,undefined",
+  "typeTestßapp-loading,aplayer,app-loading°µclassCallCheck": "NO_CONFLICT"
+}

@@ -1,6 +1,4 @@
 {
   "name": "core-js",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.0/core.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.0/core.min.js"]
 }

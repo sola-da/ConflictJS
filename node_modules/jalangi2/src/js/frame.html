@@ -1,0 +1,99 @@
+<html>
+<style type="text/css">
+    //[_[
+    (function() { return fileExpand("../../node_modules/datatables/media/css/jquery.dataTables.min.css")})
+    //]_]
+</style>
+
+<style type="text/css">
+    //[_[
+    (function() { return fileExpand("../../node_modules/codemirror/lib/codemirror.css")})
+    //]_]
+</style>
+
+<style type="text/css">
+    .CodeMirror {
+        border: 1px solid black;
+        height: auto;
+    }
+
+    .styled-background {
+        background-color: #f99;
+    }
+</style>
+<script type="text/javascript">
+    //[_[
+    (function() { return fileExpand("../../node_modules/jquery/dist/jquery.min.js")})
+    //]_]
+</script>
+<script type="text/javascript">
+    //[_[
+    (function() { return fileExpand("../../node_modules/datatables/media/js/jquery.dataTables.min.js")})
+    //]_]
+</script>
+<script type="text/javascript">
+    //[_[
+    (function() { return fileExpand("../../node_modules/codemirror/lib/codemirror.js")})
+    //]_]
+</script>
+
+<script type="text/javascript">
+    //[_[
+    (function() { return fileExpand("../../node_modules/codemirror/mode/javascript/javascript.js")})
+    //]_]
+</script>
+
+<body>
+<a style="float:right;vertical-align: top;"
+   href = "javascript:void(0)"
+   onclick = "window.parent.document.getElementById('jalangi_results_frame').style.display='none';">
+    [X]
+</a>
+<div id="jalangi_results_window"
+     style="width: 50%; height: 100%; float:left; border-style: solid; border-width:1px; overflow: scroll;">
+    <h4>Results</h4>
+</div>
+<textarea id="code" name="code" style="width: 48%; height: 100%; float:right; border-style: solid;"></textarea>
+
+<script type="text/javascript">
+    var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
+        mode: 'javascript',
+        lineNumbers: true,
+        lineWrapping: true,
+        theme: "default",
+        readOnly: true
+    });
+
+    parent.J$.Results.log = function(str) {
+        $('#jalangi_results_window').append(str+"<br>");
+    };
+
+    parent.J$.Results.execute = function(f) {
+        f($('#jalangi_results_window'), $, editor);
+    };
+
+    function iidToDisplayCodeLocation(gid) {
+        var ret, arr, sid, iid;
+        if (parent.J$.smap) {
+            if (typeof gid === 'string' && gid.indexOf(':') >= 0) {
+                sid = gid.split(':');
+                iid = parseInt(sid[1]);
+                sid = parseInt(sid[0]);
+                if ((ret = parent.J$.smap[sid])) {
+                    var code = ret.code;
+                    editor.setValue(code);
+                    arr = ret[iid];
+                    if (arr) {
+                        editor.markText({line: arr[0]-1, ch: arr[1]-1}, {line: arr[2]-1, ch: arr[3]-1}, {className: "styled-background"});
+                        editor.setCursor({line: arr[2]-1, ch: arr[3]-1});
+                        editor.scrollIntoView();
+
+                    }
+                }
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

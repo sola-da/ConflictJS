@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz,jsonld°global.captureEvents": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz°global.captureEvents": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.captureEvents": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.captureEvents": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.captureEvents": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.captureEvents": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.captureEvents": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.captureEvents": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.captureEvents": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.captureEvents": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.captureEvents": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.captureEvents": "NO_CONFLICT",
+  "value-test-functionsßjsonld,promiz°global.captureEvents": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,jsonld°global.captureEvents": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz°global.captureEvents": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,jsonld°global.captureEvents": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz,jsonld°global.captureEvents": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,promiz°global.captureEvents": "NOT SURE - Tests could not be generated for both"
+}

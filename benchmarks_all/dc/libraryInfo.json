@@ -1,6 +1,4 @@
 {
   "name": "dc",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/dc/1.7.5/dc.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/dc/1.7.5/dc.min.js"]
 }

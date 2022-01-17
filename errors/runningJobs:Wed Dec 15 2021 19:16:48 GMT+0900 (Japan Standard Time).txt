@@ -1,0 +1,10 @@
+{
+  "inclusionTestßjsonld,promiz,promiz°global.document.location.port": true,
+  "inclusionTestßjsonld,promiz,promiz°global.document.location.pathname": true,
+  "inclusionTestßjsonld,promiz,promiz°global.external": true,
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.screenTop": true,
+  "inclusionTestßjsonld,promiz°global.defaultStatus": true,
+  "inclusionTestßjsonld,promiz,jsonld°global.defaultStatus": true,
+  "inclusionTestßpromiz,jsonld,jsonld°global.defaultStatus": true,
+  "inclusionTestßjsonld,promiz,promiz°global.defaultStatus": true
+}

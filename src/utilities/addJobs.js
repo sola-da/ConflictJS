@@ -6,20 +6,23 @@
   const browser = require('./browser')
 
   function addtoqueue(validationTest, jobQueue, dependence) {
-    validationTest.jobIds.forEach((jobID) => {
+    validationTest.jobIds.forEach(jobID => {
       let url = validationTest.htmlURLs[jobID]
-      var onExecute = (function (url) {
+      let onExecute = (function (url) {
+        // console.log('url:', url, '/jobID', jobID, url.includes(jobID))
         return function (job) {
+          // console.log('url:', url, url.includes(jobID))
+          // console.log('url:', url)
           job.process = browser.loadURL(url)
           job.resultFilePath = validationTest.resultFilePath
         }
       })(url)
 
-      var onDone = (function () {
-        return function (jobState) {
-          // TODO: need these functions?
-        }
-      })()
+      // let onDone = (function () {
+      //   return function (jobState) {
+      //     // TODO: need these functions?
+      //   }
+      // })()
       jobQueue.newJob(jobID, dependence, onExecute)
     })
     // let lastJobId = [...validationTest.jobIds].pop();

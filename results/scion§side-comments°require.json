@@ -1,0 +1,14 @@
+{
+  "inclusionTestßscion,side-comments°require": "NO_CONFLICT",
+  "inclusionTestßside-comments,scion,scion°require": "NO_CONFLICT",
+  "inclusionTestßscion,side-comments,scion°require": "NO_CONFLICT",
+  "inclusionTestßscion,side-comments,side-comments°require": "NO_CONFLICT",
+  "inclusionTestßscion,side-comments,side-comments,scion°require": "NO_CONFLICT",
+  "inclusionTestßside-comments,scion,side-comments°require": "NO_CONFLICT",
+  "typeTestßscion,side-comments,scion°require": "NO_CONFLICT",
+  "typeTestßscion,side-comments°require": "NO_CONFLICT",
+  "typeTestßside-comments,scion,scion°require": "ERROR Function,undefined",
+  "typeTestßscion,side-comments,side-comments°require": "NO_CONFLICT",
+  "typeTestßscion,side-comments,side-comments,scion°require": "NO_CONFLICT",
+  "typeTestßside-comments,scion,side-comments°require": "NO_CONFLICT"
+}

@@ -1,6 +1,4 @@
 {
   "name": "asynquence",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/asynquence/0.9.0/asq.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/asynquence/0.9.0/asq.js"]
 }

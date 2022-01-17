@@ -1,6 +1,4 @@
 {
   "name": "Chart.js",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.min.js"]
 }

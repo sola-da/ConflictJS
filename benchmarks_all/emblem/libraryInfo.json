@@ -1,6 +1,4 @@
 {
   "name": "emblem",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/emblem/0.4.0/emblem.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/emblem/0.4.0/emblem.min.js"]
 }

@@ -1,0 +1,10 @@
+{
+  "StateMachine.VERSION": "String",
+  "StateMachine.create": "Function",
+  "StateMachine.beforeEvent": "Function",
+  "StateMachine.afterEvent": "Function",
+  "StateMachine.leaveState": "Function",
+  "StateMachine.enterState": "Function",
+  "StateMachine.changeState": "Function",
+  "StateMachine.buildEvent": "Function"
+}

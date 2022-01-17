@@ -1,0 +1,14 @@
+{
+  "inclusionTestßapp-loading,mark.js,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßmark.js,app-loading,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,mark.js,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,mark.js,mark.js,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßmark.js,app-loading,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßapp-loading,mark.js°µclassCallCheck": "ERROR Function,undefined",
+  "typeTestßapp-loading,mark.js,app-loading°µclassCallCheck": "ERROR Function,undefined",
+  "typeTestßapp-loading,mark.js,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßmark.js,app-loading,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßmark.js,app-loading,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßapp-loading,mark.js,mark.js,app-loading°µclassCallCheck": "NO_CONFLICT"
+}

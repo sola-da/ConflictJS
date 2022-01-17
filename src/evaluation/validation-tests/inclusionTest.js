@@ -11,7 +11,7 @@
     hostingPageClient =
       "\t<script src='../src/evaluation/validation-tests/inclusionTest_Hostingclient.js'></script>"
 
-    // LibraryClientCode = "\n\t<script>var message = '" + validationTest.libraryNames + "';</script>";
+    // LibraryClientCode = "\n\t<script>let message = '" + validationTest.libraryNames + "';</script>";
     LibraryClientCode =
       "\t<script src='../src/evaluation/validation-tests/inclusionTest_Libclient.js'></script>"
     htmlgen.generateTemplate(

@@ -1,6 +1,4 @@
 {
   "name": "baobab",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/baobab/2.3.3/baobab.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/baobab/2.3.3/baobab.js"]
 }

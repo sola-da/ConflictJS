@@ -1,6 +1,4 @@
 {
   "name": "barba.js",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.9/barba.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.9/barba.min.js"]
 }

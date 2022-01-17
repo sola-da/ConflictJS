@@ -12,7 +12,9 @@ function checkMessages() {
   if (types.size > 1) {
     result_content = 'ERROR ' + [...types]
   }
-  window.setTimeout(sendBackToServer, 100)
+
+  sendBackToServer()
+  // window.setTimeout(sendBackToServer, 100)
 }
 
 function myType(value) {

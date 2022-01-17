@@ -1,6 +1,4 @@
 {
   "name": "bowser",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/bowser/1.0.0/bowser.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/bowser/1.0.0/bowser.min.js"]
 }

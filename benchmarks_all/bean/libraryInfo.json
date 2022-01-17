@@ -1,6 +1,4 @@
 {
   "name": "bean",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/bean/1.0.15/bean.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/bean/1.0.15/bean.min.js"]
 }

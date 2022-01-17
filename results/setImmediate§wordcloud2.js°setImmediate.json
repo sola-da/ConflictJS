@@ -1,0 +1,14 @@
+{
+  "inclusionTestßsetImmediate,wordcloud2.js°setImmediate": "NO_CONFLICT",
+  "inclusionTestßwordcloud2.js,setImmediate,wordcloud2.js°setImmediate": "NO_CONFLICT",
+  "inclusionTestßsetImmediate,wordcloud2.js,wordcloud2.js°setImmediate": "NO_CONFLICT",
+  "inclusionTestßwordcloud2.js,setImmediate,setImmediate°setImmediate": "NO_CONFLICT",
+  "inclusionTestßsetImmediate,wordcloud2.js,setImmediate°setImmediate": "NO_CONFLICT",
+  "inclusionTestßsetImmediate,wordcloud2.js,wordcloud2.js,setImmediate°setImmediate": "NO_CONFLICT",
+  "typeTestßsetImmediate,wordcloud2.js°setImmediate": "ERROR Function,undefined",
+  "typeTestßsetImmediate,wordcloud2.js,setImmediate°setImmediate": "NO_CONFLICT",
+  "typeTestßsetImmediate,wordcloud2.js,wordcloud2.js°setImmediate": "ERROR Function,undefined",
+  "typeTestßwordcloud2.js,setImmediate,setImmediate°setImmediate": "NO_CONFLICT",
+  "typeTestßwordcloud2.js,setImmediate,wordcloud2.js°setImmediate": "NO_CONFLICT",
+  "typeTestßsetImmediate,wordcloud2.js,wordcloud2.js,setImmediate°setImmediate": "NO_CONFLICT"
+}

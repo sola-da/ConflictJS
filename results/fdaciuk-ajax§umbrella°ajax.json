@@ -1,0 +1,14 @@
+{
+  "inclusionTestßfdaciuk-ajax,umbrella°ajax": "NO_CONFLICT",
+  "inclusionTestßumbrella,fdaciuk-ajax,fdaciuk-ajax°ajax": "NO_CONFLICT",
+  "inclusionTestßfdaciuk-ajax,umbrella,fdaciuk-ajax°ajax": "NO_CONFLICT",
+  "inclusionTestßfdaciuk-ajax,umbrella,umbrella°ajax": "NO_CONFLICT",
+  "inclusionTestßfdaciuk-ajax,umbrella,umbrella,fdaciuk-ajax°ajax": "NO_CONFLICT",
+  "inclusionTestßumbrella,fdaciuk-ajax,umbrella°ajax": "NO_CONFLICT",
+  "typeTestßfdaciuk-ajax,umbrella°ajax": "NO_CONFLICT",
+  "typeTestßfdaciuk-ajax,umbrella,fdaciuk-ajax°ajax": "NO_CONFLICT",
+  "typeTestßumbrella,fdaciuk-ajax,fdaciuk-ajax°ajax": "NO_CONFLICT",
+  "typeTestßfdaciuk-ajax,umbrella,umbrella°ajax": "NO_CONFLICT",
+  "typeTestßumbrella,fdaciuk-ajax,umbrella°ajax": "NO_CONFLICT",
+  "typeTestßfdaciuk-ajax,umbrella,umbrella,fdaciuk-ajax°ajax": "ERROR Function,undefined"
+}

@@ -1,6 +1,4 @@
 {
   "name": "audiojs",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/audiojs/1.0.1/audio.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/audiojs/1.0.1/audio.min.js"]
 }

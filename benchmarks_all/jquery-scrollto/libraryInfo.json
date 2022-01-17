@@ -1,6 +1,6 @@
 {
-  "name": "jquery-scrollto",
+  "name": "jquery-scrollTo",
   "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollto/1.4.4/jquery-scrollto.min.js"
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"
   ]
 }

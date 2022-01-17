@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz,jsonld°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz°global.esotope.FORMATµDEFAULTS.space": "RAN TOO LONG > 120000 ms",
+  "typeTestßpromiz,jsonld,jsonld°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,jsonld°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,jsonld°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,promiz°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz,jsonld°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz°global.esotope.FORMATµDEFAULTS.space": "NO_CONFLICT"
+}

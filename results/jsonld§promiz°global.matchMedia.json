@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz,jsonld°global.matchMedia": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.matchMedia": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz°global.matchMedia": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.matchMedia": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.matchMedia": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.matchMedia": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.matchMedia": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.matchMedia": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.matchMedia": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.matchMedia": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.matchMedia": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.matchMedia": "NO_CONFLICT",
+  "value-test-functionsßjsonld,promiz°global.matchMedia": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,jsonld°global.matchMedia": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz°global.matchMedia": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,jsonld°global.matchMedia": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,promiz°global.matchMedia": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz,jsonld°global.matchMedia": "NOT SURE - Tests could not be generated for both"
+}

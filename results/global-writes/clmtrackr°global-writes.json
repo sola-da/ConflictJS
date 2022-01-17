@@ -1,0 +1,10 @@
+{
+  "mosseFilter": "Function",
+  "FFT": "Function",
+  "setupWebGL": "Function",
+  "createProgram": "Function",
+  "createShaderFromScriptElement": "Function",
+  "getWebGLContext": "Function",
+  "updateCSSIfInIFrame": "Function",
+  "loadShader": "Function"
+}

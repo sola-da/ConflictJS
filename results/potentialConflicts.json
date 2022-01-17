@@ -1,0 +1,5039 @@
+{
+  "Promise": {
+    "6px": "Function",
+    "native-promise-only": "Function"
+  },
+  "createjs": {
+    "EaselJS": "object",
+    "PreloadJS": "object",
+    "SoundJS": "object",
+    "tweenjs": "object"
+  },
+  "Ladda": {
+    "Ladda": "object",
+    "ladda-bootstrap": "object"
+  },
+  "_classCallCheck": {
+    "aplayer": "Function",
+    "app-loading": "Function",
+    "conditional-field": "Function",
+    "gh.js": "Function",
+    "mark.js": "Function"
+  },
+  "Authy": {
+    "authy-form-helpers": "object",
+    "authy-forms.js": "object"
+  },
+  "URL": {
+    "blob-polyfill": "Function",
+    "medium-editor": "Function"
+  },
+  "classie": {
+    "classie": "object",
+    "flickity": "object"
+  },
+  "FFT": {
+    "clmtrackr": "Function",
+    "dancer.js": "Function"
+  },
+  "SHA1": {
+    "cryptico": "Function",
+    "strophe.js": "object"
+  },
+  "performance": {
+    "domplotter": "object",
+    "shine.js": "object"
+  },
+  "jQueryBridget": {
+    "draggabilly": "Function",
+    "jquery.isotope": "Function",
+    "masonry": "Function",
+    "packery": "Function"
+  },
+  "getSize": {
+    "draggabilly": "Function",
+    "packery": "Function"
+  },
+  "ajax": {
+    "fdaciuk-ajax": "Function",
+    "umbrella": "Function"
+  },
+  "onmessage": {
+    "gifshot": "Function",
+    "setImmediate": "null"
+  },
+  "global.window": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.self": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.document": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.document.location": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.document.location.ancestorOrigins": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.document.location.href": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.document.location.origin": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.document.location.protocol": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.document.location.host": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.document.location.hostname": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.document.location.port": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.document.location.pathname": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.document.location.search": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.document.location.hash": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.document.location.assign": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.document.location.reload": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.document.location.replace": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.document.location.toString": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.name": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.location": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.customElements": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.history": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.locationbar": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.menubar": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.personalbar": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.scrollbars": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.statusbar": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.toolbar": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.status": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.closed": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.frames": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.length": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.top": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.opener": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.parent": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.frameElement": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.origin": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.external": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.screen": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.innerWidth": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.innerHeight": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.scrollX": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.pageXOffset": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.scrollY": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.pageYOffset": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.visualViewport": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.screenX": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.screenY": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.outerWidth": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.outerHeight": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.devicePixelRatio": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.screenLeft": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.screenTop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.defaultStatus": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.defaultstatus": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.styleMedia": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.onsearch": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.isSecureContext": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.performance": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.onappinstalled": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onbeforeinstallprompt": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.crypto": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.indexedDB": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.webkitStorageInfo": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.sessionStorage": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.localStorage": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.onbeforexrselect": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onabort": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onblur": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.oncancel": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.oncanplay": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.oncanplaythrough": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onchange": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onclick": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onclose": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.oncontextmenu": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.oncuechange": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ondblclick": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ondrag": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ondragend": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ondragenter": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ondragleave": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ondragover": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ondragstart": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ondrop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ondurationchange": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onemptied": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onended": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onerror": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onfocus": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onformdata": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.oninput": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.oninvalid": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onkeydown": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onkeypress": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onkeyup": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onload": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onloadeddata": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onloadedmetadata": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onloadstart": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onmousedown": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onmouseenter": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onmouseleave": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onmousemove": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onmouseout": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onmouseover": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onmouseup": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onmousewheel": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpause": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onplay": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onplaying": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onprogress": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onratechange": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onreset": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onresize": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onscroll": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onsecuritypolicyviolation": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onseeked": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onseeking": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onselect": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onslotchange": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onstalled": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onsubmit": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onsuspend": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ontimeupdate": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ontoggle": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onvolumechange": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onwaiting": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onwebkitanimationend": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onwebkitanimationiteration": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onwebkitanimationstart": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onwebkittransitionend": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onwheel": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onauxclick": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ongotpointercapture": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onlostpointercapture": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpointerdown": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpointermove": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpointerup": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpointercancel": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpointerover": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpointerout": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpointerenter": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpointerleave": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onselectstart": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onselectionchange": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onanimationend": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onanimationiteration": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onanimationstart": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ontransitionrun": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ontransitionstart": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ontransitionend": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ontransitioncancel": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onafterprint": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onbeforeprint": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onbeforeunload": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onhashchange": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onlanguagechange": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onmessage": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onmessageerror": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onoffline": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ononline": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpagehide": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpageshow": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onpopstate": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onrejectionhandled": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onstorage": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onunhandledrejection": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.onunload": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.alert": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.atob": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.blur": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.btoa": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.cancelAnimationFrame": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.cancelIdleCallback": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.captureEvents": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.clearInterval": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.clearTimeout": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.close": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.confirm": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.createImageBitmap": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.fetch": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.find": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.focus": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.getComputedStyle": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.getSelection": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.matchMedia": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.moveBy": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.moveTo": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.open": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.postMessage": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.print": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.prompt": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.queueMicrotask": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.releaseEvents": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.reportError": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.requestAnimationFrame": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.requestIdleCallback": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.resizeBy": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.resizeTo": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.scroll": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.scrollBy": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.scrollTo": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.setInterval": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.setTimeout": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.stop": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.structuredClone": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.webkitCancelAnimationFrame": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.webkitRequestAnimationFrame": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.caches": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.cookieStore": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.ondevicemotion": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ondeviceorientation": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.ondeviceorientationabsolute": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.showDirectoryPicker": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.showOpenFilePicker": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.showSaveFilePicker": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.originAgentCluster": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.trustedTypes": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.speechSynthesis": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.onpointerrawupdate": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.crossOriginIsolated": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.scheduler": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.openDatabase": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.webkitRequestFileSystem": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.webkitResolveLocalFileSystemURL": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global._": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.esotope": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.esotope.generate": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.esotope.Precedence": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.esotope.Precedence.Sequence": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Yield": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Assignment": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Conditional": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.ArrowFunction": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.LogicalOR": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.LogicalAND": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.BitwiseOR": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.BitwiseXOR": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.BitwiseAND": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Equality": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Relational": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.BitwiseSHIFT": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Additive": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Multiplicative": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Unary": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Postfix": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Call": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.New": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.TaggedTemplate": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Member": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.Precedence.Primary": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.browser": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_MINIFY": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.esotope.FORMAT_MINIFY.indent": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.esotope.FORMAT_MINIFY.indent.style": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.esotope.FORMAT_MINIFY.indent.base": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.FORMAT_MINIFY.renumber": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_MINIFY.hexadecimal": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_MINIFY.quotes": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.esotope.FORMAT_MINIFY.escapeless": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_MINIFY.compact": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_MINIFY.parentheses": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_MINIFY.semicolons": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_DEFAULTS": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.esotope.FORMAT_DEFAULTS.indent": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.esotope.FORMAT_DEFAULTS.indent.style": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.esotope.FORMAT_DEFAULTS.indent.base": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.esotope.FORMAT_DEFAULTS.newline": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.esotope.FORMAT_DEFAULTS.space": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.esotope.FORMAT_DEFAULTS.json": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_DEFAULTS.renumber": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_DEFAULTS.hexadecimal": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_DEFAULTS.quotes": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.esotope.FORMAT_DEFAULTS.escapeless": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_DEFAULTS.compact": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_DEFAULTS.parentheses": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_DEFAULTS.semicolons": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.esotope.FORMAT_DEFAULTS.safeConcatenation": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.Node": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.Parser": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.Position": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.SourceLocation": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.TokContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.Token": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.TokenType": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.defaultOptions": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.defaultOptions.ecmaVersion": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.defaultOptions.sourceType": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.defaultOptions.onInsertedSemicolon": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.defaultOptions.onTrailingComma": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.defaultOptions.allowReserved": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.defaultOptions.allowReturnOutsideFunction": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.defaultOptions.allowImportExportEverywhere": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.defaultOptions.allowAwaitOutsideFunction": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.defaultOptions.allowHashBang": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.defaultOptions.locations": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.defaultOptions.onToken": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.defaultOptions.onComment": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.defaultOptions.ranges": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.defaultOptions.program": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.defaultOptions.sourceFile": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.defaultOptions.directSourceFile": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.defaultOptions.preserveParens": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.getLineInfo": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.isIdentifierChar": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.isIdentifierStart": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.isNewLine": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.keywordTypes": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.break": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.break.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.break.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.break.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.break.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.break.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.break.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.break.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.break.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.break.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.break.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.case": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.case.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.case.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.case.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.case.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.case.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.case.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.case.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.case.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.case.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.case.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.catch": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.catch.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.catch.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.catch.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.catch.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.catch.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.catch.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.catch.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.catch.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.catch.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.catch.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.continue": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.continue.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.continue.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.continue.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.continue.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.continue.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.continue.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.continue.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.continue.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.continue.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.continue.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.debugger": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.debugger.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.debugger.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.debugger.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.debugger.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.debugger.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.debugger.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.debugger.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.debugger.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.debugger.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.debugger.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.default": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.default.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.default.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.default.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.default.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.default.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.default.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.default.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.default.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.default.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.default.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.do": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.do.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.do.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.do.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.do.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.do.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.do.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.do.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.do.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.do.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.do.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.else": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.else.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.else.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.else.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.else.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.else.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.else.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.else.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.else.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.else.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.else.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.finally": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.finally.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.finally.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.finally.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.finally.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.finally.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.finally.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.finally.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.finally.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.finally.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.finally.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.for": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.for.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.for.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.for.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.for.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.for.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.for.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.for.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.for.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.for.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.for.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.function": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.function.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.function.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.function.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.function.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.function.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.function.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.function.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.function.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.function.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.function.updateContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.keywordTypes.if": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.if.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.if.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.if.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.if.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.if.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.if.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.if.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.if.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.if.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.if.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.return": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.return.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.return.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.return.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.return.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.return.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.return.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.return.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.return.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.return.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.return.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.switch": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.switch.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.switch.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.switch.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.switch.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.switch.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.switch.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.switch.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.switch.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.switch.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.switch.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.throw": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.throw.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.throw.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.throw.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.throw.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.throw.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.throw.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.throw.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.throw.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.throw.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.throw.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.try": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.try.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.try.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.try.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.try.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.try.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.try.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.try.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.try.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.try.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.try.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.var": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.var.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.var.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.var.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.var.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.var.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.var.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.var.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.var.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.var.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.var.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.const": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.const.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.const.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.const.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.const.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.const.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.const.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.const.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.const.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.const.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.const.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.while": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.while.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.while.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.while.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.while.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.while.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.while.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.while.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.while.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.while.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.while.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.with": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.with.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.with.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.with.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.with.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.with.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.with.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.with.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.with.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.with.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.with.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.new": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.new.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.new.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.new.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.new.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.new.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.new.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.new.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.new.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.new.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.new.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.this": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.this.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.this.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.this.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.this.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.this.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.this.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.this.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.this.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.this.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.this.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.super": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.super.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.super.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.super.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.super.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.super.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.super.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.super.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.super.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.super.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.super.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.class": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.class.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.class.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.class.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.class.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.class.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.class.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.class.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.class.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.class.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.class.updateContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.keywordTypes.extends": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.extends.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.extends.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.extends.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.extends.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.extends.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.extends.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.extends.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.extends.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.extends.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.extends.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.export": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.export.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.export.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.export.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.export.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.export.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.export.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.export.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.export.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.export.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.export.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.import": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.import.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.import.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.import.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.import.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.import.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.import.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.import.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.import.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.import.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.import.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.null": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.null.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.null.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.null.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.null.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.null.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.null.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.null.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.null.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.null.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.null.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.true": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.true.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.true.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.true.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.true.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.true.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.true.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.true.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.true.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.true.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.true.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.false": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.false.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.false.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.false.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.false.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.false.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.false.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.false.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.false.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.false.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.false.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.in": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.in.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.in.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.in.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.in.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.in.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.in.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.in.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.in.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.in.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.keywordTypes.in.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.instanceof": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.instanceof.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.instanceof.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.instanceof.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.instanceof.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.instanceof.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.instanceof.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.instanceof.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.instanceof.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.instanceof.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.keywordTypes.instanceof.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.typeof": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.typeof.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.typeof.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.typeof.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.typeof.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.typeof.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.typeof.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.typeof.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.typeof.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.typeof.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.typeof.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.void": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.void.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.void.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.void.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.void.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.void.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.void.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.void.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.void.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.void.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.void.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.delete": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.keywordTypes.delete.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.delete.keyword": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.keywordTypes.delete.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.delete.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.delete.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.delete.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.delete.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.delete.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.keywordTypes.delete.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.keywordTypes.delete.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.lineBreak": {
+    "jsonld": "RegExp",
+    "promiz": "RegExp"
+  },
+  "global.acorn.lineBreakG": {
+    "jsonld": "RegExp",
+    "promiz": "RegExp"
+  },
+  "global.acorn.nonASCIIwhitespace": {
+    "jsonld": "RegExp",
+    "promiz": "RegExp"
+  },
+  "global.acorn.parse": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.parseExpressionAt": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.tokContexts": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokContexts.b_stat": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokContexts.b_stat.token": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokContexts.b_stat.isExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.b_stat.preserveSpace": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.b_stat.override": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokContexts.b_stat.generator": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.b_expr": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokContexts.b_expr.token": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokContexts.b_expr.isExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.b_expr.preserveSpace": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.b_expr.override": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokContexts.b_expr.generator": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.b_tmpl": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokContexts.b_tmpl.token": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokContexts.b_tmpl.isExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.b_tmpl.preserveSpace": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.b_tmpl.override": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokContexts.b_tmpl.generator": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.p_stat": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokContexts.p_stat.token": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokContexts.p_stat.isExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.p_stat.preserveSpace": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.p_stat.override": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokContexts.p_stat.generator": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.p_expr": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokContexts.p_expr.token": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokContexts.p_expr.isExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.p_expr.preserveSpace": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.p_expr.override": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokContexts.p_expr.generator": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.q_tmpl": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokContexts.q_tmpl.token": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokContexts.q_tmpl.isExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.q_tmpl.preserveSpace": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.q_tmpl.override": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.tokContexts.q_tmpl.generator": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_stat": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokContexts.f_stat.token": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokContexts.f_stat.isExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_stat.preserveSpace": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_stat.override": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokContexts.f_stat.generator": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_expr": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokContexts.f_expr.token": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokContexts.f_expr.isExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_expr.preserveSpace": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_expr.override": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokContexts.f_expr.generator": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_expr_gen": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokContexts.f_expr_gen.token": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokContexts.f_expr_gen.isExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_expr_gen.preserveSpace": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_expr_gen.override": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokContexts.f_expr_gen.generator": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_gen": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokContexts.f_gen.token": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokContexts.f_gen.isExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_gen.preserveSpace": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokContexts.f_gen.override": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokContexts.f_gen.generator": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.num": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.num.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.num.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.num.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.num.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.num.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.num.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.num.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.num.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.num.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.num.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.regexp": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.regexp.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.regexp.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.regexp.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.regexp.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.regexp.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.regexp.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.regexp.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.regexp.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.regexp.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.regexp.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.string": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.string.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.string.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.string.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.string.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.string.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.string.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.string.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.string.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.string.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.string.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.name": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.name.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.name.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.name.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.name.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.name.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.name.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.name.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.name.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.name.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.name.updateContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.tokTypes.eof": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.eof.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.eof.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.eof.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eof.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eof.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eof.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eof.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eof.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eof.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.eof.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.bracketL": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.bracketL.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.bracketL.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.bracketL.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketL.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketL.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketL.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketL.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketL.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketL.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.bracketL.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.bracketR": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.bracketR.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.bracketR.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.bracketR.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketR.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketR.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketR.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketR.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketR.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bracketR.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.bracketR.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.braceL": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.braceL.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.braceL.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.braceL.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceL.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceL.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceL.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceL.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceL.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceL.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.braceL.updateContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.tokTypes.braceR": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.braceR.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.braceR.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.braceR.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceR.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceR.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceR.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceR.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceR.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.braceR.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.braceR.updateContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.tokTypes.parenL": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.parenL.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.parenL.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.parenL.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenL.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenL.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenL.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenL.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenL.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenL.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.parenL.updateContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.tokTypes.parenR": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.parenR.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.parenR.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.parenR.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenR.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenR.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenR.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenR.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenR.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.parenR.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.parenR.updateContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.tokTypes.comma": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.comma.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.comma.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.comma.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.comma.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.comma.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.comma.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.comma.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.comma.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.comma.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.comma.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.semi": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.semi.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.semi.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.semi.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.semi.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.semi.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.semi.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.semi.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.semi.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.semi.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.semi.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.colon": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.colon.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.colon.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.colon.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.colon.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.colon.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.colon.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.colon.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.colon.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.colon.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.colon.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.dot": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.dot.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.dot.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.dot.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dot.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dot.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dot.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dot.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dot.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dot.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.dot.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.question": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.question.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.question.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.question.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.question.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.question.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.question.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.question.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.question.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.question.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.question.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.arrow": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.arrow.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.arrow.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.arrow.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.arrow.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.arrow.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.arrow.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.arrow.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.arrow.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.arrow.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.arrow.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.template": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.template.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.template.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.template.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.template.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.template.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.template.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.template.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.template.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.template.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.template.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.invalidTemplate": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.invalidTemplate.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.invalidTemplate.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.invalidTemplate.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.invalidTemplate.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.invalidTemplate.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.invalidTemplate.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.invalidTemplate.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.invalidTemplate.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.invalidTemplate.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.invalidTemplate.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.ellipsis": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.ellipsis.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.ellipsis.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.ellipsis.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.ellipsis.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.ellipsis.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.ellipsis.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.ellipsis.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.ellipsis.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.ellipsis.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.ellipsis.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.backQuote": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.backQuote.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.backQuote.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.backQuote.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.backQuote.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.backQuote.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.backQuote.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.backQuote.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.backQuote.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.backQuote.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.backQuote.updateContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.tokTypes.dollarBraceL": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.dollarBraceL.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.dollarBraceL.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.dollarBraceL.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dollarBraceL.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dollarBraceL.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dollarBraceL.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dollarBraceL.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dollarBraceL.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.dollarBraceL.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.dollarBraceL.updateContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.tokTypes.eq": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.eq.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.eq.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.eq.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eq.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eq.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eq.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eq.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eq.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.eq.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.eq.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.assign": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.assign.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.assign.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.assign.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.assign.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.assign.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.assign.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.assign.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.assign.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.assign.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.assign.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.incDec": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.incDec.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.incDec.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.incDec.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.incDec.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.incDec.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.incDec.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.incDec.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.incDec.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.incDec.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.incDec.updateContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.tokTypes.prefix": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.prefix.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.prefix.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.prefix.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.prefix.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.prefix.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.prefix.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.prefix.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.prefix.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.prefix.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.prefix.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.logicalOR": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.logicalOR.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.logicalOR.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.logicalOR.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalOR.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalOR.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalOR.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalOR.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalOR.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalOR.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.logicalOR.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.logicalAND": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.logicalAND.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.logicalAND.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.logicalAND.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalAND.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalAND.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalAND.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalAND.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalAND.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.logicalAND.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.logicalAND.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.bitwiseOR": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.bitwiseOR.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.bitwiseOR.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.bitwiseOR.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseOR.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseOR.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseOR.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseOR.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseOR.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseOR.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.bitwiseOR.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.bitwiseXOR": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.bitwiseXOR.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.bitwiseXOR.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.bitwiseXOR.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseXOR.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseXOR.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseXOR.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseXOR.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseXOR.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseXOR.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.bitwiseXOR.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.bitwiseAND": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.bitwiseAND.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.bitwiseAND.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.bitwiseAND.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseAND.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseAND.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseAND.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseAND.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseAND.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitwiseAND.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.bitwiseAND.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.equality": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.equality.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.equality.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.equality.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.equality.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.equality.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.equality.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.equality.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.equality.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.equality.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.equality.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.relational": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.relational.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.relational.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.relational.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.relational.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.relational.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.relational.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.relational.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.relational.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.relational.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.relational.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.bitShift": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.bitShift.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.bitShift.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.bitShift.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitShift.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitShift.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitShift.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitShift.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitShift.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.bitShift.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.bitShift.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.plusMin": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.plusMin.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.plusMin.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.plusMin.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.plusMin.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.plusMin.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.plusMin.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.plusMin.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.plusMin.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.plusMin.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.plusMin.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.modulo": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.modulo.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.modulo.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.modulo.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.modulo.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.modulo.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.modulo.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.modulo.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.modulo.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.modulo.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.modulo.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.star": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.star.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.star.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.star.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.star.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.star.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.star.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.star.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.star.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.star.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.star.updateContext": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.tokTypes.slash": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.slash.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.slash.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.slash.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.slash.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.slash.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.slash.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.slash.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.slash.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.slash.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.slash.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.starstar": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.starstar.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.starstar.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.starstar.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.starstar.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.starstar.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.starstar.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.starstar.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.starstar.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.starstar.binop": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.starstar.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes.coalesce": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes.coalesce.label": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "global.acorn.tokTypes.coalesce.keyword": {
+    "jsonld": "undefined",
+    "promiz": "undefined"
+  },
+  "global.acorn.tokTypes.coalesce.beforeExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.coalesce.startsExpr": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.coalesce.isLoop": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.coalesce.isAssign": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.coalesce.prefix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.coalesce.postfix": {
+    "jsonld": "Boolean",
+    "promiz": "Boolean"
+  },
+  "global.acorn.tokTypes.coalesce.binop": {
+    "jsonld": "Number",
+    "promiz": "Number"
+  },
+  "global.acorn.tokTypes.coalesce.updateContext": {
+    "jsonld": "null",
+    "promiz": "null"
+  },
+  "global.acorn.tokTypes._break": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._case": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._catch": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._continue": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._debugger": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._default": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._do": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._else": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._finally": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._for": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._function": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._if": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._return": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._switch": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._throw": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._try": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._var": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._const": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._while": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._with": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._new": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._this": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._super": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._class": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._extends": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._export": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._import": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._null": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._true": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._false": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._in": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._instanceof": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._typeof": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._void": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokTypes._delete": {
+    "jsonld": "object",
+    "promiz": "object"
+  },
+  "global.acorn.tokenizer": {
+    "jsonld": "Function",
+    "promiz": "Function"
+  },
+  "global.acorn.version": {
+    "jsonld": "String",
+    "promiz": "String"
+  },
+  "require": {
+    "livescript": "Function",
+    "psd.js": "Function",
+    "scion": "Function",
+    "side-comments": "Function"
+  },
+  "setImmediate": {
+    "setImmediate": "Function",
+    "wordcloud2.js": "Function"
+  },
+  "clearImmediate": {
+    "setImmediate": "Function",
+    "wordcloud2.js": "Function"
+  },
+  "WebComponents": {
+    "webcomponentsjs": "object",
+    "x-tag": "object"
+  }
+}

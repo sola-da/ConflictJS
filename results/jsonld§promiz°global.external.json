@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz°global.external": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,jsonld°global.external": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.external": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.external": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.external": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.external": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.external": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.external": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.external": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.external": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.external": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.external": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz°global.external": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,promiz°global.external": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz,jsonld°global.external": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,jsonld°global.external": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz°global.external": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,jsonld°global.external": "NO_CONFLICT"
+}

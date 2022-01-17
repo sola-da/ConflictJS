@@ -1,0 +1,8 @@
+{
+  "override": "Function",
+  "preempt": "Function",
+  "filter": "Function",
+  "hook": "Function",
+  "orig": "Function",
+  "unhook": "Function"
+}

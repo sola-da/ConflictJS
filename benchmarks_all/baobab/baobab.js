@@ -4,13 +4,13 @@
  *
  * A handy data tree with cursors.
  */
-import Emitter from 'emmett';
-import Cursor from './cursor';
-import {MonkeyDefinition, Monkey} from './monkey';
-import Watcher from './watcher';
-import type from './type';
-import update from './update';
-import * as helpers from './helpers';
+import Emitter from "emmett";
+import Cursor from "./cursor";
+import { MonkeyDefinition, Monkey } from "./monkey";
+import Watcher from "./watcher";
+import type from "./type";
+import update from "./update";
+import * as helpers from "./helpers";
 
 const {
   arrayFrom,
@@ -22,14 +22,13 @@ const {
   deepMerge,
   shallowClone,
   shallowMerge,
-  uniqid
+  uniqid,
 } = helpers;
 
 /**
  * Baobab defaults
  */
 const DEFAULTS = {
-
   // Should the tree handle its transactions on its own?
   autoCommit: true,
 
@@ -52,7 +51,7 @@ const DEFAULTS = {
   validate: null,
 
   // Validation behavior 'rollback' or 'notify'
-  validationBehavior: 'rollback'
+  validationBehavior: "rollback",
 };
 
 /**
@@ -63,12 +62,16 @@ const DEFAULTS = {
  * @return {string} string - The resultant hash.
  */
 function hashPath(path) {
-  return 'λ' + path.map(step => {
-    if (type.function(step) || type.object(step))
-      return `#${uniqid()}#`;
+  return (
+    "λ" +
+    path
+      .map((step) => {
+        if (type.function(step) || type.object(step)) return `#${uniqid()}#`;
 
-    return step;
-  }).join('λ');
+        return step;
+      })
+      .join("λ")
+  );
 }
 
 /**
@@ -91,12 +94,11 @@ export default class Baobab extends Emitter {
     super();
 
     // Setting initialData to an empty object if no data is provided by use
-    if (arguments.length < 1)
-      initialData = {};
+    if (arguments.length < 1) initialData = {};
 
     // Checking whether given initial data is valid
     if (!type.object(initialData) && !type.array(initialData))
-      throw makeError('Baobab: invalid data.', {data: initialData});
+      throw makeError("Baobab: invalid data.", { data: initialData });
 
     // Merging given options with defaults
     this.options = shallowMerge({}, DEFAULTS, opts);
@@ -108,7 +110,7 @@ export default class Baobab extends Emitter {
     }
 
     // Privates
-    this._identity = '[object Baobab]';
+    this._identity = "[object Baobab]";
     this._cursors = {};
     this._future = null;
     this._transaction = [];
@@ -118,39 +120,38 @@ export default class Baobab extends Emitter {
     this._data = initialData;
 
     // Properties
-    this.root = new Cursor(this, [], 'λ');
+    this.root = new Cursor(this, [], "λ");
     delete this.root.release;
 
     // Does the user want an immutable tree?
-    if (this.options.immutable)
-      deepFreeze(this._data);
+    if (this.options.immutable) deepFreeze(this._data);
 
     // Bootstrapping root cursor's getters and setters
     const bootstrap = (name) => {
-      this[name] = function() {
+      this[name] = function () {
         const r = this.root[name].apply(this.root, arguments);
         return r instanceof Cursor ? this : r;
       };
     };
 
     [
-      'apply',
-      'clone',
-      'concat',
-      'deepClone',
-      'deepMerge',
-      'exists',
-      'get',
-      'push',
-      'merge',
-      'pop',
-      'project',
-      'serialize',
-      'set',
-      'shift',
-      'splice',
-      'unset',
-      'unshift'
+      "apply",
+      "clone",
+      "concat",
+      "deepClone",
+      "deepMerge",
+      "exists",
+      "get",
+      "push",
+      "merge",
+      "pop",
+      "project",
+      "serialize",
+      "set",
+      "shift",
+      "splice",
+      "unset",
+      "unshift",
     ].forEach(bootstrap);
 
     // Registering the initial monkeys
@@ -160,7 +161,7 @@ export default class Baobab extends Emitter {
     const validationError = this.validate();
 
     if (validationError)
-      throw Error('Baobab: invalid data.', {error: validationError});
+      throw Error("Baobab: invalid data.", { error: validationError });
   }
 
   /**
@@ -175,65 +176,68 @@ export default class Baobab extends Emitter {
    * @return {Baobab}            - The tree instance for chaining purposes.
    */
   _refreshMonkeys(node, path, operation) {
-
     const clean = (data, p = []) => {
       if (data instanceof Monkey) {
         data.release();
-        update(this._monkeys, p, {type: 'unset'}, {
-          immutable: false,
-          persistent: false,
-          pure: false
-        });
+        update(
+          this._monkeys,
+          p,
+          { type: "unset" },
+          {
+            immutable: false,
+            persistent: false,
+            pure: false,
+          }
+        );
 
         return;
       }
 
       if (type.object(data)) {
-        for (const k in data)
-          clean(data[k], p.concat(k));
+        for (const k in data) clean(data[k], p.concat(k));
       }
     };
 
     const walk = (data, p = []) => {
-
       // Should we sit a monkey in the tree?
-      if (data instanceof MonkeyDefinition ||
-          data instanceof Monkey) {
+      if (data instanceof MonkeyDefinition || data instanceof Monkey) {
         const monkeyInstance = new Monkey(
           this,
           p,
           data instanceof Monkey ? data.definition : data
         );
 
-        update(this._monkeys, p, {type: 'set', value: monkeyInstance}, {
-          immutable: false,
-          persistent: false,
-          pure: false
-        });
+        update(
+          this._monkeys,
+          p,
+          { type: "set", value: monkeyInstance },
+          {
+            immutable: false,
+            persistent: false,
+            pure: false,
+          }
+        );
 
         return;
       }
 
       // Object iteration
       if (type.object(data)) {
-        for (const k in data)
-          walk(data[k], p.concat(k));
+        for (const k in data) walk(data[k], p.concat(k));
       }
     };
 
     // Walking the whole tree
     if (!arguments.length) {
       walk(this._data);
-    }
-    else {
+    } else {
       const monkeysNode = getIn(this._monkeys, path).data;
 
       // Is this required that we clean some already existing monkeys?
-      if (monkeysNode)
-        clean(monkeysNode, path);
+      if (monkeysNode) clean(monkeysNode, path);
 
       // Let's walk the tree only from the updated point
-      if (operation !== 'unset') {
+      if (operation !== "unset") {
         walk(node, path);
       }
     }
@@ -247,10 +251,9 @@ export default class Baobab extends Emitter {
    * @return {boolean} - Is the tree valid?
    */
   validate(affectedPaths) {
-    const {validate, validationBehavior: behavior} = this.options;
+    const { validate, validationBehavior: behavior } = this.options;
 
-    if (typeof validate !== 'function')
-      return null;
+    if (typeof validate !== "function") return null;
 
     const error = validate.call(
       this,
@@ -260,15 +263,14 @@ export default class Baobab extends Emitter {
     );
 
     if (error instanceof Error) {
-
-      if (behavior === 'rollback') {
+      if (behavior === "rollback") {
         this._data = this._previousData;
         this._affectedPathsIndex = {};
         this._transaction = [];
         this._previousData = this._data;
       }
 
-      this.emit('invalid', {error});
+      this.emit("invalid", { error });
 
       return error;
     }
@@ -289,17 +291,15 @@ export default class Baobab extends Emitter {
    * @return {Cursor}      - The resultant cursor.
    */
   select(path) {
-
     // If no path is given, we simply return the root
     path = path || [];
 
     // Variadic
-    if (arguments.length > 1)
-      path = arrayFrom(arguments);
+    if (arguments.length > 1) path = arrayFrom(arguments);
 
     // Checking that given path is valid
     if (!type.path(path))
-      throw makeError('Baobab.select: invalid path.', {path});
+      throw makeError("Baobab.select: invalid path.", { path });
 
     // Casting to array
     path = [].concat(path);
@@ -318,7 +318,7 @@ export default class Baobab extends Emitter {
     }
 
     // Emitting an event to notify that a part of the tree was selected
-    this.emit('select', {path, cursor});
+    this.emit("select", { path, cursor });
     return cursor;
   }
 
@@ -333,38 +333,33 @@ export default class Baobab extends Emitter {
    * @return {mixed} - Return the result of the update.
    */
   update(path, operation) {
-
     // Coercing path
     path = coercePath(path);
 
     if (!type.operationType(operation.type))
       throw makeError(
         `Baobab.update: unknown operation type "${operation.type}".`,
-        {operation}
+        { operation }
       );
 
     // Solving the given path
-    const {solvedPath, exists} = getIn(
-      this._data,
-      path
-    );
+    const { solvedPath, exists } = getIn(this._data, path);
 
     // If we couldn't solve the path, we throw
     if (!solvedPath)
-      throw makeError('Baobab.update: could not solve the given path.', {
-        path: solvedPath
+      throw makeError("Baobab.update: could not solve the given path.", {
+        path: solvedPath,
       });
 
     // Read-only path?
     const monkeyPath = type.monkeyPath(this._monkeys, solvedPath);
     if (monkeyPath && solvedPath.length > monkeyPath.length)
-      throw makeError('Baobab.update: attempting to update a read-only path.', {
-        path: solvedPath
+      throw makeError("Baobab.update: attempting to update a read-only path.", {
+        path: solvedPath,
       });
 
     // We don't unset irrelevant paths
-    if (operation.type === 'unset' && !exists)
-      return;
+    if (operation.type === "unset" && !exists) return;
 
     // If we merge data, we need to acknowledge monkeys
     let realOperation = operation;
@@ -372,7 +367,6 @@ export default class Baobab extends Emitter {
       const monkeysNode = getIn(this._monkeys, solvedPath).data;
 
       if (type.object(monkeysNode)) {
-
         // Cloning the operation not to create weird behavior for the user
         realOperation = shallowClone(realOperation);
 
@@ -380,12 +374,14 @@ export default class Baobab extends Emitter {
         const currentNode = getIn(this._data, solvedPath).data;
 
         if (/deep/i.test(realOperation.type))
-          realOperation.value = deepMerge({},
+          realOperation.value = deepMerge(
+            {},
             deepMerge({}, currentNode, deepClone(monkeysNode)),
             realOperation.value
           );
         else
-          realOperation.value = shallowMerge({},
+          realOperation.value = shallowMerge(
+            {},
             deepMerge({}, currentNode, deepClone(monkeysNode)),
             realOperation.value
           );
@@ -393,26 +389,19 @@ export default class Baobab extends Emitter {
     }
 
     // Stashing previous data if this is the frame's first update
-    if (!this._transaction.length)
-      this._previousData = this._data;
+    if (!this._transaction.length) this._previousData = this._data;
 
     // Applying the operation
-    const result = update(
-      this._data,
-      solvedPath,
-      realOperation,
-      this.options
-    );
+    const result = update(this._data, solvedPath, realOperation, this.options);
 
-    const {data, node} = result;
+    const { data, node } = result;
 
     // If because of purity, the update was moot, we stop here
-    if (!('data' in result))
-      return node;
+    if (!("data" in result)) return node;
 
     // If the operation is push, the affected path is slightly different
     const affectedPath = solvedPath.concat(
-      operation.type === 'push' ? node.length - 1 : []
+      operation.type === "push" ? node.length - 1 : []
     );
 
     const hash = hashPath(affectedPath);
@@ -420,17 +409,16 @@ export default class Baobab extends Emitter {
     // Updating data and transaction
     this._data = data;
     this._affectedPathsIndex[hash] = true;
-    this._transaction.push(shallowMerge({}, operation, {path: affectedPath}));
+    this._transaction.push(shallowMerge({}, operation, { path: affectedPath }));
 
     // Updating the monkeys
     this._refreshMonkeys(node, solvedPath, operation.type);
 
     // Emitting a `write` event
-    this.emit('write', {path: affectedPath});
+    this.emit("write", { path: affectedPath });
 
     // Should we let the user commit?
-    if (!this.options.autoCommit)
-      return node;
+    if (!this.options.autoCommit) return node;
 
     // Should we update asynchronously?
     if (!this.options.asynchronous) {
@@ -439,8 +427,7 @@ export default class Baobab extends Emitter {
     }
 
     // Updating asynchronously
-    if (!this._future)
-      this._future = setTimeout(() => this.commit(), 0);
+    if (!this._future) this._future = setTimeout(() => this.commit(), 0);
 
     // Finally returning the affected node
     return node;
@@ -452,41 +439,35 @@ export default class Baobab extends Emitter {
    * @return {Baobab} - The tree instance for chaining purposes.
    */
   commit() {
-
     // Do not fire update if the transaction is empty
-    if (!this._transaction.length)
-      return this;
+    if (!this._transaction.length) return this;
 
     // Clearing timeout if one was defined
-    if (this._future)
-      this._future = clearTimeout(this._future);
+    if (this._future) this._future = clearTimeout(this._future);
 
-    const affectedPaths = Object.keys(this._affectedPathsIndex).map(h => {
-      return h !== 'λ' ?
-        h.split('λ').slice(1) :
-        [];
+    const affectedPaths = Object.keys(this._affectedPathsIndex).map((h) => {
+      return h !== "λ" ? h.split("λ").slice(1) : [];
     });
 
     // Is the tree still valid?
     const validationError = this.validate(affectedPaths);
 
-    if (validationError)
-      return this;
+    if (validationError) return this;
 
     // Caching to keep original references before we change them
     const transaction = this._transaction,
-          previousData = this._previousData;
+      previousData = this._previousData;
 
     this._affectedPathsIndex = {};
     this._transaction = [];
     this._previousData = this._data;
 
     // Emitting update event
-    this.emit('update', {
+    this.emit("update", {
       paths: affectedPaths,
       currentData: this._data,
       transaction,
-      previousData
+      previousData,
     });
 
     return this;
@@ -503,8 +484,7 @@ export default class Baobab extends Emitter {
 
     const monkey = getIn(this._monkeys, [].concat(path)).data;
 
-    if (monkey instanceof Monkey)
-      return monkey;
+    if (monkey instanceof Monkey) return monkey;
 
     return null;
   }
@@ -526,7 +506,7 @@ export default class Baobab extends Emitter {
   release() {
     let k;
 
-    this.emit('release');
+    this.emit("release");
 
     delete this.root;
 
@@ -537,8 +517,7 @@ export default class Baobab extends Emitter {
     delete this._monkeys;
 
     // Releasing cursors
-    for (k in this._cursors)
-      this._cursors[k].release();
+    for (k in this._cursors) this._cursors[k].release();
     delete this._cursors;
 
     // Killing event emitter
@@ -567,12 +546,10 @@ export default class Baobab extends Emitter {
 /**
  * Monkey helper.
  */
-Baobab.monkey = function(...args) {
+Baobab.monkey = function (...args) {
+  if (!args.length) throw new Error("Baobab.monkey: missing definition.");
 
-  if (!args.length)
-    throw new Error('Baobab.monkey: missing definition.');
-
-  if (args.length === 1 && typeof args[0] !== 'function')
+  if (args.length === 1 && typeof args[0] !== "function")
     return new MonkeyDefinition(args[0]);
 
   return new MonkeyDefinition(args);
@@ -591,4 +568,4 @@ Baobab.helpers = helpers;
 /**
  * Version
  */
-Baobab.VERSION = '2.3.2';
+Baobab.VERSION = "2.3.2";

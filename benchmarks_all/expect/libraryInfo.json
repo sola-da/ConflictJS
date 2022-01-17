@@ -1,6 +1,4 @@
 {
   "name": "expect",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/expect/1.20.1/expect.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/expect/1.20.1/expect.min.js"]
 }

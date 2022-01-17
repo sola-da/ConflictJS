@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz,jsonld°global.originAgentCluster": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz°global.originAgentCluster": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.originAgentCluster": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.originAgentCluster": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.originAgentCluster": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.originAgentCluster": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.originAgentCluster": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.originAgentCluster": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.originAgentCluster": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.originAgentCluster": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.originAgentCluster": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.originAgentCluster": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,jsonld°global.originAgentCluster": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz°global.originAgentCluster": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,jsonld°global.originAgentCluster": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,promiz°global.originAgentCluster": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz°global.originAgentCluster": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz,jsonld°global.originAgentCluster": "NO_CONFLICT"
+}

@@ -1,6 +1,4 @@
 {
   "name": "epoch",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/epoch/0.8.4/js/epoch.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/epoch/0.8.4/js/epoch.min.js"]
 }

@@ -5,16 +5,18 @@
     <title>Filter inclusion crash</title>
     <script src="../src/utilities/time-to-closeTab.js"></script>
     <script>
-      var message = '<!--NAME-->'
+      let message = '<!--NAME-->'
       window.onerror = function (e) {
         message = 'ERROR'
       }
     </script>
     <!--SRC-->
     <script>
+      // filterInclusionCrash.html
+
       //        Send the results back to the server
       function sendBackToServer() {
-        var stringData = JSON.stringify({
+        let stringData = JSON.stringify({
           result: {
             typeofTest: '<!--__TYPE_OF_TEST__-->',
             resultFilePath: '<!--__RESULT_FILE__PATH-->',
@@ -22,20 +24,23 @@
             generatedTests: [],
           },
         })
-        var request = new XMLHttpRequest()
+        let request = new XMLHttpRequest()
         request.open('POST', 'http://localhost:3000/reportResult', true)
         request.setRequestHeader(
           'Content-Type',
           'application/json;charset=UTF-8'
         )
         request.send(stringData)
+        close()
 
-        window.setTimeout(function () {
-          close()
-        }, timeToClose_BrowserTab)
+        // window.setTimeout(function () {
+        //   close()
+        // }, timeToClose_BrowserTab)
       }
 
-      window.setTimeout(sendBackToServer, 1000) // Wait for some time before sending back to server
+      sendBackToServer()
+
+      // window.setTimeout(sendBackToServer, 1000) // Wait for some time before sending back to server
     </script>
   </head>
   <body style="background-color: #fff3e0">

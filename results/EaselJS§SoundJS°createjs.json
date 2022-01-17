@@ -1,0 +1,14 @@
+{
+  "inclusionTestßEaselJS,SoundJS,EaselJS°createjs": "NO_CONFLICT",
+  "inclusionTestßEaselJS,SoundJS°createjs": "NO_CONFLICT",
+  "inclusionTestßEaselJS,SoundJS,SoundJS,EaselJS°createjs": "NO_CONFLICT",
+  "inclusionTestßSoundJS,EaselJS,EaselJS°createjs": "NO_CONFLICT",
+  "inclusionTestßSoundJS,EaselJS,SoundJS°createjs": "NO_CONFLICT",
+  "inclusionTestßEaselJS,SoundJS,SoundJS°createjs": "RAN TOO LONG > 120000 ms",
+  "typeTestßEaselJS,SoundJS°createjs": "ERROR object,undefined",
+  "typeTestßEaselJS,SoundJS,EaselJS°createjs": "ERROR object,undefined",
+  "typeTestßSoundJS,EaselJS,EaselJS°createjs": "NO_CONFLICT",
+  "typeTestßEaselJS,SoundJS,SoundJS,EaselJS°createjs": "NO_CONFLICT",
+  "typeTestßEaselJS,SoundJS,SoundJS°createjs": "NO_CONFLICT",
+  "typeTestßSoundJS,EaselJS,SoundJS°createjs": "NO_CONFLICT"
+}

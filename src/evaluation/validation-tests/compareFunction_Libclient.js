@@ -2,7 +2,9 @@
  * Created by Jibesh Patra on 04-Apr-2017.
  */
 
-window.setTimeout(sendMessage, 1000)
+// window.setTimeout(sendMessage, 1000)
+
+sendMessage()
 function sendMessage() {
   window.parent.postMessage(message, '*')
 }
@@ -20,5 +22,7 @@ function receiveMessage(event) {
     console.log(err)
     message = 'ERROR'
   }
-  window.setTimeout(sendMessage, 100)
+
+  sendMessage()
+  // window.setTimeout(sendMessage, 100)
 }

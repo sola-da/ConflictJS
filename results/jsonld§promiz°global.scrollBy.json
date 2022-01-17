@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz,jsonld°global.scrollBy": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz°global.scrollBy": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.scrollBy": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.scrollBy": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.scrollBy": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.scrollBy": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.scrollBy": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.scrollBy": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.scrollBy": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.scrollBy": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.scrollBy": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.scrollBy": "RAN TOO LONG > 120000 ms",
+  "value-test-functionsßjsonld,promiz,jsonld°global.scrollBy": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz°global.scrollBy": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,jsonld°global.scrollBy": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz,jsonld°global.scrollBy": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz°global.scrollBy": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,promiz°global.scrollBy": "NOT SURE - Tests could not be generated for both"
+}

@@ -1,6 +1,4 @@
 {
   "name": "ally.js",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/ally.js/1.1.0/ally.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/ally.js/1.1.0/ally.min.js"]
 }

@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz,jsonld°global.moveBy": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.moveBy": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz°global.moveBy": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.moveBy": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.moveBy": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.moveBy": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.moveBy": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.moveBy": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.moveBy": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.moveBy": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.moveBy": "RAN TOO LONG > 120000 ms",
+  "typeTestßjsonld,promiz,promiz°global.moveBy": "RAN TOO LONG > 120000 ms",
+  "value-test-functionsßjsonld,promiz,jsonld°global.moveBy": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz°global.moveBy": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,jsonld°global.moveBy": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz°global.moveBy": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,promiz°global.moveBy": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz,jsonld°global.moveBy": "NOT SURE - Tests could not be generated for both"
+}

@@ -16,11 +16,11 @@
     hostingPageClient +=
       "\n\t<script src='../src/evaluation/validation-tests/compareFunction_Hostingclient.js'></script>"
     hostingPageClient +=
-      "\n\t<script>var accessPath = '" +
+      "\n\t<script>let accessPath = '" +
       validationTest.accessPath +
-      "';\nvar testsGenerated = false,generatedTestsSize = [];</script>"
+      "';\nlet testsGenerated = false,generatedTestsSize = [];</script>"
     hostingPageClient +=
-      '\n\t<script>var NO_OF_TESTS =' +
+      '\n\t<script>let NO_OF_TESTS =' +
       config.nbGeneratedTests +
       ', NO_OF_CALLS =' +
       config.callsPerGeneratedTest +

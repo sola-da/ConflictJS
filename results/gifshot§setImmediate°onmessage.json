@@ -1,0 +1,14 @@
+{
+  "inclusionTestßgifshot,setImmediate°onmessage": "NO_CONFLICT",
+  "inclusionTestßgifshot,setImmediate,gifshot°onmessage": "NO_CONFLICT",
+  "inclusionTestßsetImmediate,gifshot,gifshot°onmessage": "NO_CONFLICT",
+  "inclusionTestßgifshot,setImmediate,setImmediate°onmessage": "NO_CONFLICT",
+  "inclusionTestßsetImmediate,gifshot,setImmediate°onmessage": "NO_CONFLICT",
+  "inclusionTestßgifshot,setImmediate,setImmediate,gifshot°onmessage": "NO_CONFLICT",
+  "typeTestßsetImmediate,gifshot,gifshot°onmessage": "ERROR Function,null",
+  "typeTestßgifshot,setImmediate°onmessage": "NO_CONFLICT",
+  "typeTestßgifshot,setImmediate,gifshot°onmessage": "NO_CONFLICT",
+  "typeTestßgifshot,setImmediate,setImmediate°onmessage": "NO_CONFLICT",
+  "typeTestßsetImmediate,gifshot,setImmediate°onmessage": "NO_CONFLICT",
+  "typeTestßgifshot,setImmediate,setImmediate,gifshot°onmessage": "NO_CONFLICT"
+}

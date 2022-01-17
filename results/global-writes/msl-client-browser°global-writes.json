@@ -1,0 +1,8 @@
+{
+  "setMockRespond": "Function",
+  "registerTemplate": "Function",
+  "setInterceptXHR": "Function",
+  "getInterceptedXHR": "Function",
+  "setParamIgnored": "Function",
+  "unRegisterMock": "Function"
+}

@@ -1,6 +1,4 @@
 {
   "name": "crafty",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/crafty/0.7.0/crafty-min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/crafty/0.7.0/crafty-min.js"]
 }

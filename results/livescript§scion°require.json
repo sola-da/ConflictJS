@@ -1,0 +1,14 @@
+{
+  "inclusionTestßlivescript,scion°require": "NO_CONFLICT",
+  "inclusionTestßlivescript,scion,livescript°require": "NO_CONFLICT",
+  "inclusionTestßscion,livescript,livescript°require": "NO_CONFLICT",
+  "inclusionTestßlivescript,scion,scion°require": "NO_CONFLICT",
+  "inclusionTestßscion,livescript,scion°require": "NO_CONFLICT",
+  "inclusionTestßlivescript,scion,scion,livescript°require": "RAN TOO LONG > 120000 ms",
+  "typeTestßlivescript,scion°require": "ERROR Function,undefined",
+  "typeTestßlivescript,scion,livescript°require": "NO_CONFLICT",
+  "typeTestßlivescript,scion,scion°require": "NO_CONFLICT",
+  "typeTestßscion,livescript,scion°require": "NO_CONFLICT",
+  "typeTestßscion,livescript,livescript°require": "NO_CONFLICT",
+  "typeTestßlivescript,scion,scion,livescript°require": "NO_CONFLICT"
+}

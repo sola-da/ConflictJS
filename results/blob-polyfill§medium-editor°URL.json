@@ -1,0 +1,20 @@
+{
+  "inclusionTestßblob-polyfill,medium-editor,blob-polyfill°URL": "NO_CONFLICT",
+  "inclusionTestßblob-polyfill,medium-editor°URL": "NO_CONFLICT",
+  "inclusionTestßmedium-editor,blob-polyfill,blob-polyfill°URL": "NO_CONFLICT",
+  "inclusionTestßmedium-editor,blob-polyfill,medium-editor°URL": "NO_CONFLICT",
+  "inclusionTestßblob-polyfill,medium-editor,medium-editor°URL": "NO_CONFLICT",
+  "inclusionTestßblob-polyfill,medium-editor,medium-editor,blob-polyfill°URL": "NO_CONFLICT",
+  "typeTestßblob-polyfill,medium-editor°URL": "NO_CONFLICT",
+  "typeTestßblob-polyfill,medium-editor,blob-polyfill°URL": "NO_CONFLICT",
+  "typeTestßmedium-editor,blob-polyfill,blob-polyfill°URL": "NO_CONFLICT",
+  "typeTestßblob-polyfill,medium-editor,medium-editor°URL": "NO_CONFLICT",
+  "typeTestßmedium-editor,blob-polyfill,medium-editor°URL": "NO_CONFLICT",
+  "typeTestßblob-polyfill,medium-editor,medium-editor,blob-polyfill°URL": "NO_CONFLICT",
+  "value-test-functionsßmedium-editor,blob-polyfill,blob-polyfill°URL": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßblob-polyfill,medium-editor,blob-polyfill°URL": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßblob-polyfill,medium-editor°URL": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßblob-polyfill,medium-editor,medium-editor°URL": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßmedium-editor,blob-polyfill,medium-editor°URL": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßblob-polyfill,medium-editor,medium-editor,blob-polyfill°URL": "NOT SURE - Tests could not be generated for both"
+}

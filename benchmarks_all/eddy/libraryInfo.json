@@ -1,6 +1,4 @@
 {
   "name": "eddy",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/eddy/0.7.0/eddy.dom.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/eddy/0.7.0/eddy.dom.js"]
 }

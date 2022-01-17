@@ -1,6 +1,4 @@
 {
   "name": "dom4",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/dom4/1.8.3/dom4.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/dom4/1.8.3/dom4.js"]
 }

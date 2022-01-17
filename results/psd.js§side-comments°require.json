@@ -1,0 +1,14 @@
+{
+  "inclusionTestßside-comments,psd.js,psd.js°require": "NO_CONFLICT",
+  "inclusionTestßpsd.js,side-comments°require": "NO_CONFLICT",
+  "inclusionTestßpsd.js,side-comments,psd.js°require": "NO_CONFLICT",
+  "inclusionTestßpsd.js,side-comments,side-comments°require": "NO_CONFLICT",
+  "inclusionTestßpsd.js,side-comments,side-comments,psd.js°require": "NO_CONFLICT",
+  "inclusionTestßside-comments,psd.js,side-comments°require": "NO_CONFLICT",
+  "typeTestßside-comments,psd.js,psd.js°require": "ERROR Function,undefined",
+  "typeTestßpsd.js,side-comments°require": "NO_CONFLICT",
+  "typeTestßpsd.js,side-comments,psd.js°require": "NO_CONFLICT",
+  "typeTestßside-comments,psd.js,side-comments°require": "NO_CONFLICT",
+  "typeTestßpsd.js,side-comments,side-comments,psd.js°require": "NO_CONFLICT",
+  "typeTestßpsd.js,side-comments,side-comments°require": "NO_CONFLICT"
+}

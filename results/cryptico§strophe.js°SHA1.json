@@ -1,0 +1,14 @@
+{
+  "inclusionTestßcryptico,strophe.js°SHA1": "NO_CONFLICT",
+  "inclusionTestßcryptico,strophe.js,cryptico°SHA1": "NO_CONFLICT",
+  "inclusionTestßstrophe.js,cryptico,cryptico°SHA1": "NO_CONFLICT",
+  "inclusionTestßcryptico,strophe.js,strophe.js°SHA1": "NO_CONFLICT",
+  "inclusionTestßstrophe.js,cryptico,strophe.js°SHA1": "NO_CONFLICT",
+  "inclusionTestßcryptico,strophe.js,strophe.js,cryptico°SHA1": "NO_CONFLICT",
+  "typeTestßstrophe.js,cryptico,cryptico°SHA1": "ERROR object,undefined",
+  "typeTestßcryptico,strophe.js°SHA1": "NO_CONFLICT",
+  "typeTestßcryptico,strophe.js,cryptico°SHA1": "NO_CONFLICT",
+  "typeTestßcryptico,strophe.js,strophe.js°SHA1": "ERROR object,undefined",
+  "typeTestßstrophe.js,cryptico,strophe.js°SHA1": "NO_CONFLICT",
+  "typeTestßcryptico,strophe.js,strophe.js,cryptico°SHA1": "ERROR object,Function"
+}

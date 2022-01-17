@@ -1,0 +1,14 @@
+{
+  "inclusionTestßPreloadJS,EaselJS,EaselJS°createjs": "NO_CONFLICT",
+  "inclusionTestßEaselJS,PreloadJS°createjs": "NO_CONFLICT",
+  "inclusionTestßEaselJS,PreloadJS,PreloadJS,EaselJS°createjs": "NO_CONFLICT",
+  "inclusionTestßEaselJS,PreloadJS,EaselJS°createjs": "NO_CONFLICT",
+  "inclusionTestßEaselJS,PreloadJS,PreloadJS°createjs": "NO_CONFLICT",
+  "inclusionTestßPreloadJS,EaselJS,PreloadJS°createjs": "NO_CONFLICT",
+  "typeTestßEaselJS,PreloadJS°createjs": "NO_CONFLICT",
+  "typeTestßEaselJS,PreloadJS,EaselJS°createjs": "NO_CONFLICT",
+  "typeTestßPreloadJS,EaselJS,EaselJS°createjs": "ERROR object,undefined",
+  "typeTestßEaselJS,PreloadJS,PreloadJS°createjs": "ERROR object,undefined",
+  "typeTestßPreloadJS,EaselJS,PreloadJS°createjs": "NO_CONFLICT",
+  "typeTestßEaselJS,PreloadJS,PreloadJS,EaselJS°createjs": "ERROR object,undefined"
+}

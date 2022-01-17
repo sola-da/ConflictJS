@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz°global.sessionStorage": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,jsonld°global.sessionStorage": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.sessionStorage": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.sessionStorage": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.sessionStorage": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.sessionStorage": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.sessionStorage": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.sessionStorage": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.sessionStorage": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.sessionStorage": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.sessionStorage": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.sessionStorage": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz°global.sessionStorage": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,jsonld°global.sessionStorage": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,jsonld°global.sessionStorage": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz°global.sessionStorage": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,promiz°global.sessionStorage": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz,jsonld°global.sessionStorage": "NO_CONFLICT"
+}

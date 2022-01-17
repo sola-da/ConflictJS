@@ -23,8 +23,16 @@
       })
     )
 
+    app.post('/debugMessage', (req, res) => {
+      console.log('debug message: ', req.body.debugMessage)
+    })
+
     app.post('/reportResult', function (request, response) {
       let result = request.body.result
+      let typeofTest = result.typeofTest.replace(
+        'defaultstatus',
+        'defaultStatus'
+      )
       // console.log("Received result " + JSON.stringify(result, 0, 2));
       if (result.generatedTests.length !== 0) {
         // Write only if the tests are generated
@@ -33,19 +41,21 @@
           fs.mkdirSync(generatedTestsDir)
         }
         fs.writeFileSync(
-          generatedTestsDir + result.typeofTest + '.json',
+          generatedTestsDir + typeofTest + '.json',
           JSON.stringify(result.generatedTests, 0, 2)
         )
       }
       let summarisedResult = {}
 
-      let resultfile = result.resultFilePath
+      let resultfile = result.resultFilePath.replace(
+        'defaultstatus',
+        'defaultStatus'
+      )
       if (pathExists(resultfile)) {
         summarisedResult = JSON.parse(
           fs.readFileSync(resultfile, { encoding: 'utf8' })
         )
       }
-      let typeofTest = result.typeofTest
 
       // If the type of test is global-write-analysis then store only the results and not the type of test
       let gwpattern = new RegExp('w*(global-write-analysis)', 'i')
@@ -55,7 +65,15 @@
 
       fs.writeFileSync(resultfile, JSON.stringify(summarisedResult, 0, 2))
       response.send('OK')
-      let jobId = result.typeofTest
+      let jobId = typeofTest
+
+      // console.log(
+      //   'result:',
+      //   decodeURIComponent(result.url),
+      //   jobId,
+      //   decodeURIComponent(result.url).includes(jobId)
+      // )
+
       setTimeout(jobQueue.markDone.bind(null, jobId)) // TODO re-enable
     })
 

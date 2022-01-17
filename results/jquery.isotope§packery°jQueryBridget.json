@@ -1,0 +1,14 @@
+{
+  "inclusionTestßjquery.isotope,packery,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßjquery.isotope,packery°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßpackery,jquery.isotope,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßjquery.isotope,packery,packery°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßpackery,jquery.isotope,packery°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßjquery.isotope,packery,packery,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "typeTestßjquery.isotope,packery,jquery.isotope°jQueryBridget": "ERROR Function,undefined",
+  "typeTestßpackery,jquery.isotope,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "typeTestßjquery.isotope,packery°jQueryBridget": "NO_CONFLICT",
+  "typeTestßjquery.isotope,packery,packery,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "typeTestßjquery.isotope,packery,packery°jQueryBridget": "NO_CONFLICT",
+  "typeTestßpackery,jquery.isotope,packery°jQueryBridget": "NO_CONFLICT"
+}

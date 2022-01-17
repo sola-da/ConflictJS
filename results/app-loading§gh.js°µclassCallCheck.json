@@ -1,0 +1,14 @@
+{
+  "inclusionTestßapp-loading,gh.js,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßgh.js,app-loading,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßgh.js,app-loading,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,gh.js,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,gh.js,gh.js,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,gh.js°µclassCallCheck": "RAN TOO LONG > 120000 ms",
+  "typeTestßgh.js,app-loading,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßapp-loading,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßapp-loading,gh.js,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßgh.js,app-loading,gh.js°µclassCallCheck": "ERROR Function,undefined",
+  "typeTestßapp-loading,gh.js,gh.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßapp-loading,gh.js,gh.js,app-loading°µclassCallCheck": "NO_CONFLICT"
+}

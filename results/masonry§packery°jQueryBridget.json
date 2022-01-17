@@ -1,0 +1,20 @@
+{
+  "inclusionTestßmasonry,packery°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßmasonry,packery,masonry°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßpackery,masonry,masonry°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßmasonry,packery,packery°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßmasonry,packery,packery,masonry°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßpackery,masonry,packery°jQueryBridget": "NO_CONFLICT",
+  "typeTestßmasonry,packery°jQueryBridget": "NO_CONFLICT",
+  "typeTestßmasonry,packery,masonry°jQueryBridget": "NO_CONFLICT",
+  "typeTestßmasonry,packery,packery°jQueryBridget": "NO_CONFLICT",
+  "typeTestßpackery,masonry,packery°jQueryBridget": "NO_CONFLICT",
+  "typeTestßpackery,masonry,masonry°jQueryBridget": "NO_CONFLICT",
+  "typeTestßmasonry,packery,packery,masonry°jQueryBridget": "NO_CONFLICT",
+  "value-test-functionsßpackery,masonry,masonry°jQueryBridget": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßmasonry,packery°jQueryBridget": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßmasonry,packery,masonry°jQueryBridget": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßmasonry,packery,packery°jQueryBridget": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpackery,masonry,packery°jQueryBridget": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßmasonry,packery,packery,masonry°jQueryBridget": "NOT SURE - Tests could not be generated for both"
+}

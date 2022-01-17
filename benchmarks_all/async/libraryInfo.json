@@ -1,6 +1,4 @@
 {
   "name": "async",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/async/1.5.2/async.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/async/1.5.2/async.min.js"]
 }

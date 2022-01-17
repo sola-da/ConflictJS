@@ -1,6 +1,4 @@
 {
   "name": "cheet.js",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/cheet.js/0.3.3/cheet.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/cheet.js/0.3.3/cheet.min.js"]
 }

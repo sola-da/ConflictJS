@@ -1,26 +1,26 @@
 // Author: Michael Pradel
 
 ;(function () {
-  var assert = require('assert')
-  var resultDir =
+  let assert = require('assert')
+  let resultDir =
     require('process').cwd() + '/' + require('../config').resultsDirectory + '/'
-  const childProcess = require('child_process')
+  // const childProcess = require('child_process')
   const pathExists = require('./pathExists.js').pathExists
   const fs = require('fs')
   const timeout_kill_job = require('../config').timeout_kill_job
 
-  var idToJob = {}
-  var jobQueue = [] // ids
-  var runningJobs = {} // ids -> true
-  var doneJobs = {} // ids -> true
+  let idToJob = {}
+  let jobQueue = [] // ids
+  let runningJobs = {} // ids -> true
+  let doneJobs = {} // ids -> true
   let killedJobs = previousKilledJobs() // Ids of jobs killed because they took too much time
   let killedjobIds = new Set()
 
   var alreadyKilledJobs = resultDir + 'killed-jobs.json'
 
-  var maxConcurrentJobs = require('os').cpus().length
+  let maxConcurrentJobs = require('os').cpus().length
 
-  var finalize
+  let finalize
 
   function Job(id, dependences, onExecute, onDone) {
     this.id = id
@@ -42,14 +42,14 @@
   }
 
   function execute() {
-    console.log(runningJobs)
-    console.log(
-      'Jobs: ' +
-        Object.keys(runningJobs).length +
-        ' running, ' +
-        jobQueue.length +
-        ' waiting'
-    )
+    // console.log(runningJobs)
+    // console.log(
+    //   'Jobs: ' +
+    //     Object.keys(runningJobs).length +
+    //     ' running, ' +
+    //     jobQueue.length +
+    //     ' waiting'
+    // )
     checkLongRunningJobs()
 
     if (Object.keys(runningJobs).length >= maxConcurrentJobs) return
@@ -60,10 +60,10 @@
     }
 
     // go through queue and trigger first job that has no open dependences
-    for (var i = 0; i < jobQueue.length; i++) {
-      var jobID = jobQueue[i]
-      var job = idToJob[jobID]
-      var hasOpenDependence = false
+    for (let i = 0; i < jobQueue.length; i++) {
+      let jobID = jobQueue[i]
+      let job = idToJob[jobID]
+      let hasOpenDependence = false
       killedJobs = previousKilledJobs()
       if (killedJobs.has(jobID)) {
         console.log(
@@ -73,18 +73,18 @@
         continue
       }
       // check if any (to be) scheduled job is a dependence for this job
-      openDependenceCheck: for (var j = 0; j < job.dependences.length; j++) {
-        var dependence = job.dependences[j]
-        for (var k = 0; k < jobQueue.length; k++) {
-          var jobInQueue = jobQueue[k]
+      openDependenceCheck: for (let j = 0; j < job.dependences.length; j++) {
+        let dependence = job.dependences[j]
+        for (let k = 0; k < jobQueue.length; k++) {
+          let jobInQueue = jobQueue[k]
           if (dependence.test(jobInQueue.id)) {
             hasOpenDependence = true
             break openDependenceCheck
           }
         }
-        var runningJobsIDs = Object.keys(runningJobs)
-        for (var k = 0; k < runningJobsIDs.length; k++) {
-          var runningJobID = runningJobsIDs[k]
+        let runningJobsIDs = Object.keys(runningJobs)
+        for (let k = 0; k < runningJobsIDs.length; k++) {
+          let runningJobID = runningJobsIDs[k]
           if (dependence.test(runningJobID)) {
             hasOpenDependence = true
             break openDependenceCheck
@@ -94,7 +94,14 @@
 
       // start job if all dependences are done
       if (!hasOpenDependence) {
-        console.log('\n>>> Starting job: ' + job.id + ' <<<\n')
+        // console.log('\n>>> Starting job: ' + job.id + ' <<<\n')
+        console.log(
+          'Jobs: ' +
+            Object.keys(runningJobs).length +
+            ' running, ' +
+            jobQueue.length +
+            ' waiting'
+        )
         jobQueue.splice(i, 1)
         runningJobs[job.id] = true
         job.delegationTime = new Date()
@@ -156,13 +163,15 @@
     if (killedjobIds.has(id)) {
       return
     }
-    console.log('\n=== Job done: ' + id + ' ===\n')
+
+    // console.log('\n=== Job done: ' + id + ' ===\n')
+
     assert(idToJob.hasOwnProperty(id))
     assert(jobQueue.indexOf(id) === -1)
     assert(runningJobs.hasOwnProperty(id))
     assert(!doneJobs.hasOwnProperty(id))
 
-    var job = idToJob[id]
+    let job = idToJob[id]
     if (job.onDone) job.onDone(job.state)
     delete runningJobs[id]
     doneJobs[id] = true
@@ -180,9 +189,8 @@
     clearInterval(executeJobInterval)
     finalize()
   }
-
   // regularly check for jobs to execute
-  var executeJobInterval = setInterval(execute, 3000)
+  let executeJobInterval = setInterval(execute, 100)
 
   exports.newJob = newJob
   exports.execute = execute

@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz°global.reportError": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,jsonld°global.reportError": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.reportError": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.reportError": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.reportError": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.reportError": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.reportError": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.reportError": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.reportError": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.reportError": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.reportError": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.reportError": "NO_CONFLICT",
+  "value-test-functionsßjsonld,promiz°global.reportError": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,jsonld°global.reportError": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,jsonld°global.reportError": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz°global.reportError": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,promiz°global.reportError": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz,jsonld°global.reportError": "NOT SURE - Tests could not be generated for both"
+}

@@ -1,0 +1,20 @@
+{
+  "inclusionTestßconditional-field,app-loading,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,conditional-field,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,conditional-field,conditional-field,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßconditional-field,app-loading,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßapp-loading,conditional-field,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßapp-loading,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßapp-loading,conditional-field,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßconditional-field,app-loading,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßapp-loading,conditional-field,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßconditional-field,app-loading,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßapp-loading,conditional-field,conditional-field,app-loading°µclassCallCheck": "NO_CONFLICT",
+  "value-test-functionsßapp-loading,conditional-field°µclassCallCheck": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßapp-loading,conditional-field,app-loading°µclassCallCheck": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßapp-loading,conditional-field,conditional-field°µclassCallCheck": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßapp-loading,conditional-field,conditional-field,app-loading°µclassCallCheck": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßconditional-field,app-loading,app-loading°µclassCallCheck": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßconditional-field,app-loading,conditional-field°µclassCallCheck": "NOT SURE - Tests could not be generated for both"
+}

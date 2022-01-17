@@ -1,0 +1,6 @@
+{
+  "name": "urljs",
+  "urls": [
+    "https://cdnjs.cloudflare.com/ajax/libs/urljs/2.3.1/url.min.js"
+  ]
+}

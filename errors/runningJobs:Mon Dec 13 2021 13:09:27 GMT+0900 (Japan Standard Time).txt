@@ -1,0 +1,10 @@
+{
+  "typeTestßjsonld,promiz,promiz,jsonld°global.self": true,
+  "typeTestßpromiz,jsonld,promiz°global.history": true,
+  "typeTestßjsonld,promiz,jsonld°global.toolbar": true,
+  "typeTestßpromiz,jsonld,jsonld°global.parent": true,
+  "typeTestßjsonld,promiz°global.defaultStatus": true,
+  "typeTestßjsonld,promiz,jsonld°global.defaultStatus": true,
+  "typeTestßpromiz,jsonld,jsonld°global.defaultStatus": true,
+  "typeTestßjsonld,promiz,promiz°global.defaultStatus": true
+}

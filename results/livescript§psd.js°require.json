@@ -1,0 +1,14 @@
+{
+  "inclusionTestßlivescript,psd.js°require": "NO_CONFLICT",
+  "inclusionTestßlivescript,psd.js,livescript°require": "NO_CONFLICT",
+  "inclusionTestßpsd.js,livescript,livescript°require": "NO_CONFLICT",
+  "inclusionTestßlivescript,psd.js,psd.js,livescript°require": "NO_CONFLICT",
+  "inclusionTestßpsd.js,livescript,psd.js°require": "NO_CONFLICT",
+  "inclusionTestßlivescript,psd.js,psd.js°require": "NO_CONFLICT",
+  "typeTestßlivescript,psd.js°require": "NO_CONFLICT",
+  "typeTestßlivescript,psd.js,livescript°require": "NO_CONFLICT",
+  "typeTestßlivescript,psd.js,psd.js°require": "NO_CONFLICT",
+  "typeTestßpsd.js,livescript,livescript°require": "ERROR Function,undefined",
+  "typeTestßpsd.js,livescript,psd.js°require": "ERROR Function,undefined",
+  "typeTestßlivescript,psd.js,psd.js,livescript°require": "NO_CONFLICT"
+}

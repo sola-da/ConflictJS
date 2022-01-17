@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz,jsonld°global.fetch": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz°global.fetch": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.fetch": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.fetch": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.fetch": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.fetch": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.fetch": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.fetch": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.fetch": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.fetch": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.fetch": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.fetch": "NO_CONFLICT",
+  "value-test-functionsßjsonld,promiz°global.fetch": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,jsonld°global.fetch": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,jsonld°global.fetch": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz°global.fetch": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,promiz°global.fetch": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz,jsonld°global.fetch": "NOT SURE - Tests could not be generated for both"
+}

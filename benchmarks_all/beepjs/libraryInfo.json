@@ -1,6 +1,4 @@
 {
   "name": "beepjs",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/beepjs/0.0.1/beep.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/beepjs/0.0.1/beep.min.js"]
 }

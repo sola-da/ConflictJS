@@ -1,6 +1,4 @@
 {
   "name": "card",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/card/1.3.2/js/card.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/card/1.3.2/js/card.min.js"]
 }

@@ -1,6 +1,4 @@
 {
   "name": "acorn",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/acorn/3.2.0/acorn.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/acorn/3.2.0/acorn.min.js"]
 }

@@ -56,7 +56,7 @@
 
   function mappedArray(libraries) {
     return libraries
-      .map((l) => {
+      .map(l => {
         return l
       })
       .join(libraryNamesConjunctionChar)

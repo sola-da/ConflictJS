@@ -1,6 +1,4 @@
 {
   "name": "bonsai",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/bonsai/0.4.5/bonsai.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/bonsai/0.4.5/bonsai.min.js"]
 }

@@ -1,6 +1,4 @@
 {
   "name": "bonzo",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/bonzo/2.0.0/bonzo.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/bonzo/2.0.0/bonzo.min.js"]
 }

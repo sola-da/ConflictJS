@@ -1,0 +1,14 @@
+{
+  "inclusionTestßclmtrackr,dancer.js°FFT": "NO_CONFLICT",
+  "inclusionTestßclmtrackr,dancer.js,clmtrackr°FFT": "NO_CONFLICT",
+  "inclusionTestßdancer.js,clmtrackr,clmtrackr°FFT": "NO_CONFLICT",
+  "inclusionTestßclmtrackr,dancer.js,dancer.js°FFT": "NO_CONFLICT",
+  "inclusionTestßclmtrackr,dancer.js,dancer.js,clmtrackr°FFT": "NO_CONFLICT",
+  "inclusionTestßdancer.js,clmtrackr,dancer.js°FFT": "NO_CONFLICT",
+  "typeTestßclmtrackr,dancer.js,clmtrackr°FFT": "NO_CONFLICT",
+  "typeTestßdancer.js,clmtrackr,clmtrackr°FFT": "ERROR Function,undefined",
+  "typeTestßclmtrackr,dancer.js,dancer.js°FFT": "NO_CONFLICT",
+  "typeTestßclmtrackr,dancer.js°FFT": "ERROR undefined,Function",
+  "typeTestßdancer.js,clmtrackr,dancer.js°FFT": "NO_CONFLICT",
+  "typeTestßclmtrackr,dancer.js,dancer.js,clmtrackr°FFT": "ERROR Function,undefined"
+}

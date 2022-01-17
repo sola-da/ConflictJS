@@ -1,6 +1,4 @@
 {
   "name": "depot",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/depot/0.1.6/depot.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/depot/0.1.6/depot.min.js"]
 }

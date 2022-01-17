@@ -1,0 +1,14 @@
+{
+  "inclusionTestßPreloadJS,tweenjs°createjs": "NO_CONFLICT",
+  "inclusionTestßPreloadJS,tweenjs,PreloadJS°createjs": "NO_CONFLICT",
+  "inclusionTestßtweenjs,PreloadJS,PreloadJS°createjs": "NO_CONFLICT",
+  "inclusionTestßPreloadJS,tweenjs,tweenjs,PreloadJS°createjs": "NO_CONFLICT",
+  "inclusionTestßtweenjs,PreloadJS,tweenjs°createjs": "NO_CONFLICT",
+  "inclusionTestßPreloadJS,tweenjs,tweenjs°createjs": "NO_CONFLICT",
+  "typeTestßPreloadJS,tweenjs,PreloadJS°createjs": "ERROR object,undefined",
+  "typeTestßPreloadJS,tweenjs°createjs": "NO_CONFLICT",
+  "typeTestßtweenjs,PreloadJS,PreloadJS°createjs": "NO_CONFLICT",
+  "typeTestßPreloadJS,tweenjs,tweenjs°createjs": "NO_CONFLICT",
+  "typeTestßtweenjs,PreloadJS,tweenjs°createjs": "NO_CONFLICT",
+  "typeTestßPreloadJS,tweenjs,tweenjs,PreloadJS°createjs": "ERROR object,undefined"
+}

@@ -1,0 +1,14 @@
+{
+  "inclusionTestßx-tag,webcomponentsjs,webcomponentsjs°WebComponents": "NO_CONFLICT",
+  "inclusionTestßwebcomponentsjs,x-tag,webcomponentsjs°WebComponents": "NO_CONFLICT",
+  "inclusionTestßwebcomponentsjs,x-tag°WebComponents": "NO_CONFLICT",
+  "inclusionTestßx-tag,webcomponentsjs,x-tag°WebComponents": "NO_CONFLICT",
+  "inclusionTestßwebcomponentsjs,x-tag,x-tag°WebComponents": "NO_CONFLICT",
+  "inclusionTestßwebcomponentsjs,x-tag,x-tag,webcomponentsjs°WebComponents": "NO_CONFLICT",
+  "typeTestßx-tag,webcomponentsjs,webcomponentsjs°WebComponents": "ERROR object,undefined",
+  "typeTestßwebcomponentsjs,x-tag,webcomponentsjs°WebComponents": "NO_CONFLICT",
+  "typeTestßwebcomponentsjs,x-tag°WebComponents": "NO_CONFLICT",
+  "typeTestßx-tag,webcomponentsjs,x-tag°WebComponents": "NO_CONFLICT",
+  "typeTestßwebcomponentsjs,x-tag,x-tag°WebComponents": "NO_CONFLICT",
+  "typeTestßwebcomponentsjs,x-tag,x-tag,webcomponentsjs°WebComponents": "NO_CONFLICT"
+}

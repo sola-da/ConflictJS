@@ -1,0 +1,14 @@
+{
+  "inclusionTestßscion,psd.js,psd.js°require": "NO_CONFLICT",
+  "inclusionTestßpsd.js,scion°require": "NO_CONFLICT",
+  "inclusionTestßpsd.js,scion,psd.js°require": "NO_CONFLICT",
+  "inclusionTestßscion,psd.js,scion°require": "NO_CONFLICT",
+  "inclusionTestßpsd.js,scion,scion°require": "NO_CONFLICT",
+  "inclusionTestßpsd.js,scion,scion,psd.js°require": "NO_CONFLICT",
+  "typeTestßpsd.js,scion°require": "NO_CONFLICT",
+  "typeTestßpsd.js,scion,psd.js°require": "NO_CONFLICT",
+  "typeTestßscion,psd.js,psd.js°require": "ERROR Function,undefined",
+  "typeTestßscion,psd.js,scion°require": "ERROR Function,undefined",
+  "typeTestßpsd.js,scion,scion°require": "NO_CONFLICT",
+  "typeTestßpsd.js,scion,scion,psd.js°require": "NO_CONFLICT"
+}

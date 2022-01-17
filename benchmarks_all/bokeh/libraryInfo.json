@@ -1,6 +1,4 @@
 {
   "name": "bokeh",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/bokeh/0.11.0/bokeh.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/bokeh/0.11.0/bokeh.min.js"]
 }

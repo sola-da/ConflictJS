@@ -1,6 +1,4 @@
 {
   "name": "clank",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/clank/0.3.6/clank.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/clank/0.3.6/clank.min.js"]
 }

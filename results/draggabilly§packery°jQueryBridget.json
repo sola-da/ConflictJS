@@ -1,0 +1,14 @@
+{
+  "inclusionTestßdraggabilly,packery°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,packery,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßpackery,draggabilly,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,packery,packery°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßpackery,draggabilly,packery°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,packery,packery,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "typeTestßdraggabilly,packery,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "typeTestßdraggabilly,packery°jQueryBridget": "ERROR Function,undefined",
+  "typeTestßpackery,draggabilly,packery°jQueryBridget": "NO_CONFLICT",
+  "typeTestßpackery,draggabilly,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "typeTestßdraggabilly,packery,packery°jQueryBridget": "NO_CONFLICT",
+  "typeTestßdraggabilly,packery,packery,draggabilly°jQueryBridget": "NO_CONFLICT"
+}

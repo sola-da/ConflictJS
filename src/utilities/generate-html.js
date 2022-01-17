@@ -1,3 +1,5 @@
+const { assert } = require('console')
+
 /**
  * Created by Jibesh Patra on 28-Mar-2017.
  */
@@ -390,7 +392,7 @@
     )
     let libfilename, libFilePath, libFileURL
 
-    validationTest.libraryNames.forEach((libraryName) => {
+    validationTest.libraryNames.forEach(libraryName => {
       let src =
         '..' +
         config.benchmarkDir +
@@ -442,6 +444,11 @@
       .join(typeOfTest)
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
+    // console.log(1)
+    // console.log(typeOfTest)
+    // console.log(validationTest.htmlFilePaths[typeOfTest])
+    // assert(validationTest.htmlFilePaths[typeOfTest].includes(typeOfTest))
+
     //    Two =>
     typeOfTest = constructFileName(
       validationTest.name,
@@ -458,6 +465,13 @@
       .split('<!--__TYPE_OF_TEST__-->')
       .join(typeOfTest)
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
+
+    // console.log(2)
+    // if (typeOfTest == 'inclusionTestßjsonld,promiz,jsonld°global.defaultStatus')
+    //   console.log(generatedHTML)
+    // console.log(typeOfTest)
+    // console.log(validationTest.htmlFilePaths[typeOfTest])
+    // assert(validationTest.htmlFilePaths[typeOfTest].includes(typeOfTest))
 
     //    Three =>
     typeOfTest = constructFileName(
@@ -476,6 +490,11 @@
       .join(typeOfTest)
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
+    // console.log(3)
+    // console.log(typeOfTest)
+    // console.log(validationTest.htmlFilePaths[typeOfTest])
+    // assert(validationTest.htmlFilePaths[typeOfTest].includes(typeOfTest))
+
     //    Four =>
     typeOfTest = constructFileName(
       validationTest.name,
@@ -492,6 +511,11 @@
       .split('<!--__TYPE_OF_TEST__-->')
       .join(typeOfTest)
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
+
+    // console.log(4)
+    // console.log(typeOfTest)
+    // console.log(validationTest.htmlFilePaths[typeOfTest])
+    // assert(validationTest.htmlFilePaths[typeOfTest].includes(typeOfTest))
 
     //    Five =>
     typeOfTest = constructFileName(
@@ -510,6 +534,11 @@
       .join(typeOfTest)
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
 
+    // console.log(5)
+    // console.log(typeOfTest)
+    // console.log(validationTest.htmlFilePaths[typeOfTest])
+    // assert(validationTest.htmlFilePaths[typeOfTest].includes(typeOfTest))
+
     //    Six =>
     typeOfTest = constructFileName(
       validationTest.name,
@@ -526,6 +555,13 @@
     generatedHTML = generatedHTML
       .split('<!--__TYPE_OF_TEST__-->')
       .join(typeOfTest)
+
+    // console.log(6)
+    // console.log(typeOfTest)
+    // console.log(validationTest.htmlFilePaths[typeOfTest])
+    // assert(validationTest.htmlFilePaths[typeOfTest].includes(typeOfTest))
+
+    // assert(validationTest.htmlFilePaths[typeOfTest].includes(typeOfTest))
     fs.writeFileSync(validationTest.htmlFilePaths[typeOfTest], generatedHTML)
   }
 

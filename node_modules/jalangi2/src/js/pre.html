@@ -1,0 +1,52 @@
+<!-- pre.html nothing for now -->
+<div id="jalangi_results_show_button"
+     style="float: left;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50px;
+        height: 20px;
+        background-color: white;
+        z-index: 10003;
+        -moz-opacity: 0.8;
+        opacity: .80;
+        filter: alpha(opacity=80);">
+    <button type="button" style="font-style:normal; font-size:18px; background-color:lightblue;"
+            href="javascript:void(0)"
+            onclick="J$.Results.showHideResults()">
+        Jalangi
+    </button>
+</div>
+
+<iframe id="jalangi_results_frame"
+     style="background-color: white; position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:10005; display: none;">
+</iframe>
+
+<script type="text/javascript">
+    (function() {
+        if (typeof J$ === 'undefined') J$ = {};
+        J$.Results = {};
+        var iframe = document.getElementById('jalangi_results_frame');
+        //[_[
+        (function() {
+            var content = fileExpand("frame.html");
+            return "var frameHtml = " + JSON.stringify(content).replace(/</g, "\x5Cx3c") + ";\n";
+        })
+        //]_]
+        iframe.contentWindow.document.open();
+        iframe.contentWindow.document.write(frameHtml);
+        iframe.contentWindow.document.close();
+        J$.Results.showHideResults = function () {
+            if (iframe.style.display !== 'block') {
+                iframe.style.display = 'block';
+                J$.Results.execute(function(div, jquery, editor){div.empty();});
+                if (typeof J$.endExecution === 'function') J$.endExecution();
+            } else {
+                iframe.style.display = 'none';
+            }
+        };
+    }());
+</script>
+
+
+

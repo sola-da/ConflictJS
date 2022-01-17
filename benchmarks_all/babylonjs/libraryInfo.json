@@ -1,6 +1,4 @@
 {
   "name": "babylonjs",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/babylonjs/2.4.0/babylon.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/babylonjs/2.4.0/babylon.js"]
 }

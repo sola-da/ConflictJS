@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hosting page</title>
+    <script src="../node_modules/underscore/underscore-min.js"></script>
+    <script src="../src/utilities/time-to-closeTab.js"></script>
+    <script>
+      let result_content = 'NO_CONFLICT',
+        messages = new Map(),
+        timeOutId = 0,
+        extraTime = 0,
+        testsgen = []
+    </script>
+    	<script src='../node_modules/underscore/underscore-min.js'></script>
+	<script src='../src/evaluation/validation-tests/compareNonFunction_Hostingclient.js'></script>
+	<script>let accessPath = 'global.acorn.tokTypes.invalidTemplate.isLoop';</script>
+    <script>
+      // hostingPage.html
+
+      const sendDebugMessage = debugMessage => {
+        let request = new XMLHttpRequest()
+
+        request.open('POST', 'http://localhost:3000/debugMessage', true)
+        request.setRequestHeader(
+          'Content-Type',
+          'application/json;charset=UTF-8'
+        )
+        request.send(
+          JSON.stringify({
+            debugMessage,
+          })
+        )
+      }
+
+      window.addEventListener('message', receiveMessage, true)
+
+      //      Receive message from iframes
+      function receiveMessage(event) {
+        // if (timeOutId !== 0) {
+        //   window.clearTimeout(timeOutId)
+        // }
+        messages.set(event.data, event.source)
+
+        // extraTime = extraTime + event.timeStamp + 100
+
+        checkMessages()
+
+        // timeOutId = window.setTimeout(
+        //   () => checkMessages(),
+        //   event.timeStamp + 500
+        // )
+      }
+
+      //        Send the results back to the server
+      function sendBackToServer() {
+        let stringData = JSON.stringify({
+          result: {
+            typeofTest: 'value-test-non-functionsßpromiz,jsonld,promiz°global.acorn.tokTypes.invalidTemplate.isLoop',
+            resultFilePath: '/Users/yumabuchi/lab/ConflictJS/results/jsonld§promiz°global.acorn.tokTypes.invalidTemplate.isLoop.json',
+            //                    jobID: "<!--__JOB_ID__-->",
+            content: result_content,
+            generatedTests: testsgen, // only for functions that conflict
+            url: window.location.href,
+          },
+        })
+        let request = new XMLHttpRequest()
+        request.open('POST', 'http://localhost:3000/reportResult', true)
+        request.setRequestHeader(
+          'Content-Type',
+          'application/json;charset=UTF-8'
+        )
+        request.send(stringData)
+
+        // close()
+
+        window.setTimeout(() => {
+          close()
+        }, 10000)
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Libraries host</h1>
+    
+	<iframe src=http://localhost:3000/generated/promizjsonldvalue-test-non-functions_iframe.html frameborder="0" width="200" height="50" scrolling="no">iframes-not-supported</iframe>
+	<iframe src=http://localhost:3000/generated/promizvalue-test-non-functions_iframe.html frameborder="0" width="200" height="50" scrolling="no">iframes-not-supported</iframe>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "inclusionTestßdraggabilly,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,jquery.isotope,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßjquery.isotope,draggabilly,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßjquery.isotope,draggabilly,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,jquery.isotope,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "inclusionTestßdraggabilly,jquery.isotope,jquery.isotope,draggabilly°jQueryBridget": "RAN TOO LONG > 120000 ms",
+  "typeTestßdraggabilly,jquery.isotope,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "typeTestßdraggabilly,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "typeTestßdraggabilly,jquery.isotope,jquery.isotope°jQueryBridget": "NO_CONFLICT",
+  "typeTestßjquery.isotope,draggabilly,draggabilly°jQueryBridget": "NO_CONFLICT",
+  "typeTestßjquery.isotope,draggabilly,jquery.isotope°jQueryBridget": "ERROR Function,undefined",
+  "typeTestßdraggabilly,jquery.isotope,jquery.isotope,draggabilly°jQueryBridget": "NO_CONFLICT"
+}

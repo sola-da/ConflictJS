@@ -1,6 +1,4 @@
 {
   "name": "6to5",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/6to5/3.6.5/browser.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/6to5/3.6.5/browser.js"]
 }

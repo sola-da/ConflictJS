@@ -1,6 +1,4 @@
 {
   "name": "bucky",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/bucky/0.2.8/bucky.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/bucky/0.2.8/bucky.min.js"]
 }

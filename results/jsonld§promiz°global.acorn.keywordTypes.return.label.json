@@ -1,0 +1,20 @@
+{
+  "inclusionTestßpromiz,jsonld,jsonld°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,jsonld°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,jsonld°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,jsonld°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "value-test-non-functionsßjsonld,promiz,promiz,jsonld°global.acorn.keywordTypes.return.label": "NO_CONFLICT",
+  "value-test-non-functionsßpromiz,jsonld,promiz°global.acorn.keywordTypes.return.label": "NO_CONFLICT"
+}

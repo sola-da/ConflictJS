@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz,jsonld°global.acorn.Node": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz°global.acorn.Node": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.acorn.Node": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.acorn.Node": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.acorn.Node": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.acorn.Node": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.acorn.Node": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.acorn.Node": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.acorn.Node": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.acorn.Node": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.acorn.Node": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.acorn.Node": "RAN TOO LONG > 120000 ms",
+  "value-test-functionsßjsonld,promiz°global.acorn.Node": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,jsonld°global.acorn.Node": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,jsonld°global.acorn.Node": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz°global.acorn.Node": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,promiz°global.acorn.Node": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz,jsonld°global.acorn.Node": "NOT SURE - Tests could not be generated for both"
+}

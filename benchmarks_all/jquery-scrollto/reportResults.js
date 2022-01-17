@@ -1,6 +1,6 @@
 // Author: Michael Pradel
 
-_LibraryInterference_libraryName = "jquery-scrollto";
-_LibraryInterference_jobID = "individual analysis of jquery-scrollto";
+_LibraryInterference_libraryName = "jquery-scrollTo";
+_LibraryInterference_jobID = "individual analysis of jquery-scrollTo";
 
 J$.analysis.endExecution();

@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz,promiz°global.find": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.find": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz°global.find": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,jsonld°global.find": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.find": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.find": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.find": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.find": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.find": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.find": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.find": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.find": "NO_CONFLICT",
+  "value-test-functionsßjsonld,promiz°global.find": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,jsonld°global.find": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,jsonld°global.find": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz°global.find": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,promiz°global.find": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz,jsonld°global.find": "NOT SURE - Tests could not be generated for both"
+}

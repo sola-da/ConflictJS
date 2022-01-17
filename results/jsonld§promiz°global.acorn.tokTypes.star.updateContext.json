@@ -1,0 +1,20 @@
+{
+  "inclusionTestßjsonld,promiz°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,jsonld°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,jsonld°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "inclusionTestßpromiz,jsonld,promiz°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "inclusionTestßjsonld,promiz,promiz,jsonld°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,jsonld°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "typeTestßjsonld,promiz°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,jsonld°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "typeTestßpromiz,jsonld,promiz°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "typeTestßjsonld,promiz,promiz,jsonld°global.acorn.tokTypes.star.updateContext": "NO_CONFLICT",
+  "value-test-functionsßjsonld,promiz°global.acorn.tokTypes.star.updateContext": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,jsonld°global.acorn.tokTypes.star.updateContext": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,jsonld°global.acorn.tokTypes.star.updateContext": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz°global.acorn.tokTypes.star.updateContext": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßpromiz,jsonld,promiz°global.acorn.tokTypes.star.updateContext": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßjsonld,promiz,promiz,jsonld°global.acorn.tokTypes.star.updateContext": "NOT SURE - Tests could not be generated for both"
+}

@@ -1,6 +1,4 @@
 {
   "name": "alt",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/alt/0.18.4/alt.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/alt/0.18.4/alt.min.js"]
 }

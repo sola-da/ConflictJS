@@ -13,7 +13,7 @@
     hostingPageClient +=
       "\n\t<script src='../src/evaluation/validation-tests/compareType_Hostingclient.js'></script>"
     hostingPageClient +=
-      "\n\t<script>var accessPath = '" +
+      "\n\t<script>let accessPath = '" +
       validationTest.accessPath +
       "';</script>"
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title>Filter inclusion crash</title>
+    <script src="../src/utilities/time-to-closeTab.js"></script>
+    <script>
+      let message = 'space'
+      window.onerror = function (e) {
+        message = 'ERROR'
+      }
+    </script>
+    	<script src='../benchmarks_all/space/space.min.js'></script>
+    <script>
+      // filterInclusionCrash.html
+
+      //        Send the results back to the server
+      function sendBackToServer() {
+        let stringData = JSON.stringify({
+          result: {
+            typeofTest: 'spacefilter-inclusion-crash',
+            resultFilePath: '/Users/yumabuchi/lab/ConflictJS/results/filter-inclusion-crash/space°accessPath.json',
+            content: message,
+            generatedTests: [],
+          },
+        })
+        let request = new XMLHttpRequest()
+        request.open('POST', 'http://localhost:3000/reportResult', true)
+        request.setRequestHeader(
+          'Content-Type',
+          'application/json;charset=UTF-8'
+        )
+        request.send(stringData)
+        close()
+
+        // window.setTimeout(function () {
+        //   close()
+        // }, timeToClose_BrowserTab)
+      }
+
+      sendBackToServer()
+
+      // window.setTimeout(sendBackToServer, 1000) // Wait for some time before sending back to server
+    </script>
+  </head>
+  <body style="background-color: #fff3e0">
+    <h2>
+      Checking if
+      space
+      crashes on simply including in an HTML page
+    </h2>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "inclusionTestßconditional-field,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßconditional-field,mark.js,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßconditional-field,mark.js,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßmark.js,conditional-field,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßmark.js,conditional-field,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "inclusionTestßconditional-field,mark.js,mark.js,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßconditional-field,mark.js,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßconditional-field,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßconditional-field,mark.js,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßmark.js,conditional-field,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßconditional-field,mark.js,mark.js,conditional-field°µclassCallCheck": "NO_CONFLICT",
+  "typeTestßmark.js,conditional-field,mark.js°µclassCallCheck": "NO_CONFLICT",
+  "value-test-functionsßconditional-field,mark.js,conditional-field°µclassCallCheck": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßconditional-field,mark.js°µclassCallCheck": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßconditional-field,mark.js,mark.js,conditional-field°µclassCallCheck": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßmark.js,conditional-field,mark.js°µclassCallCheck": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßconditional-field,mark.js,mark.js°µclassCallCheck": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßmark.js,conditional-field,conditional-field°µclassCallCheck": "NOT SURE - Tests could not be generated for both"
+}

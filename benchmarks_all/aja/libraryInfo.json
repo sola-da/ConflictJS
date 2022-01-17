@@ -1,6 +1,4 @@
 {
   "name": "aja",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/aja/0.4.1/aja.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/aja/0.4.1/aja.min.js"]
 }

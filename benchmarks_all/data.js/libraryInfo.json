@@ -1,6 +1,4 @@
 {
   "name": "data.js",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/data.js/0.3.0/data.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/data.js/0.3.0/data.min.js"]
 }

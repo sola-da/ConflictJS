@@ -1,0 +1,20 @@
+{
+  "inclusionTestß6px,native-promise-only,6px°Promise": "NO_CONFLICT",
+  "inclusionTestß6px,native-promise-only,native-promise-only°Promise": "NO_CONFLICT",
+  "inclusionTestß6px,native-promise-only°Promise": "NO_CONFLICT",
+  "inclusionTestßnative-promise-only,6px,native-promise-only°Promise": "NO_CONFLICT",
+  "inclusionTestß6px,native-promise-only,native-promise-only,6px°Promise": "NO_CONFLICT",
+  "inclusionTestßnative-promise-only,6px,6px°Promise": "RAN TOO LONG > 120000 ms",
+  "typeTestß6px,native-promise-only,native-promise-only,6px°Promise": "NO_CONFLICT",
+  "typeTestß6px,native-promise-only,6px°Promise": "NO_CONFLICT",
+  "typeTestß6px,native-promise-only°Promise": "NO_CONFLICT",
+  "typeTestßnative-promise-only,6px,native-promise-only°Promise": "NO_CONFLICT",
+  "typeTestß6px,native-promise-only,native-promise-only°Promise": "NO_CONFLICT",
+  "typeTestßnative-promise-only,6px,6px°Promise": "RAN TOO LONG > 120000 ms",
+  "value-test-functionsß6px,native-promise-only°Promise": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsß6px,native-promise-only,6px°Promise": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsß6px,native-promise-only,native-promise-only°Promise": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßnative-promise-only,6px,6px°Promise": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsß6px,native-promise-only,native-promise-only,6px°Promise": "NOT SURE - Tests could not be generated for both",
+  "value-test-functionsßnative-promise-only,6px,native-promise-only°Promise": "NOT SURE - Tests could not be generated for both"
+}

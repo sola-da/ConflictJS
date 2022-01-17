@@ -1,6 +1,4 @@
 {
   "name": "c3",
-  "urls": [
-    "https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"
-  ]
+  "urls": ["https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"]
 }
